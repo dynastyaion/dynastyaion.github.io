@@ -67,7 +67,6 @@ Notes:
 ## Macros
 
 - Do keep a solo keybind for Dark Crush in scenarios where you want to spam while kiting away to handle mechanics or otherwise
-
 - If you use Fracturing Blow, you'll typically want to use it right before Marchutan's to line up the shred with your burst window, although in general whether you want to use skills that aren't mobile and gap-closers in your macro is up to you
 - Use macro software to spam LMB alongside the in-game macro to weave
 
