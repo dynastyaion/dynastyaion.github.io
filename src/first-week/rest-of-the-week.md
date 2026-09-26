@@ -36,4 +36,6 @@
 
 ## <mark>How To Prog After 45</mark>
 
-<https://youtu.be/sU3heVsRb5o?is=HeQTgGjY1Lb4D0B7>
+▶️ [How To Prog After 45 | Aion 2](https://www.youtube.com/watch?v=sU3heVsRb5o)
+
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/sU3heVsRb5o" title="How To Prog After 45 | Aion 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

@@ -71,10 +71,16 @@ A lot of people will miss the importance of this… you’ll be fighting people 
 
 **Pet Guide**
 
-- ▶️ [[AION 2] THIS is your biggest source of power (Pets & Genus Insight overview)](https://www.youtube.com/watch?v=DJfEV5N5vzE)
+▶️ [\[AION 2\] THIS is your biggest source of power (Pets & Genus Insight overview)](https://www.youtube.com/watch?v=DJfEV5N5vzE)
+
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/DJfEV5N5vzE" title="[AION 2] THIS is your biggest source of power (Pets &amp; Genus Insight overview)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 **PvE Gear Guide**
 
-- ▶️ [[AION 2] Complete PvE character building overview](https://www.youtube.com/watch?v=XjQ6xK0V7tc)
+▶️ [\[AION 2\] Complete PvE character building overview](https://www.youtube.com/watch?v=XjQ6xK0V7tc)
 
-<https://youtu.be/sU3heVsRb5o?is=HeQTgGjY1Lb4D0B7>
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/XjQ6xK0V7tc" title="[AION 2] Complete PvE character building overview" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+▶️ [How To Prog After 45 | Aion 2](https://www.youtube.com/watch?v=sU3heVsRb5o)
+
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/sU3heVsRb5o" title="How To Prog After 45 | Aion 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
