@@ -1,0 +1,7 @@
+[book]
+title = "Dynasty Aion"
+authors = ["iikua"]
+language = "en"
+
+[output.html]
+git-repository-url = "https://github.com/dynastyaion/dynastyaion.github.io"

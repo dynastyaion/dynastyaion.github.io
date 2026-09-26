@@ -1,0 +1,20 @@
+# Summary
+
+[AION 2 Guide](README.md)
+
+- [Checklist](checklist.md)
+- [FIRST WEEK SHIT](first-week/index.md)
+  - [DAY 1 - 2](first-week/day-1-2.md)
+  - [REST OF THE WEEK](first-week/rest-of-the-week.md)
+  - [Whelp's Guide](first-week/whelps-guide.md)
+- [Dungeons](dungeons.md)
+- [Raids](raids.md)
+- [Class Guides](classes/index.md)
+  - [Assassin](classes/assassin.md)
+  - [Chanter](classes/chanter.md)
+  - [Cleric](classes/cleric.md)
+  - [Gladiator](classes/gladiator.md)
+  - [Spirit Master](classes/spirit-master.md)
+  - [Sorcerer](classes/sorcerer.md)
+  - [Templar](classes/templar.md)
+  - [Ranger](classes/ranger.md)
