@@ -2,8 +2,9 @@
 """Regenerate the book's src/ from the AION 2 Guide Google Doc.
 
 Downloads the doc's .docx export (the doc is public) and rewrites every page,
-SUMMARY.md, and src/images/. Everything in src/ is generated: edit the Google
-Doc, or the rules/config in this file, never the Markdown directly.
+SUMMARY.md, and src/images/. Those are all generated: edit the Google Doc, or
+the rules/config in this file, never the Markdown directly. Other files in
+src/ (app icons, manifest.webmanifest) are hand-maintained and left alone.
 
 Usage:
     python3 tools/sync.py              # fetch the doc and regenerate src/
