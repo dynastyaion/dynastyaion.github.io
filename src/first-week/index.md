@@ -1,12 +1,14 @@
-# GET READY TO PLAY THE GAME
+# FIRST WEEK SHIT
 
-**<u>Hurry up and claim your name, you’ll be able to customize your character later.</u>**
+## GET READY TO PLAY THE GAME
 
-## Fix your settings:
+<u>**Hurry up and claim your name, you’ll be able to customize your character later.**</u>
+
+### Fix your settings:
 
 Go into **settings** -> **combat** -> **auto-use**: set ‘buff auto-use conditions’ to ‘in combat’
 
-## Open Up the Class Guide
+### Open Up the Class Guide
 
 [Find your class guide](../classes/index.md) and follow along w/ the point priorities while leveling
 

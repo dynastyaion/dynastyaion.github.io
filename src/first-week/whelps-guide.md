@@ -1,6 +1,8 @@
-# Aion 2: Leveling & Gear Score Progression Guide
+# Whelp's Guide
 
-## Overview
+## Aion 2: Leveling & Gear Score Progression Guide
+
+### Overview
 
 This guide is for Legion members working from a fresh character to endgame in Season 1. The path has two parts:
 
@@ -11,7 +13,7 @@ Until late game, GS is what matters. It is your entry ticket to content. Combat 
 
 **Caveat:** Most of the numbers here come from the Korean (KR) version. Portal times, point totals, and entry requirements may shift slightly on global. Treat them as close targets, not exact rules.
 
-## Phase 1: Leveling to 45
+### Phase 1: Leveling to 45
 
 **Follow the main quest (yellow on the right side of your screen).** It is the fastest route to 45.
 
@@ -31,7 +33,7 @@ Until late game, GS is what matters. It is your entry ticket to content. Combat 
 
 **Stronghold shortcut.** Strongholds are the campfire icon on the map. You don't need to walk through the door; flying in drops you straight into the instance. If the map icons are missing, open the menu (bottom right) → Contents and tick the boxes to show them.
 
-## Phase 2: The horizontal cleanup after 45
+### Phase 2: The horizontal cleanup after 45
 
 You'll hit 45 at roughly **1,000 GS**. Before touching dungeons, go back and clear the open world. This "horizontal" content is mostly one-time Daevanion points, and it's what gets you close to 1,400 GS so you can **skip Tier 1 dungeons entirely** and save energy.
 
@@ -59,7 +61,7 @@ You'll hit 45 at roughly **1,000 GS**. Before touching dungeons, go back and cle
 
 **Wings and art from Tier 1 dungeons?** Optional. Run Tier 1 if you want them, farm them on an alt, or just buy them. Don't let them hold up your GS climb.
 
-## How Gear Score works
+### How Gear Score works
 
 GS (also called gear score or item level) is shown next to CP on your character screen; click the button to switch between them. When you inspect a piece of gear, the bonus GS it gets from upgrades is shown in brackets next to its base item level.
 
@@ -76,17 +78,17 @@ GS (also called gear score or item level) is shown next to CP on your character 
 
 **Example:** a unique at +15 with two amplifies, plus one green manastone and gray, blue and green lines, shows **+33** in brackets (15 + 10 + 2 + 1 + 3 + 2).
 
-### Why the horizontals matter so much
+#### Why the horizontals matter so much
 
 In KR, a full clear gives roughly **550 Daevanion points**, which is 550 free GS (the cap is around 555). Where it comes from:
 
 - 61 seal dungeons per map × 2 maps × 2 points each = **244**
-- About 100 side quests × 1 point = **~100**
+- About 100 side quests × 1 point = **\~100**
 - The rest from Shugo and Nightmare shop purchases
 
 Global totals may differ a little, but it's the single biggest GS jump available right after 45.
 
-## GS milestones
+### GS milestones
 
 | Target | Unlocks | Rough gear at this point |
 |---|---|---|
@@ -97,7 +99,7 @@ Global totals may differ a little, but it's the single biggest GS jump available
 
 All of these targets are reachable **without manastones**. Manastones are your buffer if you fall a little short.
 
-### 1,400: Tier 2
+#### 1,400: Tier 2
 
 Straight out of 45 with the horizontals done, you'll typically have mixed quest blues (item levels in the 30s–40s), the unique weapon from the end of the main quest, and a bracelet from the final Ascension.
 
@@ -107,7 +109,7 @@ Straight out of 45 with the horizontals done, you'll typically have mixed quest 
 - If you're a bit short, enhance your lowest pieces or add manastones until you hit 1,400.
 - Enhance the weapon only to +10. Past that it can fail. A failure doesn't break it, but it burns Kinah.
 
-### 2,100: Tier 3
+#### 2,100: Tier 3
 
 - Wear Tier 2 dungeon gear (armor, weapons, accessories) and start doing Transcendence runs for Arcana.
 - For Arcana, equip the **highest tier you have**. Ignore set bonuses, stats and skills for now; you just want GS.
@@ -115,14 +117,14 @@ Straight out of 45 with the horizontals done, you'll typically have mixed quest 
 - Farm the Tier 2 dungeon mainly for **armor**, because the best accessories and weapons are **crafted**.
 - **Craft a ring first.** Crafted rings can carry active skill levels, and hitting skill thresholds (12, 16, 20) is a big power spike. Crafted items also get an extra soul bind line.
 
-### 2,400: Transcendence stage 4
+#### 2,400: Transcendence stage 4
 
 - The global entry number for stage 4 isn't confirmed yet; in KR it's 2,400, higher than Tier 3.
 - All-blue Arcana plus Tier 3 gear puts you around **2,500 GS** with no manastones.
 - From here on, enhancing to +10 and beyond is fine, because gear carries forward through transfers (see tips below).
 - This is also when to start rolling soul binds toward good stats.
 
-### 2,800: Ludra (Sanctuary)
+#### 2,800: Ludra (Sanctuary)
 
 - Aim for **five unique Arcana**.
 - **Amplify your weapon, guard, and accessories**, since these slots add attack. Spread amplifies evenly, starting with weapon and guard, then accessories.
@@ -132,7 +134,7 @@ Straight out of 45 with the horizontals done, you'll typically have mixed quest 
   - Damage boost, weapon damage boost, critical damage boost
   - Front or back attack damage boost (back suits Assassin; front suits Gladiator and Templar)
 
-## Key tips and common mistakes
+### Key tips and common mistakes
 
 **Never dissolve an old unique; transfer it.**
 
@@ -154,7 +156,7 @@ Straight out of 45 with the horizontals done, you'll typically have mixed quest 
 
 **Don't worry about CP until late game.** Once you're past Tier 3, switch focus to CP: optimize soul binds and use superior manastones for the unique stat lines.
 
-## Daily and weekly checklist
+### Daily and weekly checklist
 
 Fit these in alongside everything above. They're quick and easy.
 
@@ -171,7 +173,7 @@ Fit these in alongside everything above. They're quick and easy.
 
 - Command scrolls (12 per week). Extra scrolls can be bought from the merchant in the main town.
 
-## Quick reference
+### Quick reference
 
 1. Follow the main quest to 45. Grab feathers, seal dungeons and side quests that are on your way. Keep your weapon at +3 to +5.
 2. At 45, clear the horizontals: every feather, seal dungeon, stronghold and side quest on your map, plus seal dungeons and strongholds on the enemy map (via the rift) and Abyss feathers.
@@ -183,4 +185,6 @@ Fit these in alongside everything above. They're quick and easy.
 8. After Tier 3, shift focus from GS to CP.
 9. Do your dailies and weeklies throughout.
 
-_Based on TheWhelps' video "How To Prog After 45 | Aion 2" (<https://www.youtube.com/watch?v=sU3heVsRb5o>). Numbers are from the KR version and may change on global._
+---
+
+*Based on TheWhelps' video "How To Prog After 45 | Aion 2" (<https://www.youtube.com/watch?v=sU3heVsRb5o>). Numbers are from the KR version and may change on global.*
