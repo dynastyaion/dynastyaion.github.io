@@ -17,6 +17,8 @@ concurrency:
 
 jobs:
   build:
+    # PRs only build from branches in this repo (i.e. pushed by someone with write access), never from forks.
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     env:
       MDBOOK_VERSION: 0.5.4
