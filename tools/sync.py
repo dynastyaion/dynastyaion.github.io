@@ -50,7 +50,7 @@ class Tab:
 
 # Every tab in the doc, in order. The script refuses to run if the doc differs.
 TABS = [
-    Tab("AION 2", "README.md", "AION 2 Guide", None, heading=("Dynasty", "AION 2 Guide"), center=True),
+    Tab("AION 2", "README.md", "AION 2 Guide", None, heading=("Dynasty’s", "AION 2 Guide"), center=True),
     Tab("Checklist", "checklist.md", "Checklist", 0),
     Tab("FIRST WEEK/Guides", "first-week/index.md", "FIRST WEEK/Guides", 0),
     Tab("DAY 1 - 2", "first-week/day-1-2.md", "DAY 1 - 2", 1),
