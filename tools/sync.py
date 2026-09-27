@@ -50,7 +50,7 @@ class Tab:
 TABS = [
     Tab("AION 2", "README.md", "AION 2 Guide", None),
     Tab("Checklist", "checklist.md", "Checklist", 0),
-    Tab("FIRST WEEK SHIT", "first-week/index.md", "FIRST WEEK SHIT", 0),
+    Tab("FIRST WEEK/Guides", "first-week/index.md", "FIRST WEEK/Guides", 0),
     Tab("DAY 1 - 2", "first-week/day-1-2.md", "DAY 1 - 2", 1),
     Tab("REST OF THE WEEK", "first-week/rest-of-the-week.md", "REST OF THE WEEK", 1),
     Tab("Whelp's Guide", "first-week/whelps-guide.md", "Whelp's Guide", 1),
@@ -660,6 +660,8 @@ def main():
     tabs = doc.split_tabs()
     found = [name for name, _ in tabs]
     expected = [t.name for t in TABS]
+    if not found:
+        raise SyncError("no tabs found in the export; the download may be incomplete, try again")
     if found != expected:
         raise SyncError(
             "doc tabs don't match TABS config.\n  expected: %s\n  found:    %s" % (expected, found)
