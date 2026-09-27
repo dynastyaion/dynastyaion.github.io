@@ -78,7 +78,8 @@ CHECKLIST_TABS = {"Checklist"}
 # added automatically below).
 INTERNAL_LINKS = {
     "Find your class guide": "classes/index.md",
-    "START": "first-week/day-1-2.md",
+    "Start with DAY 1-2": "first-week/day-1-2.md",
+    "Check out Whelp’s Guide, for the gear score milestones": "first-week/whelps-guide.md",
 }
 INTERNAL_LINKS.update({t.name: t.path for t in TABS})
 LINK_COLOR = "1155cc"
@@ -95,6 +96,9 @@ STIGMA_CATEGORIES = {
     "4d83da": "🟦 Situational",
     "7d5258": "🟫 Don't use",
 }
+
+# Paragraphs centered in the doc (styled in css/custom.css).
+CENTER_OPEN, CENTER_CLOSE = '<div class="center">', "</div>"
 
 ICON_WIDTH = 96  # px stored; displayed at 40
 IMAGE_MAX_WIDTH = 800  # screenshots/logos; the content column is ~750px
@@ -469,8 +473,12 @@ class Page:
             blocks = self.paragraph_blocks(self.lines(segs, videos))
             if blocks:
                 self.list_open = False
+            centered = wval(p.find(W + "pPr"), "jc") == "center"
+            if len(blocks) == 1 and re.fullmatch(r"(\\?[-—–_]){3,}", blocks[0].replace(" ", "")):
+                blocks, centered = ["---"], False  # a typed divider line → horizontal rule
             for block in blocks:
-                self.add(self.block_start(block))
+                block = self.block_start(block)
+                self.add(f"{CENTER_OPEN}\n\n{block}\n\n{CENTER_CLOSE}" if centered else block)
         if videos:
             self.list_open = False
             for vid, title in videos:
@@ -574,12 +582,17 @@ class Page:
         heading = self.tab.heading or (self.tab.title,)
         if self.blocks:
             # drop leading lines that repeat the page heading
-            lines = self.blocks[0].split("\\\n")
+            first = self.blocks[0]
+            wrapped = first.startswith(CENTER_OPEN)
+            if wrapped:
+                first = first[len(CENTER_OPEN) : -len(CENTER_CLOSE)].strip("\n")
+            lines = first.split("\\\n")
             while lines and heading and re.sub(r"[*_]", "", lines[0]).strip().lower() in (
                 *(h.lower() for h in heading), self.tab.name.lower()):
                 lines.pop(0)
             if lines:
-                self.blocks[0] = "\\\n".join(lines)
+                first = "\\\n".join(lines)
+                self.blocks[0] = f"{CENTER_OPEN}\n\n{first}\n\n{CENTER_CLOSE}" if wrapped else first
             else:
                 self.blocks.pop(0)
         attrs = " { .center }" if self.tab.center else ""

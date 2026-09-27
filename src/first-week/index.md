@@ -12,4 +12,7 @@ Go into **settings** -> **combat** -> **auto-use**: set ‘buff auto-use conditi
 
 [Find your class guide](../classes/index.md) and follow along w/ the point priorities while leveling
 
-[START](day-1-2.md)
+### Pick a guide to help you start leveling
+
+- New to the game? [Start with DAY 1-2](day-1-2.md)
+- Already at 45? [Check out Whelp’s Guide, for the gear score milestones](whelps-guide.md)
