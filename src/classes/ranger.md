@@ -38,7 +38,7 @@ Notes:
 | **Unyielding Resolve** | <img src="../images/classes/ranger/passive-unyielding-resolve.png" alt="Unyielding Resolve" width="40"> | 14 | Increases the caster's Ailment-type Resist and Impact-type Resist by 11.2%. |
 | **Rooting Eye** | <img src="../images/classes/ranger/passive-rooting-eye.png" alt="Rooting Eye" width="40"> | 18 | Has a 50% chance to deal 143-143 damage when landing an attack on a target afflicted with Slow or Root.<br>Cooldown: 1s |
 | **Melee Fire** | <img src="../images/classes/ranger/passive-melee-fire.png" alt="Melee Fire" width="40"> | 15 | Has a 25% chance to inflict 148-148 extra damage when landing an attack. Has a 5% chance to inflict Knock Back when landing an attack on a target within 5m.<br>Cooldown: 1s |
-| **Revitalization Contract** | <img src="../images/classes/ranger/passive-revitalization-contract.png" alt="Revitalization Contract" width="40"> |  | Increases the caster's Status Effect Resist by 17%. Increases Status Effect Resist by 10% for 5s when hit while afflicted with Stun, Knockdown, Airborne, Frost, or Fear (up to 10 stacks). Immediately restores 35% Max HP when HP is 10% or less.<br>Healing Cooldown: 60s<br>Status Effect Resist Cooldown: 1s |
+| **Revitalization Contract** | <img src="../images/classes/ranger/passive-revitalization-contract.png" alt="Revitalization Contract" width="40"> | 16 | Increases the caster's Status Effect Resist by 17%. Increases Status Effect Resist by 10% for 5s when hit while afflicted with Stun, Knockdown, Airborne, Frost, or Fear (up to 10 stacks). Immediately restores 35% Max HP when HP is 10% or less.<br>Healing Cooldown: 60s<br>Status Effect Resist Cooldown: 1s |
 
 ## Stigmas (PvE)
 

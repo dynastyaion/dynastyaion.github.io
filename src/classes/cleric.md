@@ -46,16 +46,17 @@ Notes:
 
 Notes:
 
-- **Lv20 leveling priority:** Earth's Punishment > Light of Protection (if no chanters) > Amplification > Noble Aura (replace LoP with that if a chanter is in the group, also superior to Amplification if high ping). Summon Resurrection can contextually be bumped to 25 during Sanctuary prog to save on stones
+- **Lv20 leveling priority:** Earth's Punishment > Light of Protection (if no chanters) > Amplification > Noble Aura (replace LoP with that if a chanter is in the group, also superior to Amplification if high ping). Summon Resurrection can contextually be bumped to 25 during Sanctuary prog to save on stones\
+  Cleric uses alot of different stigmas depending on content and when paired with a chanter changes stigmas
 
 🟥- Mandatory 🟦- Situational 🟫- Don’t Use
 
 | Stigma | Icon | Lvl | Notes | Category |
 |---|---|---|---|---|
-| **Benevolence** | <img src="../images/classes/cleric/stigma-benevolence.png" alt="Benevolence" width="40"> |  |  | 🟥 Mandatory |
-| **Prayer of Amplification** | <img src="../images/classes/cleric/stigma-prayer-of-amplification.png" alt="Prayer of Amplification" width="40"> |  |  | 🟥 Mandatory |
-| **Earth Punishment** | <img src="../images/classes/cleric/stigma-earth-punishment.png" alt="Earth Punishment" width="40"> |  |  | 🟥 Mandatory |
-| **Noble Aura** | <img src="../images/classes/cleric/stigma-noble-aura.png" alt="Noble Aura" width="40"> |  |  | 🟥 Mandatory |
+| **Benevolence** | <img src="../images/classes/cleric/stigma-benevolence.png" alt="Benevolence" width="40"> |  | 3rd Prio | 🟥 Mandatory |
+| **Prayer of Amplification** | <img src="../images/classes/cleric/stigma-prayer-of-amplification.png" alt="Prayer of Amplification" width="40"> |  | 4th Prio | 🟥 Mandatory |
+| **Earth Punishment** | <img src="../images/classes/cleric/stigma-earth-punishment.png" alt="Earth Punishment" width="40"> |  | 1st Prio | 🟥 Mandatory |
+| **Noble Aura** | <img src="../images/classes/cleric/stigma-noble-aura.png" alt="Noble Aura" width="40"> |  | 2nd Prio (Replaces LoP if chanter is in the Group) | 🟥 Mandatory |
 | **Salvation** | <img src="../images/classes/cleric/stigma-salvation.png" alt="Salvation" width="40"> |  | Can be useful during fresh Sanctuary prog as a panic button | 🟦 Situational |
 | **Yustiel’s Power** | <img src="../images/classes/cleric/stigma-yustiels-power.png" alt="Yustiel’s Power" width="40"> |  | Mostly unused; can see use in fresh Sanctuary prog | 🟦 Situational |
 | **Absolution** | <img src="../images/classes/cleric/stigma-absolution.png" alt="Absolution" width="40"> |  | Mostly unused; can see use in fresh Sanctuary prog | 🟦 Situational |
