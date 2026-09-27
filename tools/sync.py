@@ -44,11 +44,12 @@ class Tab:
     path: str  # output page, relative to src/
     title: str  # page H1 and sidebar entry
     depth: int | None  # sidebar nesting; None = unnumbered prefix chapter
+    heading: tuple[str, ...] = ()  # page H1 lines, if different from title
 
 
 # Every tab in the doc, in order. The script refuses to run if the doc differs.
 TABS = [
-    Tab("AION 2", "README.md", "AION 2 Guide", None),
+    Tab("AION 2", "README.md", "AION 2 Guide", None, heading=("Dynasty", "AION 2 Guide")),
     Tab("Checklist", "checklist.md", "Checklist", 0),
     Tab("FIRST WEEK/Guides", "first-week/index.md", "FIRST WEEK/Guides", 0),
     Tab("DAY 1 - 2", "first-week/day-1-2.md", "DAY 1 - 2", 1),
@@ -95,7 +96,7 @@ STIGMA_CATEGORIES = {
 }
 
 ICON_WIDTH = 96  # px stored; displayed at 40
-IMAGE_MAX_WIDTH = 1200
+IMAGE_MAX_WIDTH = 800  # screenshots/logos; the content column is ~750px
 
 NS = {
     "w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main",
@@ -569,9 +570,18 @@ class Page:
                 self.paragraph(el, heading_levels)
             elif el.tag == W + "tbl":
                 self.table(el)
-        if self.blocks and self.is_title_repeat(self.blocks[0]):
-            self.blocks.pop(0)
-        return f"# {self.tab.title}\n\n" + "\n\n".join(self.blocks) + "\n"
+        heading = self.tab.heading or (self.tab.title,)
+        if self.blocks:
+            # drop leading lines that repeat the page heading
+            lines = self.blocks[0].split("\\\n")
+            while lines and heading and re.sub(r"[*_]", "", lines[0]).strip().lower() in (
+                *(h.lower() for h in heading), self.tab.name.lower()):
+                lines.pop(0)
+            if lines:
+                self.blocks[0] = "\\\n".join(lines)
+            else:
+                self.blocks.pop(0)
+        return f"# {'<br>'.join(heading)}\n\n" + "\n\n".join(self.blocks) + "\n"
 
 
 # ---------------------------------------------------------------- document
@@ -626,7 +636,8 @@ class Doc:
                 if name:
                     cur = (name, [])
                     tabs.append(cur)
-                continue
+                    continue
+                # an empty one is just a page break, and may hold an image
             if cur is not None and el.tag in (W + "p", W + "tbl"):
                 cur[1].append(el)
         return tabs
