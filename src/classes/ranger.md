@@ -29,15 +29,15 @@ Notes:
 
 | Passive | Icon | Lvl | Description |
 |---|---|---|---|
-| **Focused Eye** | <img src="../images/classes/ranger/passive-focused-eye.png" alt="Focused Eye" width="40"> |  | Increases the caster's Attack by 20% for 10s. |
-| **Hunter’s Resolve** | <img src="../images/classes/ranger/passive-hunters-resolve.png" alt="Hunter’s Resolve" width="40"> |  | Increases the caster's Critical Damage Boost by 6%. |
-| **Hunter’s Soul** | <img src="../images/classes/ranger/passive-hunters-soul.png" alt="Hunter’s Soul" width="40"> |  | Has a 50% chance to deal 344-344 damage on a Critical Hit.<br>Cooldown: 1s |
-| **Vigilant Eye** | <img src="../images/classes/ranger/passive-vigilant-eye.png" alt="Vigilant Eye" width="40"> |  | Increases the caster's Evasion by 200, Max HP by 6%, and restores 85-102 HP on Evasion.<br>Cooldown: 3s |
-| **Concentrated Fire** | <img src="../images/classes/ranger/passive-concentrated-fire.png" alt="Concentrated Fire" width="40"> |  | Has a 50% chance to deal 56-56 damage to a target taking Damage over Time.<br>Cooldown: 1s |
-| **Wing Vigor** | <img src="../images/classes/ranger/passive-wing-vigor.png" alt="Wing Vigor" width="40"> |  | Increases Max Stamina by 15. Increases Move Speed by 10% for 1s when attacked.<br>Cooldown: 5s |
-| **Unyielding Resolve** | <img src="../images/classes/ranger/passive-unyielding-resolve.png" alt="Unyielding Resolve" width="40"> |  | Increases the caster's Ailment-type Resist and Impact-type Resist by 11.2%. |
-| **Rooting Eye** | <img src="../images/classes/ranger/passive-rooting-eye.png" alt="Rooting Eye" width="40"> |  | Has a 50% chance to deal 143-143 damage when landing an attack on a target afflicted with Slow or Root.<br>Cooldown: 1s |
-| **Melee Fire** | <img src="../images/classes/ranger/passive-melee-fire.png" alt="Melee Fire" width="40"> |  | Has a 25% chance to inflict 148-148 extra damage when landing an attack. Has a 5% chance to inflict Knock Back when landing an attack on a target within 5m.<br>Cooldown: 1s |
+| **Focused Eye** | <img src="../images/classes/ranger/passive-focused-eye.png" alt="Focused Eye" width="40"> | 35 | Increases the caster's Attack by 20% for 10s. |
+| **Hunter’s Resolve** | <img src="../images/classes/ranger/passive-hunters-resolve.png" alt="Hunter’s Resolve" width="40"> | 34 | Increases the caster's Critical Damage Boost by 6%. |
+| **Hunter’s Soul** | <img src="../images/classes/ranger/passive-hunters-soul.png" alt="Hunter’s Soul" width="40"> | 22 | Has a 50% chance to deal 344-344 damage on a Critical Hit.<br>Cooldown: 1s |
+| **Vigilant Eye** | <img src="../images/classes/ranger/passive-vigilant-eye.png" alt="Vigilant Eye" width="40"> | 14 | Increases the caster's Evasion by 200, Max HP by 6%, and restores 85-102 HP on Evasion.<br>Cooldown: 3s |
+| **Concentrated Fire** | <img src="../images/classes/ranger/passive-concentrated-fire.png" alt="Concentrated Fire" width="40"> | 17 | Has a 50% chance to deal 56-56 damage to a target taking Damage over Time.<br>Cooldown: 1s |
+| **Wing Vigor** | <img src="../images/classes/ranger/passive-wing-vigor.png" alt="Wing Vigor" width="40"> | 15 | Increases Max Stamina by 15. Increases Move Speed by 10% for 1s when attacked.<br>Cooldown: 5s |
+| **Unyielding Resolve** | <img src="../images/classes/ranger/passive-unyielding-resolve.png" alt="Unyielding Resolve" width="40"> | 14 | Increases the caster's Ailment-type Resist and Impact-type Resist by 11.2%. |
+| **Rooting Eye** | <img src="../images/classes/ranger/passive-rooting-eye.png" alt="Rooting Eye" width="40"> | 18 | Has a 50% chance to deal 143-143 damage when landing an attack on a target afflicted with Slow or Root.<br>Cooldown: 1s |
+| **Melee Fire** | <img src="../images/classes/ranger/passive-melee-fire.png" alt="Melee Fire" width="40"> | 15 | Has a 25% chance to inflict 148-148 extra damage when landing an attack. Has a 5% chance to inflict Knock Back when landing an attack on a target within 5m.<br>Cooldown: 1s |
 | **Revitalization Contract** | <img src="../images/classes/ranger/passive-revitalization-contract.png" alt="Revitalization Contract" width="40"> |  | Increases the caster's Status Effect Resist by 17%. Increases Status Effect Resist by 10% for 5s when hit while afflicted with Stun, Knockdown, Airborne, Frost, or Fear (up to 10 stacks). Immediately restores 35% Max HP when HP is 10% or less.<br>Healing Cooldown: 60s<br>Status Effect Resist Cooldown: 1s |
 
 ## Stigmas (PvE)
