@@ -1,4 +1,4 @@
-# Dynasty<br>AION 2 Guide
+# Dynasty<br>AION 2 Guide { .center }
 
 ***NA-EAST / ASMODIAN / EARLY ACCESS***\
 <https://discord.gg/dynastyaion>

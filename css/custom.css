@@ -12,3 +12,7 @@
   border: 0;
   border-radius: 6px;
 }
+
+.content h1.center {
+  text-align: center;
+}

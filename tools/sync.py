@@ -45,11 +45,12 @@ class Tab:
     title: str  # page H1 and sidebar entry
     depth: int | None  # sidebar nesting; None = unnumbered prefix chapter
     heading: tuple[str, ...] = ()  # page H1 lines, if different from title
+    center: bool = False  # center the page H1
 
 
 # Every tab in the doc, in order. The script refuses to run if the doc differs.
 TABS = [
-    Tab("AION 2", "README.md", "AION 2 Guide", None, heading=("Dynasty", "AION 2 Guide")),
+    Tab("AION 2", "README.md", "AION 2 Guide", None, heading=("Dynasty", "AION 2 Guide"), center=True),
     Tab("Checklist", "checklist.md", "Checklist", 0),
     Tab("FIRST WEEK/Guides", "first-week/index.md", "FIRST WEEK/Guides", 0),
     Tab("DAY 1 - 2", "first-week/day-1-2.md", "DAY 1 - 2", 1),
@@ -581,7 +582,8 @@ class Page:
                 self.blocks[0] = "\\\n".join(lines)
             else:
                 self.blocks.pop(0)
-        return f"# {'<br>'.join(heading)}\n\n" + "\n\n".join(self.blocks) + "\n"
+        attrs = " { .center }" if self.tab.center else ""
+        return f"# {'<br>'.join(heading)}{attrs}\n\n" + "\n\n".join(self.blocks) + "\n"
 
 
 # ---------------------------------------------------------------- document
