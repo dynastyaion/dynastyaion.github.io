@@ -26,14 +26,14 @@ Notes:
 
 Notes:
 
-- **Prioritize bolded Passives:** Attack Preparation > Impact Hit > Experienced Counterattack > Murderous Burst > Identify Weakness
+- **Leveling Priority:** Attack Preparation > Impact Hit > Experienced Counterattack > Murderous Burst > Identify Weakness
 
 | Passive | Icon | Lvl | Description |
 |---|---|---|---|
 | **Impact Hit** | <img src="../images/classes/gladiator/passive-impact-hit.png" alt="Impact Hit" width="40"> | 30 | Increases the caster's Impact-type Chance by 11.2% and Double Chance by 0.3%. |
 | **Attack Preparation** | <img src="../images/classes/gladiator/passive-attack-preparation.png" alt="Attack Preparation" width="40"> | 31 | Increases the caster's PvE Damage Boost by 5.5%, PvP Damage Boost by 2.75%, Defense by 2%, and Accuracy by 100. |
 | **Experienced Counterattack** | <img src="../images/classes/gladiator/passive-experienced-counterattack.png" alt="Experienced Counterattack" width="40"> | 30 | Increases Front Attack Damage Boost by 0.4%. Increases PvE Damage Boost by 5.4%, PvP Damage Boost by 2.7% for 20s for the caster and party members on Block.<br>PvE Damage Boost and PvP Damage Boost does not stack with Templar's [Fury] effect. |
-| **Murderous Burst** | <img src="../images/classes/gladiator/passive-murderous-burst.png" alt="Murderous Burst" width="40"> | 20+ | Grants a stack of Menace for 3s when landing an attack. Removes Menace at 5 stacks and deals 539-539 damage to up to 4 enemies within 5m of the caster and increases the caster's Critical Damage Boost by 5.5% for 3s<mark>.</mark> |
+| **Murderous Burst** | <img src="../images/classes/gladiator/passive-murderous-burst.png" alt="Murderous Burst" width="40"> | 20+ | Grants a stack of Menace for 3s when landing an attack. Removes Menace at 5 stacks and deals 539-539 damage to up to 4 enemies within 5m of the caster and increases the caster's Critical Damage Boost by 5.5% for 3s. |
 | **Identify Weakness** | <img src="../images/classes/gladiator/passive-identify-weakness.png" alt="Identify Weakness" width="40"> | 15+ | Increases the caster’s Critical Hit by 100 and Perfect Chance by 0.5% |
 | **Survival Stance** | <img src="../images/classes/gladiator/passive-survival-stance.png" alt="Survival Stance" width="40"> | 15+ | Increases the caster's HP by 200. Increases Max HP by an additional 7%, Natural HP Regen by 20, PvE Damage Tolerance by 5.5%, and PvP Damage Tolerance by 2.75%. |
 | **Protection Armor** | <img src="../images/classes/gladiator/passive-protection-armor.png" alt="Protection Armor" width="40"> | 5-10 | Increases the caster's Block by 200 and restores 53-64 HP on Block.<br>Cooldown: 1s |
@@ -51,11 +51,11 @@ Notes:
 
 | Stigma | Icon | Lvl | Notes | Category |
 |---|---|---|---|---|
-| **Lunge Stance** | <img src="../images/classes/gladiator/stigma-lunge-stance.png" alt="Lunge Stance" width="40"> |  |  | 🟥 Mandatory |
-| **Zikel’s Blessing** | <img src="../images/classes/gladiator/stigma-zikels-blessing.png" alt="Zikel’s Blessing" width="40"> |  |  | 🟥 Mandatory |
-| **Lifestealing Blade** | <img src="../images/classes/gladiator/stigma-lifestealing-blade.png" alt="Lifestealing Blade" width="40"> |  |  | 🟥 Mandatory |
-| **Rage Burst** | <img src="../images/classes/gladiator/stigma-rage-burst.png" alt="Rage Burst" width="40"> |  |  | 🟥 Mandatory |
-| **Wave Armor** | <img src="../images/classes/gladiator/stigma-wave-armor.png" alt="Wave Armor" width="40"> |  |  | 🟥 Mandatory |
+| **Lunge Stance** | <img src="../images/classes/gladiator/stigma-lunge-stance.png" alt="Lunge Stance" width="40"> |  | 1st Prio | 🟥 Mandatory |
+| **Zikel’s Blessing** | <img src="../images/classes/gladiator/stigma-zikels-blessing.png" alt="Zikel’s Blessing" width="40"> |  | 2nd Prio | 🟥 Mandatory |
+| **Lifestealing Blade** | <img src="../images/classes/gladiator/stigma-lifestealing-blade.png" alt="Lifestealing Blade" width="40"> |  | 4th Prio | 🟥 Mandatory |
+| **Rage Burst** | <img src="../images/classes/gladiator/stigma-rage-burst.png" alt="Rage Burst" width="40"> |  | 5th Prio once we get 5 stigmas | 🟥 Mandatory |
+| **Wave Armor** | <img src="../images/classes/gladiator/stigma-wave-armor.png" alt="Wave Armor" width="40"> |  | 3rd Prio | 🟥 Mandatory |
 | **Focused Block** | <img src="../images/classes/gladiator/stigma-focused-block.png" alt="Focused Block" width="40"> |  | Mandatory if tanking; can be substituted if not | 🟦 Situational |
 | **Blade Toss** | <img src="../images/classes/gladiator/stigma-blade-toss.png" alt="Blade Toss" width="40"> |  | Mainly a PvP skill, can be used over Block if not tanking for the shred | 🟦 Situational |
 | **Tenaciousness** | <img src="../images/classes/gladiator/stigma-tenaciousness.png" alt="Tenaciousness" width="40"> |  | Mainly a PvP skill, can be used over Block if not tanking for the attack bonus and immunity during prog | 🟦 Situational |

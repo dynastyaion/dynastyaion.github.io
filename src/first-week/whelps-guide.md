@@ -105,9 +105,9 @@ Straight out of 45 with the horizontals done, you'll typically have mixed quest 
 
 - **Max both bracelets to +10.** You won't replace them until Ludra.
 - **Fully upgrade your belt and amulet.** Same reason. Use the Morphing page (Gear tab): take the green belt to +10, morph it to blue (free), take that to +10, then morph to yellow. The scrolls come from strongholds. Do the same for the amulet.
-- In KR, with +2 runes, 500 Daevanion points and no Arcana or manastones, this lands around **1,428 GS**.
+- In KR, with +2 runes, 500 Daevanion points, and no Arcana or manastones, this lands around **1,428 GS**.
 - If you're a bit short, enhance your lowest pieces or add manastones until you hit 1,400.
-- Enhance the weapon only to +10. Past that it can fail. A failure doesn't break it, but it burns Kinah.
+- Enhance the weapon only to +10. Past that, it can fail. A failure doesn't break it, but it burns Kinah.
 
 #### 2,100: Tier 3
 

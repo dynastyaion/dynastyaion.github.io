@@ -26,7 +26,7 @@ Notes:
 
 Notes:
 
-- **Prioritize Bold Passives:** Rear Smite > Assault Stance > Impact Hit > Exploit Weakness
+- **Leveling Priority:** Rear Smite > Assault Stance > Impact Hit > Exploit Weakness
 
 | Passive | Icon | Lvl | Description |
 |---|---|---|---|
