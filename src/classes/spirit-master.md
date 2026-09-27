@@ -55,7 +55,7 @@ Notes:
 | **Flame Blessing** | <img src="../images/classes/spirit-master/stigma-flame-blessing.png" alt="Flame Blessing" width="40"> |  |  | 🟥 Mandatory |
 | **Ancient Spirit** | <img src="../images/classes/spirit-master/stigma-ancient-spirit.png" alt="Ancient Spirit" width="40"> |  |  | 🟥 Mandatory |
 | **Jointstrike: Corrode** | <img src="../images/classes/spirit-master/stigma-jointstrike-corrode.png" alt="Jointstrike: Corrode" width="40"> |  |  | 🟥 Mandatory |
-| **JointstrikeDestruction** | <img src="../images/classes/spirit-master/stigma-jointstrikedestruction.png" alt="JointstrikeDestruction" width="40"> |  | Your 5th choice, good for debuff uptime | 🟦 Situational |
+| **Jointstrike: Destruction** | <img src="../images/classes/spirit-master/stigma-jointstrike-destruction.png" alt="Jointstrike: Destruction" width="40"> |  | Your 5th choice, good for debuff uptime | 🟦 Situational |
 | **Siphon** | <img src="../images/classes/spirit-master/stigma-siphon.png" alt="Siphon" width="40"> |  | One of your 6th options, interchangeable with Proxy depending on the situation | 🟦 Situational |
 | **Command: Proxy** | <img src="../images/classes/spirit-master/stigma-command-proxy.png" alt="Command: Proxy" width="40"> |  | Solid swap-in if you need more sustain in a raiding scenario | 🟦 Situational |
 | **Cursed Cloud** | <img src="../images/classes/spirit-master/stigma-cursed-cloud.png" alt="Cursed Cloud" width="40"> |  | PvP skill | 🟦 Situational |
