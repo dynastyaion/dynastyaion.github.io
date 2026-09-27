@@ -4,14 +4,14 @@
 
 Notes:
 
-- Drop minor damage nodes for lifeleech if needed.
+- Drop minor damage nodes for life leech if needed.
 - **Lv20 priority** Judgement > Pummel > Punishment > Vicious Strike
 
 | Skill | Icon | Lvl | Specialty |
 |---|---|---|---|
 | **Vicious Strike** | <img src="../images/classes/templar/skill-vicious-strike.png" alt="Vicious Strike" width="40"> | 20 | • +50% Multi-Hit on hit<br>• -2s [Warding Strike] cooldown on hit<br>• Adds [Threatening Blow] Chain Skill |
 | **Pummel** | <img src="../images/classes/templar/skill-pummel.png" alt="Pummel" width="40"> | 20 | • Deals up to 12% more damage when less targets are hit<br>• -1s [Punishment] cooldown on landing [Punishing Strike]<br>• Activates [Punishing Strike] 1 extra time |
-| **Poach** | <img src="../images/classes/templar/skill-poach.png" alt="Poach" width="40"> | 12 | • Moves to the target if target has Incapacitated Immunity<br>• 10% Max HP Protective Shield |
+| **Poach** | <img src="../images/classes/templar/skill-poach.png" alt="Poach" width="40"> | 12 | • Moves to the target if the target has Incapacitated Immunity<br>• 10% Max HP Protective Shield |
 | **Shield Smite** | <img src="../images/classes/templar/skill-shield-smite.png" alt="Shield Smite" width="40"> | 12 | • 50% chance to trigger [Debilitating Smash] on hit<br>• -2s cooldown |
 | **Judgement** | <img src="../images/classes/templar/skill-judgement.png" alt="Judgement" width="40"> | 20 | • Extra damage on hit<br>• Critical Hit on hit<br>• Remove cooldown |
 | **Flash Rampage** | <img src="../images/classes/templar/skill-flash-rampage.png" alt="Flash Rampage" width="40"> |  |  |

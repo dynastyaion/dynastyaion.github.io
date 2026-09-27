@@ -17,8 +17,8 @@ Notes:
 | **Rapid Scattershot** | <img src="../images/classes/spirit-master/skill-rapid-scattershot.png" alt="Rapid Scattershot" width="40"> |  |  |
 | **Earth Spirit** | <img src="../images/classes/spirit-master/skill-earth-spirit.png" alt="Earth Spirit" width="40"> | 16 | • 10% chance to activate skill when Earth Spirit lands attack<br>• +20% Earth Spirit Stats |
 | **Dimensional Control** | <img src="../images/classes/spirit-master/skill-dimensional-control.png" alt="Dimensional Control" width="40"> | 12 | • Extra damage after 3s on hit<br>• +50% Multi-Hit chance on hit |
-| **Wind Spirit** | <img src="../images/classes/spirit-master/skill-wind-spirit.png" alt="Wind Spirit" width="40"> |  |  |
-| **Soul’s Cry** | <img src="../images/classes/spirit-master/skill-souls-cry.png" alt="Soul’s Cry" width="40"> |  |  |
+| **Wind Spirit** | <img src="../images/classes/spirit-master/skill-wind-spirit.png" alt="Wind Spirit" width="40"> | N/A |  |
+| **Soul’s Cry** | <img src="../images/classes/spirit-master/skill-souls-cry.png" alt="Soul’s Cry" width="40"> | PvP | • 70% chance to inflict Fear for 5s PvP targets<br>• 100% chance to inflict Fear on NPC targets |
 | **Elemental Fusion** | <img src="../images/classes/spirit-master/skill-elemental-fusion.png" alt="Elemental Fusion" width="40"> | 20 | • Extra damage after 3s on hit<br>• +10 all Element Boost on hit<br>• 25% chance to regain Four Elements |
 | **Defiance** | <img src="../images/classes/spirit-master/skill-defiance.png" alt="Defiance" width="40"> | 16 | • Restores 10% HP on using [Defiance]<br>• +50% PvE Damage Tolerance and +25% PvP Damage Tolerance for Tenacity duration |
 
@@ -45,7 +45,7 @@ Notes:
 
 Notes:
 
-- **Lv20 priority** Flame Blessing > Corrode > Ancient Spirit
+- **Lv20 priority** Flame Blessing > Jointstrike: Corrode > Ancient Spirit
 
 🟥- Mandatory 🟦- Situational 🟫- Don’t Use
 
@@ -55,7 +55,7 @@ Notes:
 | **Flame Blessing** | <img src="../images/classes/spirit-master/stigma-flame-blessing.png" alt="Flame Blessing" width="40"> |  |  | 🟥 Mandatory |
 | **Ancient Spirit** | <img src="../images/classes/spirit-master/stigma-ancient-spirit.png" alt="Ancient Spirit" width="40"> |  |  | 🟥 Mandatory |
 | **Jointstrike: Corrode** | <img src="../images/classes/spirit-master/stigma-jointstrike-corrode.png" alt="Jointstrike: Corrode" width="40"> |  |  | 🟥 Mandatory |
-| **Jointstirke: Destruction** | <img src="../images/classes/spirit-master/stigma-jointstirke-destruction.png" alt="Jointstirke: Destruction" width="40"> |  | Your 5th choice, good for debuff uptime | 🟦 Situational |
+| **JointstrikeDestruction** | <img src="../images/classes/spirit-master/stigma-jointstrikedestruction.png" alt="JointstrikeDestruction" width="40"> |  | Your 5th choice, good for debuff uptime | 🟦 Situational |
 | **Siphon** | <img src="../images/classes/spirit-master/stigma-siphon.png" alt="Siphon" width="40"> |  | One of your 6th options, interchangeable with Proxy depending on the situation | 🟦 Situational |
 | **Command: Proxy** | <img src="../images/classes/spirit-master/stigma-command-proxy.png" alt="Command: Proxy" width="40"> |  | Solid swap-in if you need more sustain in a raiding scenario | 🟦 Situational |
 | **Cursed Cloud** | <img src="../images/classes/spirit-master/stigma-cursed-cloud.png" alt="Cursed Cloud" width="40"> |  | PvP skill | 🟦 Situational |

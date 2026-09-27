@@ -1,6 +1,6 @@
-# FIRST WEEK SHIT
+# FIRST WEEK/Guides
 
-## GET READY TO PLAY THE GAME
+## Guides
 
 <u>**Hurry up and claim your name, you’ll be able to customize your character later.**</u>
 

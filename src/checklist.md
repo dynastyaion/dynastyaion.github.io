@@ -1,6 +1,6 @@
 # Checklist
 
-## Daily Shit:
+## Daily:
 
 - [ ] Daily Duties (hotkey ‘J’ and 3rd tab ‘Duty’)
 - [ ] Daily Abyss Supply requests
@@ -8,7 +8,7 @@
 - [ ] Nightmare (recharges daily, caps at a week's worth)
 - [ ] Odyle energy used for Dungeons/Trans Dung accumulates at 15 per 3 hours.
 
-## Weekly Shit:
+## Weekly:
 
 - [ ] Buy/Craft Odyle energy consumable (now in substance morph, crafted via kinah)
 - [ ] CRAFT weekly energy consumable different from above (now in substance morph, crafted via Odyle material)
