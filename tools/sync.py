@@ -507,7 +507,11 @@ class Page:
                 continue
             bullet = p.find(f"{W}pPr/{W}numPr") is not None
             for j, ln in enumerate(lines):
-                parts.append(("• " if bullet and j == 0 else "") + ln)
+                ln = ("• " if bullet and j == 0 else "") + ln
+                if parts and re.search(r"\d-$", parts[-1]) and re.match(r"\d", ln):
+                    parts[-1] += ln  # a range split over two lines, e.g. "12-" / "16"
+                else:
+                    parts.append(ln)
         return "<br>".join(parts).replace("|", "\\|")
 
     def cell_images(self, tc):
