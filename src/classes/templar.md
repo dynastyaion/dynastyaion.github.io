@@ -26,7 +26,7 @@ Notes:
 
 Notes:
 
-- **Prioritize bolded Passives:** Fury > Impact Hit > Insulting Roar
+- **Leveling Priority:** Fury > Impact Hit > Insulting Roar
 
 | Passive | Icon | Lvl | Description |
 |---|---|---|---|

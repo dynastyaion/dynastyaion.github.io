@@ -27,7 +27,7 @@ Notes:
 
 - Levels are from KR/TW, which have more skill points currently than global; treat the lvl column like a target
 - Descriptions are values at the level column
-- **Prioritize bolded Passives:** Empyrean Lord's Grace > Earth's Grace > Healing Enhancement > Warm Benediction > Rest
+- **Leveling Priority:** Empyrean Lord's Grace > Earth's Grace > Healing Enhancement > Warm Benediction > Rest
 
 | Passive | Icon | Lvl | Description |
 |---|---|---|---|

@@ -26,7 +26,7 @@ Notes:
 
 Notes:
 
-- **Prioritize bolded Passives:** Spirit Strike > Mental Focus > Elemental Unification > Spirit Revitalization
+- **Leveling Priority:** Spirit Strike > Mental Focus > Elemental Unification > Spirit Revitalization
 
 | Passive | Icon | Lvl | Description |
 |---|---|---|---|

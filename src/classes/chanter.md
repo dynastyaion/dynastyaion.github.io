@@ -25,7 +25,7 @@ Notes:
 
 Notes:
 
-- **Prioritize bolded Passives:** Wind's Promise > Impact Hit > Attack Preparation > Inspiring Spell > Earth's Promise
+- **Leveling Priority:** Wind's Promise > Impact Hit > Attack Preparation > Inspiring Spell > Earth's Promise
 
 | Passive | Icon | Lvl | Description |
 |---|---|---|---|

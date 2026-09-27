@@ -26,7 +26,7 @@ Notes:
 
 Notes:
 
-- **Prioritize bolded Passives:** Attack Preparation > Impact Hit > Experienced Counterattack > Murderous Burst > Identify Weakness
+- **Leveling Priority:** Attack Preparation > Impact Hit > Experienced Counterattack > Murderous Burst > Identify Weakness
 
 | Passive | Icon | Lvl | Description |
 |---|---|---|---|

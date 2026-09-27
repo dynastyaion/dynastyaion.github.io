@@ -25,7 +25,7 @@ Notes:
 
 Notes:
 
-- **Prioritize bolded Passives:** Focused Eye > Hunter's Resolve > Hunter's Soul
+- **Leveling Priority:** Focused Eye > Hunter's Resolve > Hunter's Soul
 
 | Passive | Icon | Lvl | Description |
 |---|---|---|---|
