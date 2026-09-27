@@ -4,7 +4,7 @@
 
 Notes:
 
-- Drop minor damage nodes for lifeleech if needed
+- Drop minor damage nodes for life leech if needed
 - **Lv20 priority:** Overhead Slam > Ruinous Blow > Rending Blow
 
 | Skill | Icon | Lvl | Specialty |

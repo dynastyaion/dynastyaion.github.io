@@ -3,7 +3,7 @@
 [AION 2 Guide](README.md)
 
 - [Checklist](checklist.md)
-- [FIRST WEEK SHIT](first-week/index.md)
+- [FIRST WEEK/Guides](first-week/index.md)
   - [DAY 1 - 2](first-week/day-1-2.md)
   - [REST OF THE WEEK](first-week/rest-of-the-week.md)
   - [Whelp's Guide](first-week/whelps-guide.md)

@@ -21,7 +21,7 @@ Repeat easy side quests that give these as rewards:
 
 <u>**THESE RUNES CAN BLOW UP IF YOU UPGRADE THEM. DON'T GO PAST +1 FOR NOW.**</u>
 
-Also, getting your pilgrim accessories will help with an easy gear score at this point as well.
+Also, getting your pilgrim accessories will help you get an easy gear score at this point.
 
 ---
 
@@ -35,13 +35,13 @@ Also, getting your pilgrim accessories will help with an easy gear score at this
 
 This is the baseline to get your character online. Do not fuck with anything else until you have all sealed dungeons done. <u>BIGGEST POWER SPIKE IN EARLY GAME</u>. It is not obvious that it's super important via game tutorials/etc. The game just doesn't tell you.
 
-A lot of people will miss the importance of this… you’ll be fighting people a week that still haven't done all their sealed dungeons because they didn't know how important it is, and will cry when they get bodied.
+A lot of people will miss the importance of this… you’ll be fighting people a week later who still haven't done all their sealed dungeons because they didn't know how important it is, and they'll cry when they get bodied.
 
 ---
 
 ## <u>IMPORTANT TIPS</u>
 
-- **DO NOT** do the T1 conquest dungs.
+- **DO NOT** do the T1 conquest dungeons.
   - **Skip** Draupnir + Krao cave completely. Save your energy for better rewards.
 - **Save your Energy** for **T2+** dungeons. **1500 gearscore = T2 dungeons**
   - Vakron is one to focus on. Do “exploration” Vakron to get the pity piece. Then you can do the conquest version with a group.
