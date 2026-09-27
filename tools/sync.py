@@ -78,7 +78,8 @@ CHECKLIST_TABS = {"Checklist"}
 # added automatically below).
 INTERNAL_LINKS = {
     "Find your class guide": "classes/index.md",
-    "START": "first-week/day-1-2.md",
+    "Start with DAY 1-2": "first-week/day-1-2.md",
+    "Check out Whelp’s Guide, for the gear score milestones": "first-week/whelps-guide.md",
 }
 INTERNAL_LINKS.update({t.name: t.path for t in TABS})
 LINK_COLOR = "1155cc"
@@ -473,6 +474,8 @@ class Page:
             if blocks:
                 self.list_open = False
             centered = wval(p.find(W + "pPr"), "jc") == "center"
+            if len(blocks) == 1 and re.fullmatch(r"(\\?[-—–_]){3,}", blocks[0].replace(" ", "")):
+                blocks, centered = ["---"], False  # a typed divider line → horizontal rule
             for block in blocks:
                 block = self.block_start(block)
                 self.add(f"{CENTER_OPEN}\n\n{block}\n\n{CENTER_CLOSE}" if centered else block)
