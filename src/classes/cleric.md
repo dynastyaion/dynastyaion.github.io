@@ -47,7 +47,7 @@ Notes:
 Notes:
 
 - **Lv20 leveling priority:** Earth's Punishment > Light of Protection (if no chanters) > Amplification > Noble Aura (replace LoP with that if a chanter is in the group, also superior to Amplification if high ping). Summon Resurrection can contextually be bumped to 25 during Sanctuary prog to save on stones\
-  Cleric uses alot of different stigmas depending on content and when paired with a chanter changes stigmas
+  Cleric uses a lot of different stigmas depending on content and, when paired with a chanter, changes stigmas
 
 🟥- Mandatory 🟦- Situational 🟫- Don’t Use
 

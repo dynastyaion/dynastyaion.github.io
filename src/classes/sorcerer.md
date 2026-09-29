@@ -45,16 +45,16 @@ Notes:
 
 Notes:
 
-- **Lv20 priority** Element Enhancement > Fire Wall > Delayed Explosion
+- **Lv20 priority:** Element Enhancement > Fire Wall > Delayed Explosion
 
 🟥- Mandatory 🟦- Situational 🟫- Don’t Use
 
 | Stigma | Icon | Lvl | Notes | Category |
 |---|---|---|---|---|
-| **Element Enhancement** | <img src="../images/classes/sorcerer/stigma-element-enhancement.png" alt="Element Enhancement" width="40"> |  |  | 🟥 Mandatory |
-| **Cold Storm** | <img src="../images/classes/sorcerer/stigma-cold-storm.png" alt="Cold Storm" width="40"> |  |  | 🟥 Mandatory |
-| **Fire Wall** | <img src="../images/classes/sorcerer/stigma-fire-wall.png" alt="Fire Wall" width="40"> |  |  | 🟥 Mandatory |
-| **Delayed Explosion** | <img src="../images/classes/sorcerer/stigma-delayed-explosion.png" alt="Delayed Explosion" width="40"> |  |  | 🟥 Mandatory |
+| **Element Enhancement** | <img src="../images/classes/sorcerer/stigma-element-enhancement.png" alt="Element Enhancement" width="40"> |  | 1st Prio | 🟥 Mandatory |
+| **Cold Storm** | <img src="../images/classes/sorcerer/stigma-cold-storm.png" alt="Cold Storm" width="40"> |  | 4th Prio | 🟥 Mandatory |
+| **Fire Wall** | <img src="../images/classes/sorcerer/stigma-fire-wall.png" alt="Fire Wall" width="40"> |  | 2nd Prio | 🟥 Mandatory |
+| **Delayed Explosion** | <img src="../images/classes/sorcerer/stigma-delayed-explosion.png" alt="Delayed Explosion" width="40"> |  | 3rd Prio | 🟥 Mandatory |
 | **Steel Barrier** | <img src="../images/classes/sorcerer/stigma-steel-barrier.png" alt="Steel Barrier" width="40"> |  | Good utility defensive option after mandatory stigmas | 🟦 Situational |
 | **Divine Burst** | <img src="../images/classes/sorcerer/stigma-divine-burst.png" alt="Divine Burst" width="40"> |  | Decent DPS option if you Don't run Steel Barrier | 🟦 Situational |
 | **Glacial Smite** | <img src="../images/classes/sorcerer/stigma-glacial-smite.png" alt="Glacial Smite" width="40"> |  | First choice of DPS filler after mandatory stigmas | 🟦 Situational |

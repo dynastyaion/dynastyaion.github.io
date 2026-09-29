@@ -45,8 +45,8 @@ Notes:
 Notes:
 
 - **Lv20 priority:** Undefeated Mantra > Sprint Mantra > Power of the Storm > Wrath or Guardian Blessing\
-  Chanter will have multiple different stigma builds depending on content and party composition this class just has too many different stigma builds to give one that does all content\
-  Ask class leads or plan a build yourself can’t give all the builds on a guide
+  Chanter will have multiple different stigma builds depending on content and party composition; this class just has too many different stigma builds to give one that does all content\
+  Ask class leads or plan a build yourself; can’t give all the builds on a guide
 
 🟥- Mandatory 🟦- Situational 🟫- Don’t Use
 

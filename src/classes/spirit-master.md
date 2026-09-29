@@ -51,10 +51,10 @@ Notes:
 
 | Stigma | Icon | Lvl | Notes | Category |
 |---|---|---|---|---|
-| **Enhance: Spirit’s Benediction** | <img src="../images/classes/spirit-master/stigma-enhance-spirits-benediction.png" alt="Enhance: Spirit’s Benediction" width="40"> |  |  | 🟥 Mandatory |
-| **Flame Blessing** | <img src="../images/classes/spirit-master/stigma-flame-blessing.png" alt="Flame Blessing" width="40"> |  |  | 🟥 Mandatory |
-| **Ancient Spirit** | <img src="../images/classes/spirit-master/stigma-ancient-spirit.png" alt="Ancient Spirit" width="40"> |  |  | 🟥 Mandatory |
-| **Jointstrike: Corrode** | <img src="../images/classes/spirit-master/stigma-jointstrike-corrode.png" alt="Jointstrike: Corrode" width="40"> |  |  | 🟥 Mandatory |
+| **Enhance: Spirit’s Benediction** | <img src="../images/classes/spirit-master/stigma-enhance-spirits-benediction.png" alt="Enhance: Spirit’s Benediction" width="40"> |  | 4th Prio | 🟥 Mandatory |
+| **Flame Blessing** | <img src="../images/classes/spirit-master/stigma-flame-blessing.png" alt="Flame Blessing" width="40"> |  | 1st Prio | 🟥 Mandatory |
+| **Ancient Spirit** | <img src="../images/classes/spirit-master/stigma-ancient-spirit.png" alt="Ancient Spirit" width="40"> |  | 3rd Prio | 🟥 Mandatory |
+| **Jointstrike: Corrode** | <img src="../images/classes/spirit-master/stigma-jointstrike-corrode.png" alt="Jointstrike: Corrode" width="40"> |  | 2nd Prio | 🟥 Mandatory |
 | **Jointstrike: Destruction** | <img src="../images/classes/spirit-master/stigma-jointstrike-destruction.png" alt="Jointstrike: Destruction" width="40"> |  | Your 5th choice, good for debuff uptime | 🟦 Situational |
 | **Siphon** | <img src="../images/classes/spirit-master/stigma-siphon.png" alt="Siphon" width="40"> |  | One of your 6th options, interchangeable with Proxy depending on the situation | 🟦 Situational |
 | **Command: Proxy** | <img src="../images/classes/spirit-master/stigma-command-proxy.png" alt="Command: Proxy" width="40"> |  | Solid swap-in if you need more sustain in a raiding scenario | 🟦 Situational |
