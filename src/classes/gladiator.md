@@ -54,11 +54,11 @@ Notes:
 | **Lunge Stance** | <img src="../images/classes/gladiator/stigma-lunge-stance.png" alt="Lunge Stance" width="40"> |  | 1st Prio | 🟥 Mandatory |
 | **Zikel’s Blessing** | <img src="../images/classes/gladiator/stigma-zikels-blessing.png" alt="Zikel’s Blessing" width="40"> |  | 2nd Prio | 🟥 Mandatory |
 | **Lifestealing Blade** | <img src="../images/classes/gladiator/stigma-lifestealing-blade.png" alt="Lifestealing Blade" width="40"> |  | 4th Prio | 🟥 Mandatory |
-| **Rage Burst** | <img src="../images/classes/gladiator/stigma-rage-burst.png" alt="Rage Burst" width="40"> |  | 5th Prio once we get 5 stigmas | 🟥 Mandatory |
+| **Rage Burst** | <img src="../images/classes/gladiator/stigma-rage-burst.png" alt="Rage Burst" width="40"> |  | 5th Prio: Can use this over lifestealing if not the tank of the party | 🟥 Mandatory |
 | **Wave Armor** | <img src="../images/classes/gladiator/stigma-wave-armor.png" alt="Wave Armor" width="40"> |  | 3rd Prio | 🟥 Mandatory |
 | **Focused Block** | <img src="../images/classes/gladiator/stigma-focused-block.png" alt="Focused Block" width="40"> |  | Mandatory if tanking; can be substituted if not | 🟦 Situational |
-| **Blade Toss** | <img src="../images/classes/gladiator/stigma-blade-toss.png" alt="Blade Toss" width="40"> |  | Mainly a PvP skill, can be used over Block if not tanking for the shred | 🟦 Situational |
-| **Tenaciousness** | <img src="../images/classes/gladiator/stigma-tenaciousness.png" alt="Tenaciousness" width="40"> |  | Mainly a PvP skill, can be used over Block if not tanking for the attack bonus and immunity during prog | 🟦 Situational |
+| **Blade Toss** | <img src="../images/classes/gladiator/stigma-blade-toss.png" alt="Blade Toss" width="40"> |  | Mainly a PvP skill; can be used over Block if not tanking for the shred | 🟦 Situational |
+| **Tenaciousness** | <img src="../images/classes/gladiator/stigma-tenaciousness.png" alt="Tenaciousness" width="40"> |  | Mainly a PvP skill; can be used over Block if not tanking for the attack bonus and immunity during prog | 🟦 Situational |
 | **Armor of Balance** | <img src="../images/classes/gladiator/stigma-armor-of-balance.png" alt="Armor of Balance" width="40"> |  | PvP skill | 🟦 Situational |
 | **Forced Restraint** | <img src="../images/classes/gladiator/stigma-forced-restraint.png" alt="Forced Restraint" width="40"> |  | Niche PvP skill | 🟦 Situational |
 | **Fracturing Rush** | <img src="../images/classes/gladiator/stigma-fracturing-rush.png" alt="Fracturing Rush" width="40"> |  | Niche PvP skill | 🟦 Situational |

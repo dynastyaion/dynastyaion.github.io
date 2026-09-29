@@ -13,12 +13,12 @@
 - Run higher-tier dungeons, farm open-world item drops, and sell unbound yellow items to fund crafted PvE gear.
 - Open-world farming is limited to 1 million Kinah a day; the value here isn't the Kinah drop itself, but the item drops.
 - Abyss farming has no daily Kinah cap.
-- PvP Daeva board points are worth a LOT. Selling what you get from the Battlefield will get you more progression in Kinah vs. what you’d get from using the points yourself. Simple cost-benefit analysis.
+- PvP Daeva board points are worth a LOT. Selling what you get from the Battlefield will get you more progression in Kinah vs. what you’d get from using the points yourself—simple cost-benefit analysis.
 
-### Build lasting PvP pieces
+### Building PvP pieces
 
 - Get your PvP weapon early; it’s worth enhancing beyond +10.
-- Get blue Paralyze and Stun theostones (Blue ones are bis for a while). Socket one into a weapon, and the other into a guard (make sure to not put it in a guard that you will end up replacing).
+- Get blue Paralyze and Stun theostones (Blue ones are bis for a while). Socket one into a weapon, and the other into a guard (make sure not to put it in a guard that you will end up replacing).
 - Spend early Abyss points on stigmas before committing heavily to PvP gear.
 
 ### Reach Sanctuary Raid
