@@ -2,9 +2,10 @@
 
 ### 1) Do the main story quest (MSQ) to level up to 45
 
-Some side quests + sealed dungeons are needed in between MSQ quests to progress, maybe like 5-6 of them; your choice on what to do.
+Do all side quests + sealed dungeons along the path of quests
 
-If you have never played Aion 2 before, expect around **5-6’ish hours**. My time is around 3 hrs on Cleric, and I have done it a few times now.
+Get 21 Feathers for the Movement Speed tilte\
+Get 27 Feathers for Blue Belt and Amulet
 
 ALL DUNGEONS IN MSQ CAN BE SOLOED. <u>**DO NOT CLAIM THE REWARDS HERE**</u>. DO NOT NEED TO PARTY.
 
@@ -14,28 +15,17 @@ ALL DUNGEONS IN MSQ CAN BE SOLOED. <u>**DO NOT CLAIM THE REWARDS HERE**</u>. DO 
 
 To get this fast, get yourself 2x runes. Each increases gear score by 40.
 
-Repeat easy side quests that give these as rewards:
-
-- <u>**Cursed Blue Mineral**</u> - lvl 30 in **Aullaeu Village**
-- <u>**Zumion’s Call: Part Two**</u> - lvl 37 in **Western Altamia Highland**
-
 <u>**THESE RUNES CAN BLOW UP IF YOU UPGRADE THEM. DON'T GO PAST +1 FOR NOW.**</u>
 
 Also, getting your pilgrim accessories will help you get an easy gear score at this point.
 
 ---
 
-### 3) Time to PVP!? — WRONG. TIME TO JUICE, FUCK PVP UNTIL YOU’VE DONE THE NEXT STEP.
+### 3) Do all sealed dungeons on Asmodian side + all sealed dungeons on Elyos side (2-3 rifts in total) = around 1650 gear score then all Abyss Feathers
 
----
+A lot of people will miss the importance of this. You’ll be fighting people a week later who still haven't done all their sealed dungeons because they didn't know how important it is.
 
-### 4) Do ALL sealed dungeons on Asmodian side + ALL sealed dungeons on Elyos side (2-3 rifts in total) + ALL side quests = around 1650 gear score.
-
-<u>**Total time to do all this is approx. 10 - 15 hours (including MSQ time)**</u>
-
-This is the baseline to get your character online. Do not fuck with anything else until you have all sealed dungeons done. <u>BIGGEST POWER SPIKE IN EARLY GAME</u>. It is not obvious that it's super important via game tutorials/etc. The game just doesn't tell you.
-
-A lot of people will miss the importance of this… you’ll be fighting people a week later who still haven't done all their sealed dungeons because they didn't know how important it is, and they'll cry when they get bodied.
+Do all Feathers in the Abyss Early so don’t need to later do this Day 1 or 2. People are very undergeared Day 1 to 2 so there damage is low making it hard for you to die.
 
 ---
 

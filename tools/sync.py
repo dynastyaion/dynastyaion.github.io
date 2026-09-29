@@ -23,6 +23,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.parse
 import urllib.request
 import zipfile
@@ -662,6 +663,21 @@ class Doc:
         return tabs
 
 
+def download(attempts=8):
+    """Fetch the export. Google randomly serves a variant without the tab title
+    pages (from 1 in 5 to half of requests); that one can't be split into tabs, so retry."""
+    for attempt in range(1, attempts + 1):
+        print(f"Downloading {EXPORT_URL}", file=sys.stderr)
+        with urllib.request.urlopen(EXPORT_URL, timeout=300) as r:
+            doc = Doc(r.read())
+        tabs = doc.split_tabs()
+        if tabs:
+            return doc, tabs
+        print(f"  export has no tab title pages (attempt {attempt}/{attempts}), retrying", file=sys.stderr)
+        time.sleep(3)
+    return doc, tabs
+
+
 def summary():
     lines = ["# Summary", ""]
     for t in TABS:
@@ -680,14 +696,10 @@ def main():
 
     if args.docx:
         with open(args.docx, "rb") as f:
-            data = f.read()
+            doc = Doc(f.read())
+        tabs = doc.split_tabs()
     else:
-        print(f"Downloading {EXPORT_URL}", file=sys.stderr)
-        with urllib.request.urlopen(EXPORT_URL, timeout=300) as r:
-            data = r.read()
-
-    doc = Doc(data)
-    tabs = doc.split_tabs()
+        doc, tabs = download()
     found = [name for name, _ in tabs]
     expected = [t.name for t in TABS]
     if not found:

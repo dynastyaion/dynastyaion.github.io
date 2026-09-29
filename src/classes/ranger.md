@@ -50,10 +50,10 @@ Notes:
 
 | Stigma | Icon | Lvl | Notes | Category |
 |---|---|---|---|---|
-| **Vaizel’s Authority** | <img src="../images/classes/ranger/stigma-vaizels-authority.png" alt="Vaizel’s Authority" width="40"> |  |  | 🟥 Mandatory |
-| **Bow of Blessing** | <img src="../images/classes/ranger/stigma-bow-of-blessing.png" alt="Bow of Blessing" width="40"> |  |  | 🟥 Mandatory |
-| **Griffon Arrow** | <img src="../images/classes/ranger/stigma-griffon-arrow.png" alt="Griffon Arrow" width="40"> |  |  | 🟥 Mandatory |
-| **Supporting Fire** | <img src="../images/classes/ranger/stigma-supporting-fire.png" alt="Supporting Fire" width="40"> |  |  | 🟥 Mandatory |
+| **Vaizel’s Authority** | <img src="../images/classes/ranger/stigma-vaizels-authority.png" alt="Vaizel’s Authority" width="40"> |  | 1st Prio | 🟥 Mandatory |
+| **Bow of Blessing** | <img src="../images/classes/ranger/stigma-bow-of-blessing.png" alt="Bow of Blessing" width="40"> |  | 2nd Prio | 🟥 Mandatory |
+| **Griffon Arrow** | <img src="../images/classes/ranger/stigma-griffon-arrow.png" alt="Griffon Arrow" width="40"> |  | 3rd Prio | 🟥 Mandatory |
+| **Supporting Fire** | <img src="../images/classes/ranger/stigma-supporting-fire.png" alt="Supporting Fire" width="40"> |  | 4th Prio | 🟥 Mandatory |
 | **Explosive Arrow** | <img src="../images/classes/ranger/stigma-explosive-arrow.png" alt="Explosive Arrow" width="40"> |  | Your first choice once the mandatory ones have been equipped | 🟦 Situational |
 | **Mother Nature’s Breath** | <img src="../images/classes/ranger/stigma-mother-natures-breath.png" alt="Mother Nature’s Breath" width="40"> |  | Can take if there's room; useful to immediately negate nasty DoTs and to help survive tough scenarios | 🟦 Situational |
 | **Ambush Kick** | <img src="../images/classes/ranger/stigma-ambush-kick.png" alt="Ambush Kick" width="40"> |  | PvP skill | 🟦 Situational |

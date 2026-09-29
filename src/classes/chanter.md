@@ -25,7 +25,7 @@ Notes:
 
 Notes:
 
-- **Leveling Priority:** Impact Hit = Attack Preparation > Wind's Promise (If want to focus more on your damage) or Earth’s Promise (If you want to buff parties damage) > Inspiring Spell > Earthy Promise
+- **Leveling Priority:** Impact Hit = Attack Preparation > Wind's Promise (If you want to focus more on your damage) or Earth’s Promise (If you want to buff party damage) > Inspiring Spell > Earthy Promise
 
 | Passive | Icon | Lvl | Description |
 |---|---|---|---|
