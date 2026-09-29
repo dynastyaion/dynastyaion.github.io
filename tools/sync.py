@@ -603,6 +603,8 @@ class Page:
                         row.append("")
                     continue
                 text = self.cell_text(tc)
+                if kind and ci == 2 and text:
+                    text = f'<span class="nowrap">{text}</span>'  # keep ranges like "12-16" on one line
                 if kind and ci == 0 and text:
                     text = "**" + text.replace("**", "") + "**"
                 row.append(text)
