@@ -13,7 +13,7 @@ Notes:
 | **Rushing Smash** | <img src="../images/classes/chanter/skill-rushing-smash.png" alt="Rushing Smash" width="40"> | 15 | • Resets cooldown on defeating an enemy<br>• Ignores Block and Evasion and lands as Multi-Hit |
 | **Impactful Crush** | <img src="../images/classes/chanter/skill-impactful-crush.png" alt="Impactful Crush" width="40"> | 16 | • Changes to mobile skill<br>• +30% Skill Speed |
 | **Dark Crush** | <img src="../images/classes/chanter/skill-dark-crush.png" alt="Dark Crush" width="40"> | 20 | • Critical Hit on hit<br>• Adds [Piercing Strike] Chain Skill<br>• Removes [Dark Crush] cooldown |
-| **Gust Rampage** | <img src="../images/classes/chanter/skill-gust-rampage.png" alt="Gust Rampage" width="40"> | 6 |  |
+| **Gust Rampage** | <img src="../images/classes/chanter/skill-gust-rampage.png" alt="Gust Rampage" width="40"> | 0-6 |  |
 | **Heat Wave Blow** | <img src="../images/classes/chanter/skill-heat-wave-blow.png" alt="Heat Wave Blow" width="40"> | 14 | • Up to +20% damage when more targets hit<br>• Ignores Block and Evasion and lands as Multi-Hit |
 | **Recuperation** | <img src="../images/classes/chanter/skill-recuperation.png" alt="Recuperation" width="40"> | 20 | • +1 consecutive use and Heal over Time can stack up to 2 times<br>• Cleanse<br>• -3s cooldown |
 | **Tremor Crush** | <img src="../images/classes/chanter/skill-tremor-crush.png" alt="Tremor Crush" width="40"> | 16 | • +10m [Tremor Crush] range<br>• +50% Multi-Hit on hit |
@@ -46,7 +46,7 @@ Notes:
 
 - **Lv20 priority:** Undefeated Mantra > Sprint Mantra > Power of the Storm > Wrath or Guardian Blessing\
   Chanter will have multiple different stigma builds depending on content and party composition; this class just has too many different stigma builds to give one that does all content\
-  Ask class leads or plan a build yourself; can’t give all the builds on a guide
+  Ask class leads or plan a build yourself; can’t give all the builds in a guide
 
 🟥- Mandatory 🟦- Situational 🟫- Don’t Use
 
@@ -60,7 +60,7 @@ Notes:
 | **Fracturing Blow** | <img src="../images/classes/chanter/stigma-fracturing-blow.png" alt="Fracturing Blow" width="40"> |  | Take over Power of the Storm when paired with a Cleric | 🟦 Situational |
 | **Guardian Blessing** | <img src="../images/classes/chanter/stigma-guardian-blessing.png" alt="Guardian Blessing" width="40"> |  | Only take if dying in content | 🟦 Situational |
 | **Healing Touch** | <img src="../images/classes/chanter/stigma-healing-touch.png" alt="Healing Touch" width="40"> |  | Only take if you're the solo healer in a higher-end scenario | 🟦 Situational |
-| **Impending Authority** | <img src="../images/classes/chanter/stigma-impending-authority.png" alt="Impending Authority" width="40"> |  | Niche PvP skill; cooldown's too long | 🟦 Situational |
+| **Impeding Authority** | <img src="../images/classes/chanter/stigma-impeding-authority.png" alt="Impeding Authority" width="40"> |  | Niche PvP skill; cooldown's too long | 🟦 Situational |
 | **Ensnaring Mark** | <img src="../images/classes/chanter/stigma-ensnaring-mark.png" alt="Ensnaring Mark" width="40"> |  | Niche PvP skill | 🟦 Situational |
 | **Barrier Spell** | <img src="../images/classes/chanter/stigma-barrier-spell.png" alt="Barrier Spell" width="40"> |  | Niche; Requires Knowledge | 🟦 Situational |
 | **Obliterate** | <img src="../images/classes/chanter/stigma-obliterate.png" alt="Obliterate" width="40"> |  | Ignore; useless | 🟫 Don't use |
