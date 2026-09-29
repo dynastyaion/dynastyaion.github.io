@@ -68,8 +68,5 @@ Notes:
 ## Macros
 
 - Can macro in ruinous if you don't mind it going off without your input
-- Make sure to block often enough to refresh counterattack if you're the sole tank
-
-![Gladiator macro screenshot 1](../images/classes/gladiator/macro-1.png)
-
-![Gladiator macro screenshot 2](../images/classes/gladiator/macro-2.png)
+- Make sure to block often enough to refresh counterattack if you're the sole tank\
+  ![Gladiator macro screenshot 1](../images/classes/gladiator/macro-1.png) ![Gladiator macro screenshot 2](../images/classes/gladiator/macro-2.png)

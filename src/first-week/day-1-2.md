@@ -72,6 +72,6 @@ Do all Feathers in the Abyss Early so don’t need to later do this Day 1 or 2. 
 
 <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/XjQ6xK0V7tc" title="[AION 2] Complete PvE character building overview" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-▶️ [How To Prog After 45 | Aion 2](https://www.youtube.com/watch?v=sU3heVsRb5o)
+▶️ [How Gear Progression Works | Aion 2](https://www.youtube.com/watch?v=sU3heVsRb5o)
 
-<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/sU3heVsRb5o" title="How To Prog After 45 | Aion 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/sU3heVsRb5o" title="How Gear Progression Works | Aion 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

@@ -67,8 +67,5 @@ Notes:
 
 ## Macros
 
-- Mouse macro software to spam LMB alongside the in-game macro to weave.
-
-![Spirit Master macro screenshot 1](../images/classes/spirit-master/macro-1.png)
-
-![Spirit Master macro screenshot 2](../images/classes/spirit-master/macro-2.png)
+- Mouse macro software to spam LMB alongside the in-game macro to weave.\
+  ![Spirit Master macro screenshot 1](../images/classes/spirit-master/macro-1.png) ![Spirit Master macro screenshot 2](../images/classes/spirit-master/macro-2.png)

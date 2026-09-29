@@ -70,8 +70,5 @@ Notes:
 - Punishment separate, full charge
 - Make sure to block often enough to refresh Fury
 - Use macro software to spam LMB alongside in-game macro to weave
-- Possible to drop shield smite entirely (replace it with annihilate and put annihilate first in line if so); DPS is about the same but removes the inconvenience of the movement lock
-
-![Templar macro screenshot 1](../images/classes/templar/macro-1.png)
-
-![Templar macro screenshot 2](../images/classes/templar/macro-2.png)
+- Possible to drop shield smite entirely (replace it with annihilate and put annihilate first in line if so); DPS is about the same but removes the inconvenience of the movement lock\
+  ![Templar macro screenshot 1](../images/classes/templar/macro-1.png) ![Templar macro screenshot 2](../images/classes/templar/macro-2.png)
