@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """Regenerate the book's src/ from the AION 2 Guide Google Doc.
 
-Downloads the doc's .docx export (the doc is public) and rewrites every page,
-SUMMARY.md, and src/images/. Those are all generated: edit the Google Doc, or
-the rules/config in this file, never the Markdown directly. Other files in
-src/ (app icons, manifest.webmanifest) are hand-maintained and left alone.
+Reads the doc's tab list from its public page, downloads each tab as a .docx
+export, and rewrites every page, SUMMARY.md, and src/images/. Those are all
+generated: edit the Google Doc, or the rules/config in this file, never the
+Markdown directly. Other files in src/ (app icons, manifest.webmanifest) are
+hand-maintained and left alone.
 
 Usage:
     python3 tools/sync.py              # fetch the doc and regenerate src/
-    python3 tools/sync.py --docx FILE  # use a local .docx export instead
+    python3 tools/sync.py --cache DIR  # keep downloads in DIR and reuse them
 
 Requires Pillow (pip install -r tools/requirements.txt).
 
@@ -35,7 +36,8 @@ from PIL import Image
 import build_widget
 
 DOC_ID = "1H__aoCLtcAiTToZff7uVGvj7nI4896lRHYegHFJhV-Q"
-EXPORT_URL = f"https://docs.google.com/document/d/{DOC_ID}/export?format=docx"
+DOC_URL = f"https://docs.google.com/document/d/{DOC_ID}/edit"
+EXPORT_URL = f"https://docs.google.com/document/d/{DOC_ID}/export?format=docx&tab={{tab_id}}"
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "src")
@@ -118,6 +120,7 @@ NS = {
 W = "{%s}" % NS["w"]
 R = "{%s}" % NS["r"]
 
+TAB_LINK_RE = re.compile(r"[?&]tab=(t\.[a-z0-9]+)")
 YOUTUBE_RE = re.compile(r"(?:youtube\.com/watch\?(?:.*&)?v=|youtu\.be/)([\w-]{11})")
 URL_RE = re.compile(r"https?://[^\s<>()]+[^\s<>().,;:!?]")
 
@@ -361,6 +364,13 @@ class Page:
                     )
                 out.append(f"{lead}[{label}]({self.rel(INTERNAL_LINKS[key])}){trail}")
                 continue
+            tab_id = TAB_LINK_RE.search(link) if (link.startswith("?") or DOC_ID in link) else None
+            if tab_id:
+                target = self.ctx.run.tab_paths.get(tab_id.group(1))
+                if not target:
+                    raise SyncError(f"{self.tab.name}: link {raw.strip()!r} points to unknown tab {tab_id.group(1)}")
+                out.append(f"{lead}[{label}]({self.rel(target)}){trail}")
+                continue
             vid = youtube_id(link)
             if vid:
                 title = raw.strip()
@@ -414,7 +424,13 @@ class Page:
         text = re.sub(r"^(\d+)([.)])(\s)", r"\1\\\2\3", text)
         return re.sub(r"^([#>+-])(\s)", r"\\\1\2", text)
 
-    def add_images(self, segs, name_hint=""):
+    def add_images(self, segs):
+        for md in self.image_md(segs):
+            self.add(md)
+
+    def image_md(self, segs):
+        """Save a paragraph's images and return their Markdown."""
+        out = []
         for s in segs:
             if s.kind == "img":
                 self.images += 1
@@ -425,7 +441,8 @@ class Page:
                 rel_img = f"images/{base}/{section}-{self.images}.png"
                 self.ctx.save_image(s.rid, rel_img, IMAGE_MAX_WIDTH)
                 alt = f"{self.tab.title} {'macro screenshot' if section == 'macro' else 'image'} {self.images}"
-                self.add(f"![{alt}]({self.rel(rel_img)})")
+                out.append(f"![{alt}]({self.rel(rel_img)})")
+        return out
 
     def paragraph(self, p, heading_levels):
         segs = para_segments(p, self.ctx.rels)
@@ -459,6 +476,11 @@ class Page:
                 self.add(self.block_start(block))
         elif numpr is not None:
             text = "\\\n".join(ln for ln in self.lines(segs, videos) if ln)
+            if not text and any(s.kind == "img" for s in segs):
+                # a bullet that is just an image stays in the list; images after
+                # a bullet's text are placed after the list, full width
+                text = " ".join(self.image_md(segs))
+                segs = [s for s in segs if s.kind != "img"]
             if text:
                 level = int(wval(numpr, "ilvl") or 0)
                 fmt = self.ctx.list_format(wval(numpr, "numId"), level)
@@ -514,9 +536,9 @@ class Page:
             raise SyncError(f"{self.tab.name}: skill build is for class {build['classId']!r}, "
                             "which doesn't match this tab")
         try:
-            if self.ctx.skills is None:
-                self.ctx.skills = build_widget.load_skills()
-            return build_widget.Widget(build, self.ctx.skills, self.tab.path).render()
+            if self.ctx.run.skills is None:
+                self.ctx.run.skills = build_widget.load_skills()
+            return build_widget.Widget(build, self.ctx.run.skills, self.tab.path).render()
         except build_widget.BuildError as e:
             raise SyncError(f"{self.tab.name}: skill build: {e}")
 
@@ -641,8 +663,20 @@ class Page:
 # ---------------------------------------------------------------- document
 
 
+class Run:
+    """State shared by every tab in one sync."""
+
+    def __init__(self):
+        self.written = set()  # images written, relative to src/
+        self.tab_paths = {}  # tab id -> page, for links between tabs
+        self.skills = None  # data/skills.json, loaded when a page has a skill build
+
+
 class Doc:
-    def __init__(self, data):
+    """One tab's .docx export."""
+
+    def __init__(self, data, run):
+        self.run = run
         self.zip = zipfile.ZipFile(io.BytesIO(data))
         rels = ET.fromstring(self.zip.read("word/_rels/document.xml.rels"))
         self.rels = {}
@@ -660,16 +694,14 @@ class Doc:
             a = abstract[wval(num, "abstractNumId")]
             for lvl in a.findall(W + "lvl"):
                 self.numfmt[(num.get(W + "numId"), int(lvl.get(W + "ilvl")))] = wval(lvl, "numFmt")
-        self.written = set()
-        self.skills = None  # data/skills.json, loaded when a page has a skill build
 
     def list_format(self, num_id, level):
         return self.numfmt.get((num_id, level), "bullet")
 
     def save_image(self, rid, rel_path, max_width):
-        if rel_path in self.written:
+        if rel_path in self.run.written:
             raise SyncError(f"two images map to {rel_path}")
-        self.written.add(rel_path)
+        self.run.written.add(rel_path)
         im = Image.open(io.BytesIO(self.zip.read(self.media[rid])))
         im.load()
         if im.width > max_width:
@@ -682,35 +714,74 @@ class Doc:
         os.makedirs(os.path.dirname(dest), exist_ok=True)
         im.save(dest, optimize=True)
 
-    def split_tabs(self):
-        """Tabs start at a Title paragraph that ends a section (the tab's title page)."""
-        tabs, cur = [], None
-        for el in self.body:
-            if el.tag == W + "p" and pstyle(el) == "Title" and has_sect(el):
-                name = clean(ptext(el)).strip()
-                if name:
-                    cur = (name, [])
-                    tabs.append(cur)
-                    continue
-                # an empty one is just a page break, and may hold an image
-            if cur is not None and el.tag in (W + "p", W + "tbl"):
-                cur[1].append(el)
-        return tabs
+    def elements(self):
+        return [el for el in self.body if el.tag in (W + "p", W + "tbl")]
 
 
-def download(attempts=8):
-    """Fetch the export. Google randomly serves a variant without the tab title
-    pages (from 1 in 5 to half of requests); that one can't be split into tabs, so retry."""
+TAB_RE = re.compile(r'\{"ty":"ac","d":\["(t\.[a-z0-9]+)",\[1,"((?:[^"\\]|\\.)*)"\],\[([\d,]*)\]\]\}')
+ROOT_RE = re.compile(r'\{"ty":"mkch","d":\[\[1,"((?:[^"\\]|\\.)*)"\]\]\}')
+
+
+def fetch(url, what, attempts=3):
     for attempt in range(1, attempts + 1):
-        print(f"Downloading {EXPORT_URL}", file=sys.stderr)
-        with urllib.request.urlopen(EXPORT_URL, timeout=300) as r:
-            doc = Doc(r.read())
-        tabs = doc.split_tabs()
-        if tabs:
-            return doc, tabs
-        print(f"  export has no tab title pages (attempt {attempt}/{attempts}), retrying", file=sys.stderr)
-        time.sleep(3)
-    return doc, tabs
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=300) as r:
+                return r.read()
+        except OSError as e:
+            if attempt == attempts:
+                raise SyncError(f"couldn't download {what}: {e}")
+            print(f"  {what}: {e}; retrying", file=sys.stderr)
+            time.sleep(3)
+
+
+def tab_list(page):
+    """[(tab id, name, depth)] in doc order, read from the doc's public page.
+
+    The first tab is the doc's root ("t.0"); depth is the sidebar nesting
+    (None for the root, 0 for top-level tabs, 1 for tabs nested under those).
+    """
+    root = ROOT_RE.search(page)
+    tabs = [("t.0", json.loads(f'"{root.group(1)}"'), None)] if root else []
+    for tab_id, name, path in TAB_RE.findall(page):
+        tabs.append((tab_id, json.loads(f'"{name}"'), len(path.split(",")) - 2))
+    if len(tabs) < 2:
+        raise SyncError(f"couldn't find the tab list on {DOC_URL}; has the page format changed?")
+    return tabs
+
+
+def load_tabs(cache):
+    """Download the tab list and each tab's .docx (or reuse them from --cache)."""
+    def cached(name, url, what):
+        path = os.path.join(cache, name) if cache else None
+        if path and os.path.exists(path):
+            with open(path, "rb") as f:
+                return f.read()
+        print(f"Downloading {what}", file=sys.stderr)
+        data = fetch(url, what)
+        if path:
+            os.makedirs(cache, exist_ok=True)
+            with open(path, "wb") as f:
+                f.write(data)
+        return data
+
+    tabs = tab_list(cached("page.html", DOC_URL, "tab list").decode("utf-8", "replace"))
+    found = [(name, depth) for _, name, depth in tabs]
+    expected = [(t.name, t.depth) for t in TABS]
+    if found != expected:
+        raise SyncError(
+            "doc tabs don't match TABS config (name, nesting).\n  expected: %s\n  found:    %s" % (expected, found)
+        )
+    run = Run()
+    run.tab_paths = {tab_id: t.path for (tab_id, _, _), t in zip(tabs, TABS)}
+    docs = []
+    for tab_id, name, _ in tabs:
+        data = cached(f"{tab_id}.docx", EXPORT_URL.format(tab_id=tab_id), f"tab {name!r}")
+        try:
+            docs.append(Doc(data, run))
+        except (zipfile.BadZipFile, KeyError) as e:
+            raise SyncError(f"tab {name!r}: the export isn't a valid .docx ({e}); try again")
+    return run, docs
 
 
 def summary():
@@ -726,27 +797,15 @@ def summary():
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    ap.add_argument("--docx", help="use a local .docx export instead of downloading")
+    ap.add_argument("--cache", metavar="DIR",
+                    help="keep downloads in DIR and reuse them on later runs (for testing)")
     args = ap.parse_args()
 
-    if args.docx:
-        with open(args.docx, "rb") as f:
-            doc = Doc(f.read())
-        tabs = doc.split_tabs()
-    else:
-        doc, tabs = download()
-    found = [name for name, _ in tabs]
-    expected = [t.name for t in TABS]
-    if not found:
-        raise SyncError("no tabs found in the export; the download may be incomplete, try again")
-    if found != expected:
-        raise SyncError(
-            "doc tabs don't match TABS config.\n  expected: %s\n  found:    %s" % (expected, found)
-        )
+    run, docs = load_tabs(args.cache)
 
     pages = {}
-    for tab, (_, elements) in zip(TABS, tabs):
-        pages[tab.path] = Page(tab, doc).render(elements)
+    for tab, doc in zip(TABS, docs):
+        pages[tab.path] = Page(tab, doc).render(doc.elements())
     pages["SUMMARY.md"] = summary()
 
     for path, text in pages.items():
@@ -759,7 +818,7 @@ def main():
     for dirpath, _, files in os.walk(SRC):
         for fn in files:
             rel = os.path.relpath(os.path.join(dirpath, fn), SRC)
-            keep = rel in pages if fn.endswith(".md") else rel in doc.written if rel.startswith("images/") else True
+            keep = rel in pages if fn.endswith(".md") else rel in run.written if rel.startswith("images/") else True
             if not keep:
                 os.remove(os.path.join(dirpath, fn))
                 print(f"removed {rel}", file=sys.stderr)
@@ -767,7 +826,7 @@ def main():
         if not dirs and not files:
             os.rmdir(dirpath)
 
-    print(f"Wrote {len(pages)} pages and {len(doc.written)} images.", file=sys.stderr)
+    print(f"Wrote {len(pages)} pages and {len(run.written)} images.", file=sys.stderr)
 
 
 if __name__ == "__main__":
