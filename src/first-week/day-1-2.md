@@ -4,7 +4,7 @@
 
 Do all side quests + sealed dungeons along the path of quests
 
-Get 21 Feathers for the Movement Speed tilte\
+Get 21 Feathers for the Movement Speed title\
 Get 27 Feathers for Blue Belt and Amulet
 
 ALL DUNGEONS IN MSQ CAN BE SOLOED. <u>**DO NOT CLAIM THE REWARDS HERE**</u>. DO NOT NEED TO PARTY.
@@ -25,7 +25,7 @@ Also, getting your pilgrim accessories will help you get an easy gear score at t
 
 A lot of people will miss the importance of this. You’ll be fighting people a week later who still haven't done all their sealed dungeons because they didn't know how important it is.
 
-Do all Feathers in the Abyss Early so don’t need to later do this Day 1 or 2. People are very undergeared Day 1 to 2 so there damage is low making it hard for you to die.
+Do all Feathers in the Abyss Early so don’t need to later do this Day 1 or 2. People are very undergeared Day 1 to 2 so their damage is low making it hard for you to die.
 
 ---
 
