@@ -32,6 +32,8 @@ from xml.etree import ElementTree as ET
 
 from PIL import Image
 
+import build_widget
+
 DOC_ID = "1H__aoCLtcAiTToZff7uVGvj7nI4896lRHYegHFJhV-Q"
 EXPORT_URL = f"https://docs.google.com/document/d/{DOC_ID}/export?format=docx"
 
@@ -471,6 +473,11 @@ class Page:
                 self.add(indent + marker + text.replace("\\\n", "\\\n" + indent + " " * len(marker)), tight=True)
                 self.list_open = True
         else:
+            build = self.build_json(p)
+            if build is not None:
+                self.list_open = False
+                self.add(self.build_widget(build))
+                return
             blocks = self.paragraph_blocks(self.lines(segs, videos))
             if blocks:
                 self.list_open = False
@@ -485,6 +492,33 @@ class Page:
             for vid, title in videos:
                 self.add(embed(vid, title))
         self.add_images(segs)
+
+    def build_json(self, p):
+        """A questlog.gg build pasted into the doc as one paragraph of JSON, or None."""
+        text = clean(ptext(p)).strip()
+        if not (text.startswith("{") and '"skills"' in text):
+            return None
+        try:
+            build = json.loads(text)
+        except ValueError as e:
+            raise SyncError(f"{self.tab.name}: a skill build JSON doesn't parse ({e}); "
+                            "was it edited in the doc, or pasted with curly quotes?")
+        if not isinstance(build, dict) or "classId" not in build or not isinstance(build.get("skills"), dict):
+            raise SyncError(f"{self.tab.name}: JSON paragraph isn't a questlog.gg skill build")
+        return build
+
+    def build_widget(self, build):
+        page_class = os.path.splitext(os.path.basename(self.tab.path))[0]
+        build_class = build_widget.CLASS_DIRS.get(build["classId"])
+        if not self.tab.path.startswith("classes/") or build_class != page_class:
+            raise SyncError(f"{self.tab.name}: skill build is for class {build['classId']!r}, "
+                            "which doesn't match this tab")
+        try:
+            if self.ctx.skills is None:
+                self.ctx.skills = build_widget.load_skills()
+            return build_widget.Widget(build, self.ctx.skills, self.tab.path).render()
+        except build_widget.BuildError as e:
+            raise SyncError(f"{self.tab.name}: skill build: {e}")
 
     def list_indent(self, level, marker):
         if level == 0:
@@ -627,6 +661,7 @@ class Doc:
             for lvl in a.findall(W + "lvl"):
                 self.numfmt[(num.get(W + "numId"), int(lvl.get(W + "ilvl")))] = wval(lvl, "numFmt")
         self.written = set()
+        self.skills = None  # data/skills.json, loaded when a page has a skill build
 
     def list_format(self, num_id, level):
         return self.numfmt.get((num_id, level), "bullet")

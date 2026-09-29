@@ -40,7 +40,6 @@ ICON_PREFIX = {"active": "skill", "passive": "passive", "stigma": "stigma"}
 # the site's icon files are named after): (class, questlog name) -> icon slug.
 ICON_ALIASES = {
     ("assassin", "Shadowstep"): "shadow-step",
-    ("chanter", "Impeding Authority"): "impending-authority",  # doc typo; drop once fixed there
     ("cleric", "Judgment Thunder"): "judgement-thunder",
     ("elementalist", "Element Unification"): "elemental-unification",
     ("elementalist", "Jointstrike: Destructive Attack"): "jointstrike-destruction",
@@ -62,6 +61,10 @@ ROWS = 4
 MOUSE_COLUMN = 11  # only its bottom slot exists
 
 
+class BuildError(Exception):
+    pass
+
+
 def slug(s):
     s = s.lower().replace("’", "").replace("'", "")
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
@@ -69,7 +72,7 @@ def slug(s):
 
 def load_skills():
     if not os.path.exists(SKILLS):
-        sys.exit(f"{SKILLS} not found; run tools/compile_skills.py first")
+        raise BuildError(f"{SKILLS} not found; run tools/compile_skills.py first")
     with open(SKILLS) as f:
         return json.load(f)["skills"]
 
@@ -87,12 +90,12 @@ class Widget:
         self.page = page
         unknown = [sid for sid in build["skills"] if sid not in skills]
         if unknown:
-            sys.exit(f"build uses skill ids not in data/skills.json: {unknown}; re-scrape and recompile?")
+            raise BuildError(f"build uses skill ids not in data/skills.json: {unknown}; re-scrape and recompile?")
 
     def icon(self, skill):
         rel = icon_file(skill)
         if not os.path.exists(os.path.join(SRC, rel)):
-            sys.exit(f"no icon for {skill['name']!r} ({rel}); add it to ICON_ALIASES")
+            raise BuildError(f"no icon for {skill['name']!r} ({rel}); add it to ICON_ALIASES")
         return os.path.relpath(rel, os.path.dirname(self.page))
 
     def skill(self, sid, badge=None, show_specs=False):
@@ -201,4 +204,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except BuildError as e:
+        sys.exit(f"build widget failed: {e}")
