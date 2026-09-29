@@ -1,0 +1,2780 @@
+{
+ "skills": {
+  "11010000": {
+   "name": "Rending Blow",
+   "class": "gladiator",
+   "category": "active",
+   "specializations": {
+    "11010010": "-20% MP consumed",
+    "11010020": "+200 Block while using skill",
+    "11010030": "Changes to mobile skill",
+    "11010040": "Deals up to 12% more damage when less targets are hit",
+    "11010050": "Restores 50 MP on landing a Critical Hit"
+   }
+  },
+  "11020000": {
+   "name": "Keen Strike",
+   "class": "gladiator",
+   "category": "active",
+   "specializations": {
+    "11020010": "+20% MP restored",
+    "11020020": "Absorbs 1% HP",
+    "11020030": "+50% Multi-Hit on hit",
+    "11020040": "-1s [Ruinous Blow] cooldown on hit",
+    "11020050": "Adds [Reckless Strike] Chain Skill"
+   }
+  },
+  "11050000": {
+   "name": "Crushing Wave",
+   "class": "gladiator",
+   "category": "active",
+   "specializations": {
+    "11050010": "Absorbs 2% HP",
+    "11050020": "Restores 50 MP on landing a Critical Hit",
+    "11050030": "Up to +20% damage when more targets hit",
+    "11050040": "Resets cooldown on landing a Critical Hit",
+    "11050050": "50% chance to pull"
+   }
+  },
+  "11080000": {
+   "name": "Blade Toss",
+   "class": "gladiator",
+   "category": "stigma",
+   "specializations": {
+    "11080010": "+20% [Blade Toss] Incoming Heal reduction",
+    "11080020": "[Blade Toss] inflicts Slow for 5s",
+    "11080030": "[Blade Toss] breaks Protective Shields",
+    "11080040": "[Blade Dance] has 30% chance to inflict Knockdown for 3s"
+   }
+  },
+  "11100000": {
+   "name": "Ruinous Blow",
+   "class": "gladiator",
+   "category": "active",
+   "specializations": {
+    "11100010": "+20% Skill Speed",
+    "11100020": "+12.5m Range",
+    "11100030": "+30% Skill Critical Hit",
+    "11100040": "Extra damage on hit",
+    "11100050": "Ignores Block and Evasion and lands as Multi-Hit"
+   }
+  },
+  "11110000": {
+   "name": "Focused Block",
+   "class": "gladiator",
+   "category": "stigma",
+   "specializations": {
+    "11110010": "+1 consecutive use",
+    "11110020": "Changes to mobile skill",
+    "11110030": "+20% Move Speed for 3s on Parry",
+    "11110040": "Restores 10% HP once on Parry"
+   }
+  },
+  "11130000": {
+   "name": "Armor of Balance",
+   "class": "gladiator",
+   "category": "stigma",
+   "specializations": {
+    "11130010": "+20% Ailment-type and Mental-type Resist",
+    "11130020": "x1.5 [Blood Absorption] effect for the duration",
+    "11130030": "x1.5 [Protection Armor] effect for the duration",
+    "11130040": "+50% Impact-type Resist increase"
+   }
+  },
+  "11170000": {
+   "name": "Overhead Slam",
+   "class": "gladiator",
+   "category": "active",
+   "specializations": {
+    "11170010": "Absorbs 0.7% HP",
+    "11170020": "Changes to AoE Skill",
+    "11170030": "Adds [Upward Strike] Chain Skill",
+    "11170040": "Critical Hit on hit",
+    "11170050": "Remove cooldown"
+   }
+  },
+  "11190000": {
+   "name": "Leaping Slam",
+   "class": "gladiator",
+   "category": "active",
+   "specializations": {
+    "11190010": "Prepare for Battle effect on the caster for 3s",
+    "11190020": "50% chance to trigger [Ankle Slice] on hit",
+    "11190030": "Resets cooldown on defeating an enemy",
+    "11190040": "+20% PvE Damage Tolerance and +10 PvP Damage Tolerance for 3s",
+    "11190050": "Changes to AoE skill and pulls in enemies"
+   }
+  },
+  "11200000": {
+   "name": "Ankle Slice",
+   "class": "gladiator",
+   "category": "active",
+   "specializations": {
+    "11200010": "30% chance to inflict Knockdown for 3s on landing [Ankle Slice]",
+    "11200020": "Adds [Ankle Smash] Chain Skill",
+    "11200030": "+16m [Ankle Slice] range",
+    "11200040": "Ignores Block and Evasion and lands as Multi-Hit",
+    "11200050": "25% chance to reset [Ankle Slice] cooldown on Block"
+   }
+  },
+  "11240000": {
+   "name": "Wrath Wave",
+   "class": "gladiator",
+   "category": "stigma",
+   "specializations": {
+    "11240010": "Up to +20% damage when more targets hit",
+    "11240020": "Reduces Attack by 20% for 5s",
+    "11240030": "Deals damage 1 additional time",
+    "11240040": "+25% Knockdown Chance"
+   }
+  },
+  "11250000": {
+   "name": "Zikel's Blessing",
+   "class": "gladiator",
+   "category": "stigma",
+   "specializations": {
+    "11250010": "+50% Stagger Gauge Damage",
+    "11250020": "+10% PvE Damage Boost and +5% PvP Damage Boost",
+    "11250030": "+50% Multi-Hit chance",
+    "11250040": "+20% Status Effect Chance"
+   }
+  },
+  "11260000": {
+   "name": "Defiance",
+   "class": "gladiator",
+   "category": "active",
+   "specializations": {
+    "11260010": "Adds [Wrath Burst] Chain Skill",
+    "11260020": "Restores 1000 Stamina on using [Defiance]",
+    "11260030": "Restores 20% HP on using [Defiance]",
+    "11260040": "+2s Tenacity duration",
+    "11260050": "+50% PvE Damage Tolerance and +25% PvP Damage Tolerance for Tenacity duration"
+   }
+  },
+  "11280000": {
+   "name": "Sword Aura Rampage",
+   "class": "gladiator",
+   "category": "active",
+   "specializations": {
+    "11280010": "Absorbs 5% HP",
+    "11280020": "Restores 120 MP",
+    "11280030": "Changes to mobile skill",
+    "11280040": "Multi-Hit on hit",
+    "11280050": "-1s all skill cooldowns on hit"
+   }
+  },
+  "11290000": {
+   "name": "Mocking Blade",
+   "class": "gladiator",
+   "category": "active",
+   "specializations": {
+    "11290010": "Absorbs 4% HP, absorbs 15% HP of target with Incapacitated Immunity",
+    "11290020": "Changes to AoE damage on down strike",
+    "11290030": "Adds 2 additional strikes",
+    "11290040": "+1s Knockdown duration",
+    "11290050": "Ignores Block and Evasion and lands as Multi-Hit"
+   }
+  },
+  "11300000": {
+   "name": "Aerial Snare",
+   "class": "gladiator",
+   "category": "active",
+   "specializations": {
+    "11300010": "Multi-Hit on hit",
+    "11300020": "+25% [Aerial Snare] Airborne Chance",
+    "11300030": "+100% damage to targets with Incapacitated Immunity",
+    "11300040": "Adds [Forced Fall] Chain Skill",
+    "11300050": "-50% [Aerial Snare] cooldown"
+   }
+  },
+  "11340000": {
+   "name": "Lifestealing Blade",
+   "class": "gladiator",
+   "category": "stigma",
+   "specializations": {
+    "11340010": "Up to +20% damage when more targets hit",
+    "11340020": "Predation effect on party members for 20s",
+    "11340030": "-30s cooldown",
+    "11340040": "+5% HP absorbed"
+   }
+  },
+  "11360000": {
+   "name": "Rush Strike",
+   "class": "gladiator",
+   "category": "active",
+   "specializations": {
+    "11360010": "Restores 300 Stamina on hit",
+    "11360020": "+10m range",
+    "11360030": "Changes to Charge Skill and deals AoE damage",
+    "11360040": "-10s cooldown",
+    "11360050": "+25% Knockdown Chance"
+   }
+  },
+  "11380000": {
+   "name": "Tenaciousness",
+   "class": "gladiator",
+   "category": "stigma",
+   "specializations": {
+    "11380010": "+100% Incoming Heal",
+    "11380020": "Restores 20% Max HP when the effect ends",
+    "11380030": "+20% Attack",
+    "11380040": "Trigger [Tenaciousness] when afflicted with Impact-type status"
+   }
+  },
+  "11390000": {
+   "name": "Rage Burst",
+   "class": "gladiator",
+   "category": "stigma",
+   "specializations": {
+    "11390010": "-15s [Rage Burst] cooldown",
+    "11390020": "+10% Attack reduction",
+    "11390030": "Critical Hit on hit",
+    "11390040": "+10% PvE Damage Boost increase and +5% PvP Damage Boost increase"
+   }
+  },
+  "11400000": {
+   "name": "Lunge Stance",
+   "class": "gladiator",
+   "category": "stigma",
+   "specializations": {
+    "11400010": "+5% Double Chance for the duration",
+    "11400020": "Increases Move Speed by 20% for the duration",
+    "11400030": "x1.5 [Identify Weakness] effect for the duration",
+    "11400040": "50% chance to reduce all skill cooldowns by 1s on Critical Hit for the duration"
+   }
+  },
+  "11410000": {
+   "name": "Wave Armor",
+   "class": "gladiator",
+   "category": "stigma",
+   "specializations": {
+    "11410010": "Absorbs 2% HP",
+    "11410020": "x1.5 [Experienced Counterstrike] effect for the duration",
+    "11410030": "x1.5 [Murderous Burst] effect for the duration",
+    "11410040": "Reflects 10% of damage taken"
+   }
+  },
+  "11430000": {
+   "name": "Forced Restraint",
+   "class": "gladiator",
+   "category": "stigma",
+   "specializations": {
+    "11430010": "50% chance to inflict Root for 5s",
+    "11430020": "-1,000 Stamina",
+    "11430030": "+2s Seal duration",
+    "11430040": "+25% Seal chance"
+   }
+  },
+  "11450000": {
+   "name": "Fracturing Rush",
+   "class": "gladiator",
+   "category": "stigma",
+   "specializations": {
+    "11450010": "+2 max targets hit",
+    "11450020": "Adds [Destructive Rush] Chain Skill",
+    "11450030": "+20% Root Chance",
+    "11450040": "50% chance to inflict Airborne for 3s"
+   }
+  },
+  "11700000": {
+   "name": "Assault Strike",
+   "class": "gladiator",
+   "category": "stigma",
+   "specializations": {
+    "11700010": "+20% Attack for 5s on hit",
+    "11700020": "500 MP damage on hit",
+    "11700030": "+10m range",
+    "11700040": "+20% Knockdown Chance"
+   }
+  },
+  "11710000": {
+   "name": "Survival Stance",
+   "class": "gladiator",
+   "category": "passive",
+   "specializations": {}
+  },
+  "11720000": {
+   "name": "Protection Armor",
+   "class": "gladiator",
+   "category": "passive",
+   "specializations": {}
+  },
+  "11730000": {
+   "name": "Blood Absorption",
+   "class": "gladiator",
+   "category": "passive",
+   "specializations": {}
+  },
+  "11740000": {
+   "name": "Identify Weakness",
+   "class": "gladiator",
+   "category": "passive",
+   "specializations": {}
+  },
+  "11750000": {
+   "name": "Attack Preparation",
+   "class": "gladiator",
+   "category": "passive",
+   "specializations": {}
+  },
+  "11760000": {
+   "name": "Impact Hit",
+   "class": "gladiator",
+   "category": "passive",
+   "specializations": {}
+  },
+  "11770000": {
+   "name": "Destructive Impulse",
+   "class": "gladiator",
+   "category": "passive",
+   "specializations": {}
+  },
+  "11780000": {
+   "name": "Experienced Counterstrike",
+   "class": "gladiator",
+   "category": "passive",
+   "specializations": {}
+  },
+  "11790000": {
+   "name": "Survival Willpower",
+   "class": "gladiator",
+   "category": "passive",
+   "specializations": {}
+  },
+  "11800000": {
+   "name": "Murderous Burst",
+   "class": "gladiator",
+   "category": "passive",
+   "specializations": {}
+  },
+  "12010000": {
+   "name": "Vicious Strike",
+   "class": "templar",
+   "category": "active",
+   "specializations": {
+    "12010010": "+20% MP restored",
+    "12010020": "Absorbs 1% HP",
+    "12010030": "+50% Multi-Hit on hit",
+    "12010040": "-2s [Warding Strike] cooldown on hit",
+    "12010050": "Adds [Threatening Blow] Chain Skill"
+   }
+  },
+  "12040000": {
+   "name": "Pummel",
+   "class": "templar",
+   "category": "active",
+   "specializations": {
+    "12040010": "-20% MP consumed",
+    "12040020": "[Punishing Strike] absorbs 3% HP",
+    "12040030": "Deals up to 12% more damage when less targets are hit",
+    "12040040": "-1s [Punishment] cooldown on hit",
+    "12040050": "[Punishing Strike] grants extra damage on hit"
+   }
+  },
+  "12070000": {
+   "name": "Doom Shield",
+   "class": "templar",
+   "category": "stigma",
+   "specializations": {
+    "12070010": "Resets [Annihilate] cooldown on hit",
+    "12070020": "+200 Block for 5s on hit",
+    "12070030": "Resets cooldown on defeating an enemy",
+    "12070040": "+25% Knockdown Chance"
+   }
+  },
+  "12090000": {
+   "name": "Punishment",
+   "class": "templar",
+   "category": "active",
+   "specializations": {
+    "12090010": "Absorbs 10% HP",
+    "12090020": "Inflicts Damage over Time to target on hit",
+    "12090030": "+30% Skill Speed",
+    "12090040": "Changes to mobile skill",
+    "12090050": "Ignores Block and Evasion and lands as a Critical Hit"
+   }
+  },
+  "12100000": {
+   "name": "Shield Smite",
+   "class": "templar",
+   "category": "active",
+   "specializations": {
+    "12100010": "+1s Stun duration",
+    "12100020": "Removes MP Cost and restores 200 MP on hit",
+    "12100030": "50% chance to trigger [Debilitating Smash] on hit",
+    "12100040": "-2s cooldown",
+    "12100050": "AoE Stun"
+   }
+  },
+  "12110000": {
+   "name": "Shield of Protection",
+   "class": "templar",
+   "category": "stigma",
+   "specializations": {
+    "12110010": "+1 consecutive use",
+    "12110020": "Changes to mobile skill",
+    "12110030": "+20% Move Speed for 3s on Block",
+    "12110040": "Restores 10% HP once on Block"
+   }
+  },
+  "12120000": {
+   "name": "Taunt",
+   "class": "templar",
+   "category": "stigma",
+   "specializations": {
+    "12120010": "Adds 10% PvE Damage Tolerance reduction and 5% PvP Damage Tolerance reduction effect to Shrink",
+    "12120020": "+10% Shrink Attack reduction",
+    "12120030": "-5s cooldown",
+    "12120040": "+2s Taunt duration, +5s Shrink duration"
+   }
+  },
+  "12130000": {
+   "name": "Poach",
+   "class": "templar",
+   "category": "active",
+   "specializations": {
+    "12130010": "Moves to the target if target has Incapacitated Immunity",
+    "12130020": "-20% Status Effect Resist for 5s on hit",
+    "12130030": "Resets cooldown on defeating an enemy",
+    "12130040": "10% Max HP Protective Shield",
+    "12130050": "50% chance to Stun for 3s"
+   }
+  },
+  "12190000": {
+   "name": "Second Skin",
+   "class": "templar",
+   "category": "stigma",
+   "specializations": {
+    "12190010": "+10% all Element Tolerance for the duration",
+    "12190020": "+20% Block for the duration",
+    "12190030": "x1.5 [Ironclad Defense] effect for the duration",
+    "12190040": "+20% PvE Damage Tolerance increase and +10% PvP Damage Tolerance increase"
+   }
+  },
+  "12200000": {
+   "name": "Armor of Balance",
+   "class": "templar",
+   "category": "stigma",
+   "specializations": {
+    "12200010": "+20% Ailment-type, Mental-type Resist for the duration",
+    "12200020": "+20% Move Speed for the duration",
+    "12200030": "x1.5 [Warding Shield] effect for the duration",
+    "12200040": "+50% Impact-type Resist increase"
+   }
+  },
+  "12220000": {
+   "name": "Grapple",
+   "class": "templar",
+   "category": "stigma",
+   "specializations": {
+    "12220010": "50% chance to inflict Stun for 3s on hit",
+    "12220020": "20% of Max HP as Protective Shield for 10s on use",
+    "12220030": "-30s cooldown",
+    "12220040": "Up to +20% PvE Damage Tolerance and +10% PvP Damage Tolerance when more targets hit"
+   }
+  },
+  "12230000": {
+   "name": "Noble Armor",
+   "class": "templar",
+   "category": "stigma",
+   "specializations": {
+    "12230010": "+5% Defense for the duration",
+    "12230020": "x1.5 [Insulting Roar] effect for the duration",
+    "12230030": "x1.5 [Fury] effect for the duration",
+    "12230040": "+10% Incoming Heal for the duration"
+   }
+  },
+  "12240000": {
+   "name": "Judgment",
+   "class": "templar",
+   "category": "active",
+   "specializations": {
+    "12240010": "Absorbs 1% HP",
+    "12240020": "Deals extra damage on attacking a target afflicted with Impact-type status",
+    "12240030": "Extra damage on hit",
+    "12240040": "Critical Hit on hit",
+    "12240050": "Remove cooldown"
+   }
+  },
+  "12250000": {
+   "name": "Comrade in Arms",
+   "class": "templar",
+   "category": "stigma",
+   "specializations": {
+    "12250010": "Restores 25% of Max HP once if hit during Comrade in Arms while HP is 25% or less",
+    "12250020": "x1.5 [Guarding Seal] Protective Shield effect for the duration",
+    "12250030": "x1.5 [Block Pain] effect for the duration",
+    "12250040": "Restores 50% of caster's Max HP when the effect ends"
+   }
+  },
+  "12260000": {
+   "name": "Defiance",
+   "class": "templar",
+   "category": "active",
+   "specializations": {
+    "12260010": "Adds [Capture] Chain Skill",
+    "12260020": "Restores 1000 Stamina on using [Defiance]",
+    "12260030": "Restores 20% HP on using [Defiance]",
+    "12260040": "+2s Tenacity duration",
+    "12260050": "+50% PvE Damage Tolerance and +25% PvP Damage Tolerance for Tenacity duration"
+   }
+  },
+  "12270000": {
+   "name": "Debilitating Smash",
+   "class": "templar",
+   "category": "active",
+   "specializations": {
+    "12270010": "30% chance to inflict Stun for 3s",
+    "12270020": "+3s Debilitate duration",
+    "12270030": "-60% Incoming Heal during Debilitate",
+    "12270040": "Ignores Block and Evasion and lands as Multi-Hit",
+    "12270050": "25% chance to reset cooldown on Block"
+   }
+  },
+  "12300000": {
+   "name": "Annihilate",
+   "class": "templar",
+   "category": "active",
+   "specializations": {
+    "12300010": "+50% Multi-Hit on hit",
+    "12300020": "+20% Knockdown Chance",
+    "12300030": "+100% damage to targets with Incapacitated Immunity",
+    "12300040": "-10s cooldown",
+    "12300050": "Changes to AoE Skill"
+   }
+  },
+  "12310000": {
+   "name": "Empyrean Lord's Punishment",
+   "class": "templar",
+   "category": "stigma",
+   "specializations": {
+    "12310010": "Up to +20% damage when less targets hit",
+    "12310020": "+50 Stagger Gauge Damage",
+    "12310030": "+10% PvE Damage Boost and +5% PvP Damage Boost for 10s on hit",
+    "12310040": "+25% Stun Chance"
+   }
+  },
+  "12320000": {
+   "name": "Nezekan's Shield",
+   "class": "templar",
+   "category": "stigma",
+   "specializations": {
+    "12320010": "+20% all Element Tolerance for Protective Shield duration",
+    "12320020": "+2s Protective Shield duration",
+    "12320030": "+20% PvE Damage Tolerance and +10% PvP Damage Tolerance for Protective Shield duration",
+    "12320040": "Restores 20% of Max HP when Protective Shield is removed"
+   }
+  },
+  "12340000": {
+   "name": "Flash Rampage",
+   "class": "templar",
+   "category": "active",
+   "specializations": {
+    "12340010": "Absorbs 5% HP",
+    "12340020": "Restores 120 MP on hit",
+    "12340030": "Changes to mobile skill",
+    "12340040": "Multi-Hit on hit",
+    "12340050": "-1s to all skill cooldowns on hit"
+   }
+  },
+  "12350000": {
+   "name": "Warding Strike",
+   "class": "templar",
+   "category": "active",
+   "specializations": {
+    "12350010": "-5s cooldown",
+    "12350020": "+100 Block during Warding",
+    "12350030": "Heal over Time during Warding",
+    "12350040": "Adds PvE Damage Tolerance and PvP Damage Tolerance increase effect when more targets hit to Warding",
+    "12350050": "+10% PvE Damage Tolerance and +5% PvP Damage Tolerance to party members on skill use"
+   }
+  },
+  "12410000": {
+   "name": "Executing Blade",
+   "class": "templar",
+   "category": "stigma",
+   "specializations": {
+    "12410010": "-15s cooldown",
+    "12410020": "Inflict Exposed for 5s on hit",
+    "12410030": "Critical Hit on hit",
+    "12410040": "+30% damage on attacking a target inflicted with Impact-type status"
+   }
+  },
+  "12430000": {
+   "name": "Shield Rush",
+   "class": "templar",
+   "category": "active",
+   "specializations": {
+    "12430010": "Restores 300 Stamina on hit",
+    "12430020": "+10m range",
+    "12430030": "Changes to Charge Skill and deals AoE damage",
+    "12430040": "-10s cooldown",
+    "12430050": "+25% Stun Chance"
+   }
+  },
+  "12450000": {
+   "name": "Battlefield Banner",
+   "class": "templar",
+   "category": "stigma",
+   "specializations": {
+    "12450010": "+10% Multi-Hit Chance for duration",
+    "12450020": "+10% Weapon Damage Boost for duration",
+    "12450030": "+20% Attack increase proportional to Defense",
+    "12450040": "-30s cooldown"
+   }
+  },
+  "12700000": {
+   "name": "Assault Fury",
+   "class": "templar",
+   "category": "stigma",
+   "specializations": {
+    "12700010": "+20% Attack for 5s on hit",
+    "12700020": "500 MP damage on hit",
+    "12700030": "+10m range",
+    "12700040": "+20% Stun Chance"
+   }
+  },
+  "12710000": {
+   "name": "Enhance Health",
+   "class": "templar",
+   "category": "passive",
+   "specializations": {}
+  },
+  "12720000": {
+   "name": "Warding Shield",
+   "class": "templar",
+   "category": "passive",
+   "specializations": {}
+  },
+  "12730000": {
+   "name": "Punishing Benediction",
+   "class": "templar",
+   "category": "passive",
+   "specializations": {}
+  },
+  "12740000": {
+   "name": "Ironclad Defense",
+   "class": "templar",
+   "category": "passive",
+   "specializations": {}
+  },
+  "12750000": {
+   "name": "Guarding Seal",
+   "class": "templar",
+   "category": "passive",
+   "specializations": {}
+  },
+  "12760000": {
+   "name": "Impact Hit",
+   "class": "templar",
+   "category": "passive",
+   "specializations": {}
+  },
+  "12770000": {
+   "name": "Insulting Roar",
+   "class": "templar",
+   "category": "passive",
+   "specializations": {}
+  },
+  "12780000": {
+   "name": "Fury",
+   "class": "templar",
+   "category": "passive",
+   "specializations": {}
+  },
+  "12790000": {
+   "name": "Survival Willpower",
+   "class": "templar",
+   "category": "passive",
+   "specializations": {}
+  },
+  "12800000": {
+   "name": "Block Pain",
+   "class": "templar",
+   "category": "passive",
+   "specializations": {}
+  },
+  "13010000": {
+   "name": "Quick Slice",
+   "class": "assassin",
+   "category": "active",
+   "specializations": {
+    "13010010": "+20% MP restored",
+    "13010020": "Absorbs 0.7% HP",
+    "13010030": "+50% Multi-Hit on hit",
+    "13010040": "-1s [Insignia Explosion] cooldown on hit",
+    "13010050": "Ignores Block and Evasion and lands as a Critical Hit"
+   }
+  },
+  "13020000": {
+   "name": "Throw Shadowblade",
+   "class": "assassin",
+   "category": "stigma",
+   "specializations": {
+    "13020010": "Adds [Shadowblade Pursuit] Chain Skill",
+    "13020020": "Resets cooldown on defeating an enemy",
+    "13020030": "Critical Hit on hit",
+    "13020040": "Changes to AoE Skill"
+   }
+  },
+  "13050000": {
+   "name": "Flash Slice",
+   "class": "assassin",
+   "category": "active",
+   "specializations": {
+    "13050010": "+2s Blind duration",
+    "13050020": "+6m Range",
+    "13050030": "Up to +20% damage when more targets hit",
+    "13050040": "+1 consecutive use",
+    "13050050": "50% chance to rotate and inflict Stun for 3s on hitting a target afflicted with Blind"
+   }
+  },
+  "13060000": {
+   "name": "Ambush",
+   "class": "assassin",
+   "category": "active",
+   "specializations": {
+    "13060010": "Engraves 2 Insignias for 10s on landing as a Back attack",
+    "13060020": "Absorbs 3% HP",
+    "13060030": "Breaks Protective Shields on hit",
+    "13060040": "50% chance to trigger [Whirlwind Slice] on hit",
+    "13060050": "+2 consecutive uses"
+   }
+  },
+  "13070000": {
+   "name": "Shadowstrike",
+   "class": "assassin",
+   "category": "active",
+   "specializations": {
+    "13070010": "+1s Stun duration",
+    "13070020": "+20% caster Critical Damage Boost for 10s on hit",
+    "13070030": "50% chance to inflict Seal for 5s on hit",
+    "13070040": "50% chance to inflict Root for 5s on hit",
+    "13070050": "Changes to AoE Skill"
+   }
+  },
+  "13080000": {
+   "name": "Evasion Stance",
+   "class": "assassin",
+   "category": "stigma",
+   "specializations": {
+    "13080010": "+1 consecutive use",
+    "13080020": "Changes to mobile skill",
+    "13080030": "+20% Move Speed for 3s on Evasion",
+    "13080040": "Restore 10% HP once after successfully evading"
+   }
+  },
+  "13100000": {
+   "name": "Savage Roar",
+   "class": "assassin",
+   "category": "active",
+   "specializations": {
+    "13100010": "-20% MP consumed",
+    "13100020": "+20% Skill Speed",
+    "13100030": "Deals up to 12% more damage when less targets are hit",
+    "13100040": "-1s [Shadowstrike] cooldown on hit",
+    "13100050": "Pulls nearby targets on using [Savage Smash]"
+   }
+  },
+  "13130000": {
+   "name": "Insignia Explosion",
+   "class": "assassin",
+   "category": "active",
+   "specializations": {
+    "13130010": "Adds rotate effect",
+    "13130020": "+50% Multi-Hit on hit",
+    "13130030": "Keep 2 stacks of Insignias after [Insignia Explosion]",
+    "13130040": "+1s Stun duration",
+    "13130050": "-3s cooldown"
+   }
+  },
+  "13140000": {
+   "name": "Shadowstep",
+   "class": "assassin",
+   "category": "stigma",
+   "specializations": {
+    "13140010": "40% chance to rotate and inflict Stun for 3s on hit",
+    "13140020": "Engraves 5 Insignias for 10s on hit",
+    "13140030": "+200 Evasion for 10s on use",
+    "13140040": "-15s cooldown"
+   }
+  },
+  "13180000": {
+   "name": "Shadow Walk",
+   "class": "assassin",
+   "category": "stigma",
+   "specializations": {
+    "13180010": "Critical Hit on attack during Stealth",
+    "13180020": "+20% Move Speed for the duration",
+    "13180030": "Available in combat",
+    "13180040": "Resets cooldown on player kill assists"
+   }
+  },
+  "13210000": {
+   "name": "Whirlwind Slice",
+   "class": "assassin",
+   "category": "active",
+   "specializations": {
+    "13210010": "+50% Multi-Hit on hit",
+    "13210020": "Changes to AoE damage",
+    "13210030": "+16m range",
+    "13210040": "+20% Stun Chance",
+    "13210050": "25% chance to reset [Whirlwind Slice] cooldown on Evasion"
+   }
+  },
+  "13220000": {
+   "name": "Shadow Fall",
+   "class": "assassin",
+   "category": "active",
+   "specializations": {
+    "13220010": "Absorbs 10% HP",
+    "13220020": "Engraves 3 Insignias for 10s on hit",
+    "13220030": "-5s cooldown",
+    "13220040": "+1s Knockdown duration",
+    "13220050": "Can be used on targets afflicted with Blind"
+   }
+  },
+  "13230000": {
+   "name": "Aerial Bind",
+   "class": "assassin",
+   "category": "stigma",
+   "specializations": {
+    "13230010": "+16m [Aerial Bind] range",
+    "13230020": "Adds [Aerial Slaughter] Chain Skill",
+    "13230030": "x1.5 [Ambush Stance] effect for 10s on first strike of [Aerial Bind]",
+    "13230040": "-30s cooldown"
+   }
+  },
+  "13250000": {
+   "name": "Smoke Bomb",
+   "class": "assassin",
+   "category": "stigma",
+   "specializations": {
+    "13250010": "+10m range",
+    "13250020": "Changes to AoE Skill",
+    "13250030": "Inflicts Slow for 5s on hit",
+    "13250040": "+1 consecutive use"
+   }
+  },
+  "13260000": {
+   "name": "Defiance",
+   "class": "assassin",
+   "category": "active",
+   "specializations": {
+    "13260010": "Adds [Storm Slice] Chain Skill",
+    "13260020": "Restores 1000 Stamina on using [Defiance]",
+    "13260030": "Restores 20% HP on using [Defiance]",
+    "13260040": "+2s Tenacity duration",
+    "13260050": "+50% PvE Damage Tolerance and +25% PvP Damage Tolerance for Tenacity duration"
+   }
+  },
+  "13270000": {
+   "name": "Savage Fang",
+   "class": "assassin",
+   "category": "stigma",
+   "specializations": {
+    "13270010": "Up to +20% damage when more targets hit",
+    "13270020": "+50 Stagger Gauge Damage",
+    "13270030": "+10% PvE Damage Boost and +5% PvP Damage Boost for 10s on hit",
+    "13270040": "Critical Hit on hit"
+   }
+  },
+  "13280000": {
+   "name": "Spiral Slice",
+   "class": "assassin",
+   "category": "stigma",
+   "specializations": {
+    "13280010": "Removes up to 2 buffs",
+    "13280020": "Rotates and inflicts Stun for 3s when removing 2 or more buffs",
+    "13280030": "Removes up to 3 buffs",
+    "13280040": "-30s cooldown"
+   }
+  },
+  "13300000": {
+   "name": "Triniel's Dagger",
+   "class": "assassin",
+   "category": "stigma",
+   "specializations": {
+    "13300010": "Changes to mobile skill",
+    "13300020": "-10% all skill cooldowns on hit",
+    "13300030": "Resets cooldown on defeating an enemy with [Triniel's Dagger]",
+    "13300040": "+3% all skill cooldowns"
+   }
+  },
+  "13310000": {
+   "name": "Illusive Clone",
+   "class": "assassin",
+   "category": "stigma",
+   "specializations": {
+    "13310010": "+10% Status Effect Chance for the duration",
+    "13310020": "+20% Critical Damage Boost for the duration",
+    "13310030": "x1.5 [Exploit Weakness] effect for the duration",
+    "13310040": "50% chance to deal extra damage on Critical Hit for the duration"
+   }
+  },
+  "13340000": {
+   "name": "Storm Rampage",
+   "class": "assassin",
+   "category": "active",
+   "specializations": {
+    "13340010": "Absorbs 5% HP",
+    "13340020": "Restores 120 MP on hit",
+    "13340030": "Changes to mobile skill",
+    "13340040": "Multi-Hit on hit",
+    "13340050": "-1s all skill cooldowns on hit"
+   }
+  },
+  "13350000": {
+   "name": "Heart Gore",
+   "class": "assassin",
+   "category": "active",
+   "specializations": {
+    "13350010": "Absorbs 0.7% HP",
+    "13350020": "Engraves 1 Insignia for 10s on hit",
+    "13350030": "Up to +20% Critical Hit when less targets hit",
+    "13350040": "Multi-Hit on hit",
+    "13350050": "Resets [Heart Gore] cooldown on landing a Critical Hit"
+   }
+  },
+  "13360000": {
+   "name": "Infiltrate",
+   "class": "assassin",
+   "category": "active",
+   "specializations": {
+    "13360010": "Restores 300 Stamina on landing [Infiltrate]",
+    "13360020": "+10m [Infiltrate] range",
+    "13360030": "Breaks Protective Shields on landing [Infiltrate]",
+    "13360040": "Adds [Dark Strike] Chain Skill",
+    "13360050": "+20% [Infiltrate] Blind Chance"
+   }
+  },
+  "13370000": {
+   "name": "Evasion Contract",
+   "class": "assassin",
+   "category": "stigma",
+   "specializations": {
+    "13370010": "25% chance of Projectile Immunity for the duration",
+    "13370020": "+30% Move Speed for the duration",
+    "13370030": "50% chance to reduce all skill cooldowns by 1s on Evasion for the duration",
+    "13370040": "+100 Evasion increase"
+   }
+  },
+  "13390000": {
+   "name": "Swift Contract",
+   "class": "assassin",
+   "category": "stigma",
+   "specializations": {
+    "13390010": "-20% MP Cost for the duration",
+    "13390020": "x1.5 [Rear Smite] effect for the duration",
+    "13390030": "x1.5 [Assault Stance] effect for the duration",
+    "13390040": "+10% additional Combat Speed"
+   }
+  },
+  "13700000": {
+   "name": "Assault Ambush",
+   "class": "assassin",
+   "category": "stigma",
+   "specializations": {
+    "13700010": "+20% Attack for 5s on hit",
+    "13700020": "500 MP damage on hit",
+    "13700030": "+10m range",
+    "13700040": "+20% Blind Chance"
+   }
+  },
+  "13710000": {
+   "name": "Heightened Sixth Sense",
+   "class": "assassin",
+   "category": "passive",
+   "specializations": {}
+  },
+  "13720000": {
+   "name": "Exploit Weakness",
+   "class": "assassin",
+   "category": "passive",
+   "specializations": {}
+  },
+  "13730000": {
+   "name": "Apply Poison",
+   "class": "assassin",
+   "category": "passive",
+   "specializations": {}
+  },
+  "13740000": {
+   "name": "Rear Smite",
+   "class": "assassin",
+   "category": "passive",
+   "specializations": {}
+  },
+  "13750000": {
+   "name": "Assault Stance",
+   "class": "assassin",
+   "category": "passive",
+   "specializations": {}
+  },
+  "13760000": {
+   "name": "Impact Hit",
+   "class": "assassin",
+   "category": "passive",
+   "specializations": {}
+  },
+  "13770000": {
+   "name": "Ambush Stance",
+   "class": "assassin",
+   "category": "passive",
+   "specializations": {}
+  },
+  "13780000": {
+   "name": "Defense Break",
+   "class": "assassin",
+   "category": "passive",
+   "specializations": {}
+  },
+  "13790000": {
+   "name": "Revitalization Contract",
+   "class": "assassin",
+   "category": "passive",
+   "specializations": {}
+  },
+  "13800000": {
+   "name": "Determination",
+   "class": "assassin",
+   "category": "passive",
+   "specializations": {}
+  },
+  "14010000": {
+   "name": "Deadshot",
+   "class": "ranger",
+   "category": "active",
+   "specializations": {
+    "14010010": "Removes MP consumed",
+    "14010020": "+30% Skill Speed",
+    "14010030": "Changes to mobile skill",
+    "14010040": "Ignores Block and Evasion and lands as Multi-Hit",
+    "14010050": "[Deadshot] grants extra damage on hit"
+   }
+  },
+  "14020000": {
+   "name": "Snipe",
+   "class": "ranger",
+   "category": "active",
+   "specializations": {
+    "14020010": "+20% MP restored",
+    "14020020": "Absorbs 0.7% HP",
+    "14020030": "+50% Multi-Hit on hit",
+    "14020040": "-1s [Deadshot] cooldown on hit",
+    "14020050": "Adds [Tempest Arrow] Chain Skill"
+   }
+  },
+  "14050000": {
+   "name": "Drill Dart",
+   "class": "ranger",
+   "category": "active",
+   "specializations": {
+    "14050010": "Absorbs 3% HP",
+    "14050020": "+2s Bleed duration",
+    "14050030": "+20% Skill Speed",
+    "14050040": "Multi-Hit on hit",
+    "14050050": "Activates [Drill Dart] 1 extra time"
+   }
+  },
+  "14060000": {
+   "name": "Griffon Arrow",
+   "class": "ranger",
+   "category": "stigma",
+   "specializations": {
+    "14060010": "Changes to mobile skill",
+    "14060020": "+5s Damage over Time duration",
+    "14060030": "Enhanced Crimson Flames - Extra damage when hit while afflicted with Crimson Flames",
+    "14060040": "-50% Damage over Time intervals"
+   }
+  },
+  "14070000": {
+   "name": "Suppressing Arrow",
+   "class": "ranger",
+   "category": "active",
+   "specializations": {
+    "14070010": "+50% Multi-Hit on hit",
+    "14070020": "+1s Stun duration",
+    "14070030": "+20% Skill Speed",
+    "14070040": "+20% Stun Chance",
+    "14070050": "25% chance to reset cooldown on hit"
+   }
+  },
+  "14080000": {
+   "name": "Burst Arrow",
+   "class": "ranger",
+   "category": "active",
+   "specializations": {
+    "14080010": "Absorbs 10% HP",
+    "14080020": "+50% Multi-Hit on hit",
+    "14080030": "Changes to mobile skill",
+    "14080040": "Up to +20% damage when less targets hit",
+    "14080050": "25% chance to reset cooldown on hit"
+   }
+  },
+  "14090000": {
+   "name": "Marking Shot",
+   "class": "ranger",
+   "category": "active",
+   "specializations": {
+    "14090010": "+5% Perfect Chance for the duration",
+    "14090020": "30% chance to inflict Knock Back on hit",
+    "14090030": "+5s duration",
+    "14090040": "+1 consecutive use",
+    "14090050": "Ignores Block and Evasion and lands as a Critical Hit"
+   }
+  },
+  "14110000": {
+   "name": "Gale Arrow",
+   "class": "ranger",
+   "category": "active",
+   "specializations": {
+    "14110010": "+5s duration",
+    "14110020": "50% chance to inflict Knock Back on hit",
+    "14110030": "Changes to mobile skill",
+    "14110040": "Increases Combat Speed, PvE Damage Boost, and PvP Damage Boost when less targets hit",
+    "14110050": "-10s cooldown"
+   }
+  },
+  "14120000": {
+   "name": "Ambush Kick",
+   "class": "ranger",
+   "category": "stigma",
+   "specializations": {
+    "14120010": "+5m Range",
+    "14120020": "10% Max HP Protective Shield for 5s on hit",
+    "14120030": "50% chance to inflict Stun for 3s on hit",
+    "14120040": "+50% Stun Chance"
+   }
+  },
+  "14130000": {
+   "name": "Snare Shot",
+   "class": "ranger",
+   "category": "active",
+   "specializations": {
+    "14130010": "+20% Move Speed reduction",
+    "14130020": "+20% Skill Speed",
+    "14130030": "Changes to mobile skill",
+    "14130040": "Adds [Shackling Arrow] Chain Skill",
+    "14130050": "+2s Slow and Root duration"
+   }
+  },
+  "14150000": {
+   "name": "Illusory Arrow",
+   "class": "ranger",
+   "category": "stigma",
+   "specializations": {
+    "14150010": "+1s Blind duration",
+    "14150020": "Changes to AoE Skill",
+    "14150030": "Inflicts Slow for 5s on hit",
+    "14150040": "+1 consecutive use"
+   }
+  },
+  "14160000": {
+   "name": "Sealing Arrow",
+   "class": "ranger",
+   "category": "stigma",
+   "specializations": {
+    "14160010": "50% chance to inflict Root for 5s on hit",
+    "14160020": "-1000 enemy Max Stamina for 5s on hit",
+    "14160030": "+2s Seal duration",
+    "14160040": "+25% Seal chance"
+   }
+  },
+  "14170000": {
+   "name": "Explosion Trap",
+   "class": "ranger",
+   "category": "active",
+   "specializations": {
+    "14170010": "Pulls enemies on explosion",
+    "14170020": "+1s Stun duration",
+    "14170030": "Extra damage after 3s on hit",
+    "14170040": "+20% Stun Chance",
+    "14170050": "+1 consecutive use"
+   }
+  },
+  "14180000": {
+   "name": "Ensnaring Trap",
+   "class": "ranger",
+   "category": "stigma",
+   "specializations": {
+    "14180010": "Adds [Guerilla Strike] Chain Skill",
+    "14180020": "Removes up to 2 buffs",
+    "14180030": "+1s Airborne duration",
+    "14180040": "-30s cooldown"
+   }
+  },
+  "14190000": {
+   "name": "Stealth",
+   "class": "ranger",
+   "category": "stigma",
+   "specializations": {
+    "14190010": "Critical Hit on attack during Stealth",
+    "14190020": "+20% Move Speed for the duration",
+    "14190030": "Available in combat",
+    "14190040": "+10s Stealth duration"
+   }
+  },
+  "14220000": {
+   "name": "Bow of Blessing",
+   "class": "ranger",
+   "category": "stigma",
+   "specializations": {
+    "14220010": "+50% Multi-Hit Chance for duration",
+    "14220020": "Increases Attack proportional to Critical Hit for the duration",
+    "14220030": "+20% Critical Damage Boost for the duration",
+    "14220040": "+7% Double Chance for the duration"
+   }
+  },
+  "14260000": {
+   "name": "Defiance",
+   "class": "ranger",
+   "category": "active",
+   "specializations": {
+    "14260010": "Adds [Lightning Arrow] Chain Skill",
+    "14260020": "Restores 1000 Stamina on using [Defiance]",
+    "14260030": "Restores 20% HP on using [Defiance]",
+    "14260040": "+2s Tenacity duration",
+    "14260050": "+50% PvE Damage Tolerance and +25% PvP Damage Tolerance for Tenacity duration"
+   }
+  },
+  "14270000": {
+   "name": "Arrow Storm",
+   "class": "ranger",
+   "category": "stigma",
+   "specializations": {
+    "14270010": "Up to +20% max damage when more targets hit",
+    "14270020": "Inflicts Slow for 10s on hit",
+    "14270030": "+1s Stun duration",
+    "14270040": "+25% Stun Chance"
+   }
+  },
+  "14310000": {
+   "name": "Vaizel's Authority",
+   "class": "ranger",
+   "category": "stigma",
+   "specializations": {
+    "14310010": "+10% Perfect Chance for the duration",
+    "14310020": "x1.5 [Focused Eye] effect for the duration",
+    "14310030": "x1.5 [Hunter's Soul] effect for the duration",
+    "14310040": "50% chance to reduce all skill cooldowns by 1s on Critical Hit for the duration"
+   }
+  },
+  "14330000": {
+   "name": "Arrow Scattershot",
+   "class": "ranger",
+   "category": "active",
+   "specializations": {
+    "14330010": "Absorbs 5% HP",
+    "14330020": "Restores 120 MP on hit",
+    "14330030": "Changes to mobile skill",
+    "14330040": "Multi-Hit on hit",
+    "14330050": "-1s all cooldowns on hit"
+   }
+  },
+  "14340000": {
+   "name": "Tempest Shot",
+   "class": "ranger",
+   "category": "active",
+   "specializations": {
+    "14340010": "-20% MP consumed",
+    "14340020": "+10% skill Critical Hit",
+    "14340030": "Deals up to 12% more damage when less targets are hit",
+    "14340040": "5% chance to inflict Knock Back on Critical Hit",
+    "14340050": "+20% Skill Speed"
+   }
+  },
+  "14350000": {
+   "name": "Mother Nature's Breath",
+   "class": "ranger",
+   "category": "stigma",
+   "specializations": {
+    "14350010": "Removes and grants immunity to Damage over Time effects",
+    "14350020": "x1.5 [Vigilant Eye] effect for the duration",
+    "14350030": "x1.5 [Unyielding Resolve] effect for the duration",
+    "14350040": "+20% PvE Damage Tolerance increase and +10% PvP Damage Tolerance increase"
+   }
+  },
+  "14360000": {
+   "name": "Explosive Arrow",
+   "class": "ranger",
+   "category": "stigma",
+   "specializations": {
+    "14360010": "-15s cooldown",
+    "14360020": "+10% additional damage to targets afflicted with Slow or Root",
+    "14360030": "Critical Hit on hit",
+    "14360040": "+20% additional damage to targets afflicted with Slow or Root"
+   }
+  },
+  "14380000": {
+   "name": "Supporting Fire",
+   "class": "ranger",
+   "category": "stigma",
+   "specializations": {
+    "14380010": "+25% activation chance",
+    "14380020": "+15s duration",
+    "14380030": "-30s cooldown",
+    "14380040": "Critical Hit on hit"
+   }
+  },
+  "14700000": {
+   "name": "Assault Smite",
+   "class": "ranger",
+   "category": "stigma",
+   "specializations": {
+    "14700010": "+20% Attack for 5s on hit",
+    "14700020": "500 MP damage on hit",
+    "14700030": "+10m range",
+    "14700040": "+20% Stun Chance"
+   }
+  },
+  "14710000": {
+   "name": "Vigilant Eye",
+   "class": "ranger",
+   "category": "passive",
+   "specializations": {}
+  },
+  "14720000": {
+   "name": "Concentrated Fire",
+   "class": "ranger",
+   "category": "passive",
+   "specializations": {}
+  },
+  "14730000": {
+   "name": "Wind Vigor",
+   "class": "ranger",
+   "category": "passive",
+   "specializations": {}
+  },
+  "14740000": {
+   "name": "Focused Eye",
+   "class": "ranger",
+   "category": "passive",
+   "specializations": {}
+  },
+  "14750000": {
+   "name": "Hunter's Resolve",
+   "class": "ranger",
+   "category": "passive",
+   "specializations": {}
+  },
+  "14760000": {
+   "name": "Unyielding Resolve",
+   "class": "ranger",
+   "category": "passive",
+   "specializations": {}
+  },
+  "14770000": {
+   "name": "Rooting Eye",
+   "class": "ranger",
+   "category": "passive",
+   "specializations": {}
+  },
+  "14780000": {
+   "name": "Melee Fire",
+   "class": "ranger",
+   "category": "passive",
+   "specializations": {}
+  },
+  "14790000": {
+   "name": "Revitalization Contract",
+   "class": "ranger",
+   "category": "passive",
+   "specializations": {}
+  },
+  "14800000": {
+   "name": "Hunter's Soul",
+   "class": "ranger",
+   "category": "passive",
+   "specializations": {}
+  },
+  "15010000": {
+   "name": "Flame Scattershot",
+   "class": "sorcerer",
+   "category": "active",
+   "specializations": {
+    "15010010": "Absorbs 5% HP",
+    "15010020": "Restores 120 MP",
+    "15010030": "Changes to mobile skill",
+    "15010040": "Multi-Hit on hit",
+    "15010050": "-1s all skill cooldowns on hit"
+   }
+  },
+  "15040000": {
+   "name": "Firestorm",
+   "class": "sorcerer",
+   "category": "active",
+   "specializations": {
+    "15040010": "-50% MP Cost",
+    "15040020": "+20% Skill Speed",
+    "15040030": "-60% Incoming Heal for 5s on hit",
+    "15040040": "-2s [Hellfire] cooldown per fireball",
+    "15040050": "+15% damage per fireball, up to +75%"
+   }
+  },
+  "15050000": {
+   "name": "Blaze",
+   "class": "sorcerer",
+   "category": "active",
+   "specializations": {
+    "15050010": "Absorbs 3% HP",
+    "15050020": "+50% MP restored",
+    "15050030": "Delayed Damage after 3s",
+    "15050040": "Multi-Hit on hit",
+    "15050050": "-3s [Wish of Concentration] cooldown on hit"
+   }
+  },
+  "15060000": {
+   "name": "Hellfire",
+   "class": "sorcerer",
+   "category": "active",
+   "specializations": {
+    "15060010": "+30% Skill Speed",
+    "15060020": "Fire Damage over Time for 10s on hit",
+    "15060030": "Changes to mobile skill",
+    "15060040": "Ignores Block and Evasion and lands as Multi-Hit",
+    "15060050": "-15s cooldown"
+   }
+  },
+  "15090000": {
+   "name": "Ice Chain",
+   "class": "sorcerer",
+   "category": "active",
+   "specializations": {
+    "15090010": "-20% MP Cost",
+    "15090020": "+20% Skill Speed",
+    "15090030": "Deals up to 12% more damage when less targets are hit",
+    "15090040": "-1s [Winter's Shackles] cooldown on hit",
+    "15090050": "5% chance to inflict Frost for 2s on landing [Cold Wave]"
+   }
+  },
+  "15110000": {
+   "name": "Winter's Shackles",
+   "class": "sorcerer",
+   "category": "active",
+   "specializations": {
+    "15110010": "Changes to mobile skill",
+    "15110020": "30% chance to inflict Frost for 3s on landing [Winter's Shackles]",
+    "15110030": "+20% PvE Damage Boost and +10% PvP Damage Boost for 5s on landing [Winter's Shackles]",
+    "15110040": "Adds [Winter's Illusion] Chain Skill",
+    "15110050": "-15s [Winter's Shackles] cooldown"
+   }
+  },
+  "15120000": {
+   "name": "Glacial Smite",
+   "class": "sorcerer",
+   "category": "stigma",
+   "specializations": {
+    "15120010": "Up to +20% damage when more targets hit",
+    "15120020": "-30s cooldown",
+    "15120030": "50% chance to inflict Frost for 3s",
+    "15120040": "Ignores Block and Evasion and lands as Multi-Hit"
+   }
+  },
+  "15130000": {
+   "name": "Soul Freeze",
+   "class": "sorcerer",
+   "category": "stigma",
+   "specializations": {
+    "15130010": "50% chance to inflict Root for 5s",
+    "15130020": "-1,000 Stamina",
+    "15130030": "+2s Seal duration",
+    "15130040": "+25% Seal chance"
+   }
+  },
+  "15140000": {
+   "name": "Curse: Tree",
+   "class": "sorcerer",
+   "category": "stigma",
+   "specializations": {
+    "15140010": "Increases number of hits required to remove Polymorph",
+    "15140020": "-200 Block, Evasion for 10s when Polymorph ends",
+    "15140030": "-20% Impact-type Resist for 10s when Polymorph ends",
+    "15140040": "Inflicts debuff even if Polymorph is removed through attacks"
+   }
+  },
+  "15150000": {
+   "name": "Frost",
+   "class": "sorcerer",
+   "category": "active",
+   "specializations": {
+    "15150010": "Restores 200 MP",
+    "15150020": "-5s cooldown",
+    "15150030": "Reset [Frost Burst] cooldown on landing Frost",
+    "15150040": "+25% PC target Frost Chance",
+    "15150050": "+1s Frost duration"
+   }
+  },
+  "15160000": {
+   "name": "Steel Barrier",
+   "class": "sorcerer",
+   "category": "stigma",
+   "specializations": {
+    "15160010": "+10% Move Speed",
+    "15160020": "HP Regen at fixed intervals",
+    "15160030": "+10% PvE Damage Tolerance increase and +5% PvP Damage Tolerance increase",
+    "15160040": "-15s cooldown"
+   }
+  },
+  "15200000": {
+   "name": "Cold Storm",
+   "class": "sorcerer",
+   "category": "stigma",
+   "specializations": {
+    "15200010": "Enhanced Frostbite - Grants extra damage when landing an attack",
+    "15200020": "30% chance to inflict Root for 2s",
+    "15200030": "+3s [Cold Storm] summoning duration",
+    "15200040": "+10s Frostbite duration"
+   }
+  },
+  "15210000": {
+   "name": "Flame Arrow",
+   "class": "sorcerer",
+   "category": "active",
+   "specializations": {
+    "15210010": "+20% MP restored",
+    "15210020": "Absorbs 1% HP",
+    "15210030": "+50% Multi-Hit on hit",
+    "15210040": "+5% Fire Damage Boost for 10s on activating [Pyroclasm]",
+    "15210050": "Reset [Blaze] cooldown on landing [Pyroclasm]"
+   }
+  },
+  "15220000": {
+   "name": "Frost Burst",
+   "class": "sorcerer",
+   "category": "active",
+   "specializations": {
+    "15220010": "Absorbs 7% HP",
+    "15220020": "Changes to mobile skill",
+    "15220030": "75% chance to Knock Back 2m",
+    "15220040": "Ignores Block and Evasion and lands as a Critical Hit",
+    "15220050": "50% chance to reset cooldown"
+   }
+  },
+  "15230000": {
+   "name": "Arctic Armor",
+   "class": "sorcerer",
+   "category": "stigma",
+   "specializations": {
+    "15230010": "+20% Impact-type Resist",
+    "15230020": "x1.5 [Absorb Essence] effect",
+    "15230030": "x1.5 [Robe of Cold] effect",
+    "15230040": "+20% PvE Damage Tolerance increase and +10% PvP Damage Tolerance increase"
+   }
+  },
+  "15240000": {
+   "name": "Defiance",
+   "class": "sorcerer",
+   "category": "active",
+   "specializations": {
+    "15240010": "Adds [Curse: Old Tree] Chain Skill",
+    "15240020": "Restores 1000 Stamina on using [Defiance]",
+    "15240030": "Restores 20% HP on using [Defiance]",
+    "15240040": "+2s Tenacity duration",
+    "15240050": "+50% PvE Damage Tolerance and +25% PvP Damage Tolerance for Tenacity duration"
+   }
+  },
+  "15280000": {
+   "name": "Bittercold Wind",
+   "class": "sorcerer",
+   "category": "active",
+   "specializations": {
+    "15280010": "+1s [Bittercold Wind] summon duration",
+    "15280020": "Changes to mobile skill",
+    "15280030": "Pull effect",
+    "15280040": "Ignores Block and Evasion and lands as a Critical Hit",
+    "15280050": "-1s [Frost] cooldown on hit"
+   }
+  },
+  "15300000": {
+   "name": "Lumiel's Space",
+   "class": "sorcerer",
+   "category": "stigma",
+   "specializations": {
+    "15300010": "Up to +20% damage when more targets hit",
+    "15300020": "Adds [The Depths] Chain Skill",
+    "15300030": "+1s [The Depths] Knockdown duration",
+    "15300040": "-30s [Lumiel's Space] cooldown"
+   }
+  },
+  "15310000": {
+   "name": "Wish of Concentration",
+   "class": "sorcerer",
+   "category": "active",
+   "specializations": {
+    "15310010": "Reduces MP Cost by 10%",
+    "15310020": "+10% additional Attack",
+    "15310030": "+500 Max MP",
+    "15310040": "+10% Combat Speed",
+    "15310050": "-10s all skill cooldowns"
+   }
+  },
+  "15320000": {
+   "name": "Delayed Explosion",
+   "class": "sorcerer",
+   "category": "stigma",
+   "specializations": {
+    "15320010": "Restores 200 MP",
+    "15320020": "-10s [Delayed Explosion] cooldown",
+    "15320030": "Changes to AoE Skill",
+    "15320040": "+10% additional Damage Taken"
+   }
+  },
+  "15360000": {
+   "name": "Divine Burst",
+   "class": "sorcerer",
+   "category": "stigma",
+   "specializations": {
+    "15360010": "+20% Skill Speed",
+    "15360020": "Absorbs 10% HP",
+    "15360030": "75% chance to inflict Knock Back",
+    "15360040": "Inflict Stun for 3s after Knock Back"
+   }
+  },
+  "15390000": {
+   "name": "Fire Wall",
+   "class": "sorcerer",
+   "category": "stigma",
+   "specializations": {
+    "15390010": "Enhanced Embers - Grants extra damage when landing an attack",
+    "15390020": "+2m wall width",
+    "15390030": "+2s [Fire Wall] summoning duration",
+    "15390040": "+10s Embers duration"
+   }
+  },
+  "15400000": {
+   "name": "Element Enhancement",
+   "class": "sorcerer",
+   "category": "stigma",
+   "specializations": {
+    "15400010": "+200 Accuracy",
+    "15400020": "x1.5 [Robe of Flame] effect",
+    "15400030": "x1.5 [Grace of Enhancement] effect",
+    "15400040": "+10% additional Fire and Water Attack"
+   }
+  },
+  "15410000": {
+   "name": "Hibernation",
+   "class": "sorcerer",
+   "category": "stigma",
+   "specializations": {
+    "15410010": "+100% Incoming Heal",
+    "15410020": "Restores 5% Max HP every 1s for the duration",
+    "15410030": "+2s duration",
+    "15410040": "Triggers when afflicted with Impact-type status"
+   }
+  },
+  "15700000": {
+   "name": "Assault Bombardment",
+   "class": "sorcerer",
+   "category": "stigma",
+   "specializations": {
+    "15700010": "+20% Attack for 5s on hit",
+    "15700020": "500 MP damage on hit",
+    "15700030": "+10m range",
+    "15700040": "+20% Frost Chance"
+   }
+  },
+  "15710000": {
+   "name": "Fire Mark",
+   "class": "sorcerer",
+   "category": "passive",
+   "specializations": {}
+  },
+  "15720000": {
+   "name": "Robe of Earth",
+   "class": "sorcerer",
+   "category": "passive",
+   "specializations": {}
+  },
+  "15730000": {
+   "name": "Cold Snap",
+   "class": "sorcerer",
+   "category": "passive",
+   "specializations": {}
+  },
+  "15740000": {
+   "name": "Robe of Flame",
+   "class": "sorcerer",
+   "category": "passive",
+   "specializations": {}
+  },
+  "15750000": {
+   "name": "Robe of Cold",
+   "class": "sorcerer",
+   "category": "passive",
+   "specializations": {}
+  },
+  "15760000": {
+   "name": "Absorb Essence",
+   "class": "sorcerer",
+   "category": "passive",
+   "specializations": {}
+  },
+  "15770000": {
+   "name": "Grace of Resistance",
+   "class": "sorcerer",
+   "category": "passive",
+   "specializations": {}
+  },
+  "15780000": {
+   "name": "Grace of Enhancement",
+   "class": "sorcerer",
+   "category": "passive",
+   "specializations": {}
+  },
+  "15790000": {
+   "name": "Revitalization Contract",
+   "class": "sorcerer",
+   "category": "passive",
+   "specializations": {}
+  },
+  "15800000": {
+   "name": "Vitality Evaporation",
+   "class": "sorcerer",
+   "category": "passive",
+   "specializations": {}
+  },
+  "16010000": {
+   "name": "Cold Shock",
+   "class": "elementalist",
+   "category": "active",
+   "specializations": {
+    "16010010": "+20% MP restored",
+    "16010020": "Absorbs 1% HP",
+    "16010030": "+50% Multi-Hit on hit",
+    "16010040": "+2% Attack on landing [Earth Tremor] (Up to 5 stacks)",
+    "16010050": "10% chance to remove 1 buff on landing [Earth Tremor]"
+   }
+  },
+  "16040000": {
+   "name": "Combustion",
+   "class": "elementalist",
+   "category": "active",
+   "specializations": {
+    "16040010": "-20% MP consumed",
+    "16040020": "Deals up to 12% more damage when less targets are hit",
+    "16040030": "+100 Skill Accuracy",
+    "16040040": "+20% Skill Speed",
+    "16040050": "Adds [Ashy Call] Chain Skill"
+   }
+  },
+  "16060000": {
+   "name": "Siphon",
+   "class": "elementalist",
+   "category": "stigma",
+   "specializations": {
+    "16060010": "+20% Skill Speed",
+    "16060020": "+5% HP absorbed",
+    "16060030": "30% of Max HP as Protective Shield for 30s on use",
+    "16060040": "Stun for 3s on hit"
+   }
+  },
+  "16070000": {
+   "name": "Soul's Cry",
+   "class": "elementalist",
+   "category": "active",
+   "specializations": {
+    "16070010": "+50% Multi-Hit on hit",
+    "16070020": "Inflicts Root for 5s",
+    "16070030": "Changes to mobile skill",
+    "16070040": "-10s cooldown",
+    "16070050": "+2s Fear duration"
+   }
+  },
+  "16080000": {
+   "name": "Cry of Terror",
+   "class": "elementalist",
+   "category": "stigma",
+   "specializations": {
+    "16080010": "Root for 5s on hit",
+    "16080020": "Up to +20% damage when more targets hit",
+    "16080030": "+2s Fear duration",
+    "16080040": "+20% Fear Chance"
+   }
+  },
+  "16100000": {
+   "name": "Summon: Fire Spirit",
+   "class": "elementalist",
+   "category": "active",
+   "specializations": {
+    "16100010": "-50% MP Cost",
+    "16100020": "+20% Fire Spirit Critical Hit damage",
+    "16100030": "10% chance to activate skill when Fire Spirit lands attack",
+    "16100040": "5% chance to inflict Knockdown for 3s on landing Fire Spirit attack",
+    "16100050": "+20% Fire Spirit Stats"
+   }
+  },
+  "16110000": {
+   "name": "Summon: Water Spirit",
+   "class": "elementalist",
+   "category": "active",
+   "specializations": {
+    "16110010": "-50% MP Cost",
+    "16110020": "+10% Water Spirit Attack",
+    "16110030": "10% chance to activate skill when Water Spirit lands attack",
+    "16110040": "5% chance to inflict Root for 2s on landing Water Spirit attack",
+    "16110050": "+20% Water Spirit Stats"
+   }
+  },
+  "16120000": {
+   "name": "Summon: Wind Spirit",
+   "class": "elementalist",
+   "category": "active",
+   "specializations": {
+    "16120010": "-50% MP Cost",
+    "16120020": "+20% Wind Spirit Critical Hit",
+    "16120030": "10% chance to activate skill when Wind Spirit lands attack",
+    "16120040": "5% chance to reduce enemy Attack Speed by 30% for 10s on landing Wind Spirit attack",
+    "16120050": "+20% Wind Spirit Stats"
+   }
+  },
+  "16130000": {
+   "name": "Summon: Earth Spirit",
+   "class": "elementalist",
+   "category": "active",
+   "specializations": {
+    "16130010": "-50% MP Cost",
+    "16130020": "+20% PvE Damage Tolerance and +10 PvP Damage Tolerance to Earth Spirit",
+    "16130030": "10% chance to activate skill when Earth Spirit lands attack",
+    "16130040": "5% chance to restore 5% of Spirit HP when landing Earth Spirit attack",
+    "16130050": "+20% Earth Spirit Stats"
+   }
+  },
+  "16140000": {
+   "name": "Jointstrike: Curse",
+   "class": "elementalist",
+   "category": "active",
+   "specializations": {
+    "16140010": "+2s Curse duration",
+    "16140020": "+50% Multi-Hit on hit",
+    "16140030": "Changes to mobile skill",
+    "16140040": "-2s cooldown",
+    "16140050": "[Jointstrike: Curse] ignores Block and Evasion and lands as a Critical Hit"
+   }
+  },
+  "16150000": {
+   "name": "Jointstrike: Corrode",
+   "class": "elementalist",
+   "category": "stigma",
+   "specializations": {
+    "16150010": "+15% extra damage taken from Spirit during Corrode",
+    "16150020": "-20% Combat Speed on hit for 10s",
+    "16150030": "-70% Incoming Heal during Corrode",
+    "16150040": "+10s Corrode effect duration"
+   }
+  },
+  "16170000": {
+   "name": "Command: Proxy",
+   "class": "elementalist",
+   "category": "stigma",
+   "specializations": {
+    "16170010": "+2s Command: Proxy duration",
+    "16170020": "+10% PVP Damage Tolerance increase and +5% PvP Damage Tolerance increase to Spirit",
+    "16170030": "x1.5 [Spirit Protection] effect during Command: Proxy",
+    "16170040": "Restores 3% of Spirit's HP every 1s for Command: Proxy duration"
+   }
+  },
+  "16190000": {
+   "name": "Enhance: Spirit's Benediction",
+   "class": "elementalist",
+   "category": "stigma",
+   "specializations": {
+    "16190010": "Restores 10% of Max HP on cast",
+    "16190020": "x1.5 [Spirit Strike] Damage Boost effect",
+    "16190030": "x1.5 activation chance and amount healed from [Spirit Communion]",
+    "16190040": "+25% PvE Damage Boost and Damage Tolerance, +12.5% PvP Damage Boost and Damage Tolerance for caster and Spirit"
+   }
+  },
+  "16200000": {
+   "name": "Defiance",
+   "class": "elementalist",
+   "category": "active",
+   "specializations": {
+    "16200010": "Adds [Curse of Despair] Chain Skill",
+    "16200020": "Restores 1000 Stamina on using [Defiance]",
+    "16200030": "Restores 20% HP on using [Defiance]",
+    "16200040": "+2s Tenacity duration",
+    "16200050": "+50% PvE Damage Tolerance and +25% PvP Damage Tolerance for Tenacity duration"
+   }
+  },
+  "16220000": {
+   "name": "Cursed Cloud",
+   "class": "elementalist",
+   "category": "stigma",
+   "specializations": {
+    "16220010": "-1000 enemy Max Stamina during Damage over Time",
+    "16220020": "-20% Max HP of PC targets during Damage over Time",
+    "16220030": "+10s Damage over Time duration",
+    "16220040": "-30% Status Effect Resist during Damage over Time"
+   }
+  },
+  "16230000": {
+   "name": "Seize Magic",
+   "class": "elementalist",
+   "category": "stigma",
+   "specializations": {
+    "16230010": "Removes up to 3 buffs",
+    "16230020": "Inflicts Seal for 5s when removing 3 or more buffs",
+    "16230030": "Removes up to 5 buffs",
+    "16230040": "-30s cooldown"
+   }
+  },
+  "16240000": {
+   "name": "Jointstrike: Destructive Attack",
+   "class": "elementalist",
+   "category": "stigma",
+   "specializations": {
+    "16240010": "Changes to Charge Skill, dealing up to 200% more [Jointstrike: Destructive Attack] damage",
+    "16240020": "+30% Skill Speed",
+    "16240030": "Critical Hit on hit",
+    "16240040": "Reset [Jointstrike: Curse] and [Jointstrike: Corrode] cooldown on landing [Jointstrike: Destructive Attack] first hit"
+   }
+  },
+  "16250000": {
+   "name": "Summon: Ancient Spirit",
+   "class": "elementalist",
+   "category": "stigma",
+   "specializations": {
+    "16250010": "+10% Ancient Spirit Attack",
+    "16250020": "x1.5 [Spirit's Descent] activation chance and damage for 30s",
+    "16250030": "Ancient Spirit uses skill after 5 basic attacks",
+    "16250040": "+20% Ancient Spirit Stats"
+   }
+  },
+  "16260000": {
+   "name": "Magic Block",
+   "class": "elementalist",
+   "category": "stigma",
+   "specializations": {
+    "16260010": "50% chance to inflict Root for 5s on hit",
+    "16260020": "-1000 enemy Max Stamina for 5s on hit",
+    "16260030": "+2s Seal duration",
+    "16260040": "+25% Seal chance"
+   }
+  },
+  "16300000": {
+   "name": "Elemental Fusion",
+   "class": "elementalist",
+   "category": "active",
+   "specializations": {
+    "16300010": "Changes to AoE Skill",
+    "16300020": "Extra damage after 3s on hit",
+    "16300030": "+10 all Element Boost on hit",
+    "16300040": "Changes to Charge Skill, dealing up to 200% more damage",
+    "16300050": "25% chance to regain Four Elements"
+   }
+  },
+  "16330000": {
+   "name": "Dimensional Control",
+   "class": "elementalist",
+   "category": "active",
+   "specializations": {
+    "16330010": "+20% Slow effect",
+    "16330020": "Extra damage after 3s on hit",
+    "16330030": "+50% Multi-Hit chance on hit",
+    "16330040": "Pull in nearby targets",
+    "16330050": "30% chance to inflict Root for 3s on hit"
+   }
+  },
+  "16340000": {
+   "name": "Rapid Scattershot",
+   "class": "elementalist",
+   "category": "active",
+   "specializations": {
+    "16340010": "Absorbs 5% HP",
+    "16340020": "Restores 120 MP",
+    "16340030": "Changes to mobile skill",
+    "16340040": "Multi-Hit on hit",
+    "16340050": "-1s all skill cooldowns on hit"
+   }
+  },
+  "16360000": {
+   "name": "Kaisinel's Power",
+   "class": "elementalist",
+   "category": "stigma",
+   "specializations": {
+    "16360010": "+150 Block and Evasion",
+    "16360020": "+15% Status Effect Resist",
+    "16360030": "+150 Accuracy",
+    "16360040": "+15% Status Effect Chance"
+   }
+  },
+  "16370000": {
+   "name": "Flame Blessing",
+   "class": "elementalist",
+   "category": "stigma",
+   "specializations": {
+    "16370010": "+100 Accuracy",
+    "16370020": "+100 Critical Hit",
+    "16370030": "+10% Critical Damage Boost",
+    "16370040": "-50% extra damage cooldown"
+   }
+  },
+  "16700000": {
+   "name": "Assault Terror",
+   "class": "elementalist",
+   "category": "stigma",
+   "specializations": {
+    "16700010": "+20% caster's Attack for 5s",
+    "16700020": "500 MP damage on hit",
+    "16700030": "+10m range",
+    "16700040": "+20% Fear Chance"
+   }
+  },
+  "16710000": {
+   "name": "Spirit Strike",
+   "class": "elementalist",
+   "category": "passive",
+   "specializations": {}
+  },
+  "16720000": {
+   "name": "Spirit Protection",
+   "class": "elementalist",
+   "category": "passive",
+   "specializations": {}
+  },
+  "16730000": {
+   "name": "Spirit's Descent",
+   "class": "elementalist",
+   "category": "passive",
+   "specializations": {}
+  },
+  "16740000": {
+   "name": "Corrode",
+   "class": "elementalist",
+   "category": "passive",
+   "specializations": {}
+  },
+  "16750000": {
+   "name": "Spirit Revitalization",
+   "class": "elementalist",
+   "category": "passive",
+   "specializations": {}
+  },
+  "16760000": {
+   "name": "Mental Focus",
+   "class": "elementalist",
+   "category": "passive",
+   "specializations": {}
+  },
+  "16770000": {
+   "name": "Spirit Communion",
+   "class": "elementalist",
+   "category": "passive",
+   "specializations": {}
+  },
+  "16780000": {
+   "name": "Element Unification",
+   "class": "elementalist",
+   "category": "passive",
+   "specializations": {}
+  },
+  "16790000": {
+   "name": "Revitalization Contract",
+   "class": "elementalist",
+   "category": "passive",
+   "specializations": {}
+  },
+  "16800000": {
+   "name": "Consecutive Countercurrent",
+   "class": "elementalist",
+   "category": "passive",
+   "specializations": {}
+  },
+  "17010000": {
+   "name": "Earth's Retribution",
+   "class": "cleric",
+   "category": "active",
+   "specializations": {
+    "17010010": "+20% MP restored",
+    "17010020": "+20% [Discharge] Chain Skill trigger chance",
+    "17010030": "+50% Multi-Hit on hit",
+    "17010040": "-7s [Bolt] cooldown on landing [Discharge]",
+    "17010050": "Ignores Block and Evasion"
+   }
+  },
+  "17040000": {
+   "name": "Judgment Thunder",
+   "class": "cleric",
+   "category": "active",
+   "specializations": {
+    "17040010": "-20% MP consumed",
+    "17040020": "Deals up to 12% more damage when less targets are hit",
+    "17040030": "-10% enemy Combat Speed for 5s on landing [Divine Punishment]",
+    "17040040": "10% chance to inflict Root for 2s on landing [Divine Punishment]",
+    "17040050": "Activates [Divine Punishment] 1 extra time"
+   }
+  },
+  "17060000": {
+   "name": "Bolt",
+   "class": "cleric",
+   "category": "active",
+   "specializations": {
+    "17060010": "30% chance to inflict Stun for 3s when fully charged",
+    "17060020": "+300 Skill Accuracy",
+    "17060030": "+30% Skill Speed",
+    "17060040": "Up to +20% damage when less targets hit",
+    "17060050": "Critical Hit on hit"
+   }
+  },
+  "17070000": {
+   "name": "Chain of Torment",
+   "class": "cleric",
+   "category": "active",
+   "specializations": {
+    "17070010": "Slows target for 5s",
+    "17070020": "+3s Damage over Time",
+    "17070030": "Has a 20% chance to inflict Knockdown on the target for 3s",
+    "17070040": "+10% PvE Damage Tolerance reduction and +5% PvP Damage Tolerance reduction",
+    "17070050": "Ignores Block and Evasion and reduces Damage over Time interval by 50%"
+   }
+  },
+  "17080000": {
+   "name": "Debilitating Mark",
+   "class": "cleric",
+   "category": "active",
+   "specializations": {
+    "17080010": "Removes MP Consumed and restores 150 MP",
+    "17080020": "-15% target Defense for duration of Damage over Time",
+    "17080030": "Has a 20% chance to inflict Stun on the target for 3s",
+    "17080040": "+10% PvE Damage Boost reduction and +5% PvP Damage Boost reduction",
+    "17080050": "Ignores Block and Evasion and reduces Damage over Time interval by 50%"
+   }
+  },
+  "17090000": {
+   "name": "Light of Regeneration",
+   "class": "cleric",
+   "category": "active",
+   "specializations": {
+    "17090010": "+5% Defense while healing",
+    "17090020": "+20% amount healed when HP is 50% or less",
+    "17090030": "+5% Incoming Heal during healing",
+    "17090040": "+5% Move Speed during healing",
+    "17090050": "+5% PvE Damage Tolerance and +2.5% PvP Damage Tolerance during healing"
+   }
+  },
+  "17100000": {
+   "name": "Healing Light",
+   "class": "cleric",
+   "category": "active",
+   "specializations": {
+    "17100010": "+2 consecutive uses",
+    "17100020": "+20% amount healed when HP is 50% or less",
+    "17100030": "50% chance to remove 1 debuff",
+    "17100040": "+2% HP restored",
+    "17100050": "-2s cooldown"
+   }
+  },
+  "17120000": {
+   "name": "Radiant Recovery",
+   "class": "cleric",
+   "category": "active",
+   "specializations": {
+    "17120010": "Removes up to 2 debuffs",
+    "17120020": "+1 consecutive use",
+    "17120030": "-3s cooldown",
+    "17120040": "+10% Incoming Heal for 10s",
+    "17120050": "+5% HP restored"
+   }
+  },
+  "17150000": {
+   "name": "Divine Aura",
+   "class": "cleric",
+   "category": "active",
+   "specializations": {
+    "17150010": "-40% Move Speed for 3s to up to 4 enemies within 4m of the Aura",
+    "17150020": "Changes to AoE Skill",
+    "17150030": "+50% [Divine Aura] attacking speed",
+    "17150040": "+3s [Divine Aura] duration",
+    "17150050": "-10s cooldown"
+   }
+  },
+  "17160000": {
+   "name": "Benevolence",
+   "class": "cleric",
+   "category": "stigma",
+   "specializations": {
+    "17160010": "+10s duration",
+    "17160020": "Restores 200 Stamina every 5s for the duration",
+    "17160030": "Restores 2% HP every 5s for the duration",
+    "17160040": "Cleansing effect every 5s for the duration"
+   }
+  },
+  "17190000": {
+   "name": "Root",
+   "class": "cleric",
+   "category": "stigma",
+   "specializations": {
+    "17190010": "Changes to mobile skill",
+    "17190020": "+2s Root duration",
+    "17190030": "+25% Root chance",
+    "17190040": "x2 Damage over Time on Root targets"
+   }
+  },
+  "17240000": {
+   "name": "Defiance",
+   "class": "cleric",
+   "category": "active",
+   "specializations": {
+    "17240010": "Adds [Blessing of Regeneration] Chain Skill",
+    "17240020": "Restores 1000 Stamina on using [Defiance]",
+    "17240030": "Restores 10% HP on using [Defiance]",
+    "17240040": "+2s Tenacity duration",
+    "17240050": "+50% PvE Damage Tolerance and +25% PvP Damage Tolerance for Tenacity duration"
+   }
+  },
+  "17270000": {
+   "name": "Salvation",
+   "class": "cleric",
+   "category": "stigma",
+   "specializations": {
+    "17270010": "+100% Incoming Heal",
+    "17270020": "Restores 20% of Max HP at the end of [Salvation]",
+    "17270030": "Grants base effect of [Salvation] to the party member with the lowest HP",
+    "17270040": "Triggers [Salvation] when afflicted with Impact-type status"
+   }
+  },
+  "17280000": {
+   "name": "Power Burst",
+   "class": "cleric",
+   "category": "stigma",
+   "specializations": {
+    "17280010": "+20% Skill Speed",
+    "17280020": "Critical Hit on hit",
+    "17280030": "75% chance to inflict Knock Back",
+    "17280040": "75% chance to inflict Stun for 3s"
+   }
+  },
+  "17290000": {
+   "name": "Absolution",
+   "class": "cleric",
+   "category": "stigma",
+   "specializations": {
+    "17290010": "-30s cooldown",
+    "17290020": "Removes all debuffs",
+    "17290030": "+5% HP restored",
+    "17290040": "Restores 1.5% HP every 2s for 10s"
+   }
+  },
+  "17300000": {
+   "name": "Voice of Doom",
+   "class": "cleric",
+   "category": "stigma",
+   "specializations": {
+    "17300010": "Up to +20% damage when more targets hit",
+    "17300020": "Removes Protective Shields on hit",
+    "17300030": "-200 Critical Hit Resist for duration",
+    "17300040": "-50% Damage over Time intervals"
+   }
+  },
+  "17350000": {
+   "name": "Condemnation",
+   "class": "cleric",
+   "category": "active",
+   "specializations": {
+    "17350010": "Restores 100 MP on hit",
+    "17350020": "Up to +12% damage when less targets hit",
+    "17350030": "20% chance to inflict Root for 3s",
+    "17350040": "Resets cooldown on landing a Critical Hit with [Condemnation]",
+    "17350050": "Multi-Hit on hit"
+   }
+  },
+  "17370000": {
+   "name": "Lightning Strike Scattershot",
+   "class": "cleric",
+   "category": "active",
+   "specializations": {
+    "17370010": "Absorbs 5% HP",
+    "17370020": "Restores 120 MP",
+    "17370030": "Changes to mobile skill",
+    "17370040": "Multi-Hit on hit",
+    "17370050": "-1s all skill cooldowns on hit"
+   }
+  },
+  "17390000": {
+   "name": "Summon Resurrection",
+   "class": "cleric",
+   "category": "stigma",
+   "specializations": {
+    "17390010": "-1s casting time",
+    "17390020": "Invincible for 3s after resurrection",
+    "17390030": "Restores 20% of Max HP",
+    "17390040": "Invincible for 5s after resurrection"
+   }
+  },
+  "17400000": {
+   "name": "Earth Punishment",
+   "class": "cleric",
+   "category": "stigma",
+   "specializations": {
+    "17400010": "[Condemnation] lands as a Critical Hit on targets afflicted with [Earth Punishment]",
+    "17400020": "+10% Double Chance to caster and +5% to party members from [Earth's Blessing]",
+    "17400030": "+10% Attack and Defense to caster and +5% to party members from [Earth's Blessing]",
+    "17400040": "+10s [Earth Punishment] and [Earth's Blessing] duration"
+   }
+  },
+  "17410000": {
+   "name": "Light of Protection",
+   "class": "cleric",
+   "category": "stigma",
+   "specializations": {
+    "17410010": "+10% Incoming Heal",
+    "17410020": "+100 Accuracy",
+    "17410030": "+10% Max HP",
+    "17410040": "+10% Perfect Chance"
+   }
+  },
+  "17420000": {
+   "name": "Yustiel's Power",
+   "class": "cleric",
+   "category": "stigma",
+   "specializations": {
+    "17420010": "10% Max HP Protective Shield",
+    "17420020": "+100 Block, Evasion",
+    "17420030": "+20% Status Effect Resist",
+    "17420040": "+10% PvE Damage Tolerance increase and +5% PvP Damage Tolerance increase"
+   }
+  },
+  "17430000": {
+   "name": "Prayer of Amplification",
+   "class": "cleric",
+   "category": "stigma",
+   "specializations": {
+    "17430010": "+20% PvE Damage Boost and +10% PvP Damage Boost",
+    "17430020": "x1.5 [Empyrean Lord's Grace] effect for the duration",
+    "17430030": "x1.5 [Earth's Grace] effect for the duration",
+    "17430040": "+15% additional Attack"
+   }
+  },
+  "17440000": {
+   "name": "Noble Aura",
+   "class": "cleric",
+   "category": "stigma",
+   "specializations": {
+    "17440010": "+200 Aura Critical Hit",
+    "17440020": "+20 damage to targets afflicted with Debilitating Mark",
+    "17440030": "+30% damage to targets with Incapacitated Immunity",
+    "17440040": "-1s Aura attack cooldown"
+   }
+  },
+  "17700000": {
+   "name": "Assault Mark",
+   "class": "cleric",
+   "category": "stigma",
+   "specializations": {
+    "17700010": "+20% Attack for 5s on hit",
+    "17700020": "500 MP damage on hit",
+    "17700030": "+10m range",
+    "17700040": "+20% Root Chance"
+   }
+  },
+  "17710000": {
+   "name": "Warm Benediction",
+   "class": "cleric",
+   "category": "passive",
+   "specializations": {}
+  },
+  "17720000": {
+   "name": "Empyrean Lords' Benediction",
+   "class": "cleric",
+   "category": "passive",
+   "specializations": {}
+  },
+  "17730000": {
+   "name": "Empyrean Lord's Grace",
+   "class": "cleric",
+   "category": "passive",
+   "specializations": {}
+  },
+  "17740000": {
+   "name": "Healing Enhancement",
+   "class": "cleric",
+   "category": "passive",
+   "specializations": {}
+  },
+  "17750000": {
+   "name": "Immortal Veil",
+   "class": "cleric",
+   "category": "passive",
+   "specializations": {}
+  },
+  "17760000": {
+   "name": "Heal Block",
+   "class": "cleric",
+   "category": "passive",
+   "specializations": {}
+  },
+  "17770000": {
+   "name": "Prayer of Concentration",
+   "class": "cleric",
+   "category": "passive",
+   "specializations": {}
+  },
+  "17780000": {
+   "name": "Earth's Grace",
+   "class": "cleric",
+   "category": "passive",
+   "specializations": {}
+  },
+  "17790000": {
+   "name": "Survival Willpower",
+   "class": "cleric",
+   "category": "passive",
+   "specializations": {}
+  },
+  "17800000": {
+   "name": "Radiant Benediction",
+   "class": "cleric",
+   "category": "passive",
+   "specializations": {}
+  },
+  "18010000": {
+   "name": "Onslaught",
+   "class": "chanter",
+   "category": "active",
+   "specializations": {
+    "18010010": "+20% MP restored",
+    "18010020": "Absorbs 0.7% HP",
+    "18010030": "+50% Multi-Hit on hit",
+    "18010040": "-1s [Spinning Strike] cooldown on hit",
+    "18010050": "Adds [Storm Chain] Chain Skill"
+   }
+  },
+  "18040000": {
+   "name": "Incandescent Blow",
+   "class": "chanter",
+   "category": "active",
+   "specializations": {
+    "18040010": "-20% MP consumed",
+    "18040020": "+200 Block while using skill",
+    "18040030": "Deals up to 12% more damage when less targets are hit",
+    "18040040": "-200 enemy Accuracy for 3s on landing Bursting Blow",
+    "18040050": "Ignores Block and Evasion and lands as Multi-Hit"
+   }
+  },
+  "18060000": {
+   "name": "Impactful Crush",
+   "class": "chanter",
+   "category": "active",
+   "specializations": {
+    "18060010": "Changes to AoE damage",
+    "18060020": "+1s [Impactful Crush] Stun duration",
+    "18060030": "Changes to mobile skill",
+    "18060040": "+30% Skill Speed",
+    "18060050": "+20% [Impactful Crush] Stun Chance"
+   }
+  },
+  "18080000": {
+   "name": "Wave Blow",
+   "class": "chanter",
+   "category": "active",
+   "specializations": {
+    "18080010": "Multi-Hit on hit",
+    "18080020": "+6m Range",
+    "18080030": "+1s Knockdown duration",
+    "18080040": "-15% target's PvE Damage Boost and -7.5% PvP Damage Boost for 10s",
+    "18080050": "-5s cooldown"
+   }
+  },
+  "18090000": {
+   "name": "Rushing Smash",
+   "class": "chanter",
+   "category": "active",
+   "specializations": {
+    "18090010": "-20% target's Impact-type Resist for 5s",
+    "18090020": "Changes to Charge Skill, dealing up to 200% more damage",
+    "18090030": "50% chance to trigger [Heat Wave Blow] on hit",
+    "18090040": "Resets cooldown on defeating an enemy",
+    "18090050": "Ignores Block and Evasion and lands as Multi-Hit"
+   }
+  },
+  "18100000": {
+   "name": "Dark Crush",
+   "class": "chanter",
+   "category": "active",
+   "specializations": {
+    "18100010": "Absorbs 0.7% HP",
+    "18100020": "Deals extra damage on attacking a target afflicted with Impact-type status",
+    "18100030": "Critical Hit on hit",
+    "18100040": "Adds [Piercing Strike] Chain Skill",
+    "18100050": "Removes [Dark Crush] cooldown"
+   }
+  },
+  "18120000": {
+   "name": "Recuperation",
+   "class": "chanter",
+   "category": "active",
+   "specializations": {
+    "18120010": "+1 consecutive use and Heal over Time can stack up to 2 times",
+    "18120020": "Removes up to 2 debuffs",
+    "18120030": "+4s healing duration",
+    "18120040": "+5% HP restored",
+    "18120050": "-3s cooldown"
+   }
+  },
+  "18130000": {
+   "name": "Fracturing Blow",
+   "class": "chanter",
+   "category": "stigma",
+   "specializations": {
+    "18130010": "-15s cooldown",
+    "18130020": "Inflict Exposed for 5s on hit",
+    "18130030": "Critical Hit on hit",
+    "18130040": "+30% additional Impact-type Status target damage"
+   }
+  },
+  "18140000": {
+   "name": "Focused Defense",
+   "class": "chanter",
+   "category": "stigma",
+   "specializations": {
+    "18140010": "+1 consecutive use",
+    "18140020": "Changes to mobile skill",
+    "18140030": "+20% Move Speed for 3s on Block",
+    "18140040": "Restores 5% HP once on Parry"
+   }
+  },
+  "18150000": {
+   "name": "Heat Wave Blow",
+   "class": "chanter",
+   "category": "active",
+   "specializations": {
+    "18150010": "40% chance to inflict Stun for 3s",
+    "18150020": "+20% Seal Chance",
+    "18150030": "Up to +20% damage when more targets hit",
+    "18150040": "Ignores Block and Evasion and lands as Multi-Hit",
+    "18150050": "25% chance to reset [Heat Wave Blow] cooldown on Block"
+   }
+  },
+  "18160000": {
+   "name": "Sprint Mantra",
+   "class": "chanter",
+   "category": "stigma",
+   "specializations": {
+    "18160010": "+10% Incoming Heal",
+    "18160020": "+30% Natural Stamina Regen",
+    "18160030": "+50% amount restored when HP is 50% or less",
+    "18160040": "+10% Restoration"
+   }
+  },
+  "18170000": {
+   "name": "Healing Touch",
+   "class": "chanter",
+   "category": "stigma",
+   "specializations": {
+    "18170010": "+20% amount healed when HP is 50% or less",
+    "18170020": "Restores 1000 Stamina",
+    "18170030": "Removes 5 debuff(s)",
+    "18170040": "+5% HP restored"
+   }
+  },
+  "18190000": {
+   "name": "Undefeated Mantra",
+   "class": "chanter",
+   "category": "stigma",
+   "specializations": {
+    "18190010": "+100 Critical Hit",
+    "18190020": "+100 Accuracy",
+    "18190030": "+5% Critical Damage Boost",
+    "18190040": "+5% Double Chance"
+   }
+  },
+  "18200000": {
+   "name": "Defiance",
+   "class": "chanter",
+   "category": "active",
+   "specializations": {
+    "18200010": "Adds [Crushing Strike] Chain Skill",
+    "18200020": "Restores 1000 Stamina on using [Defiance]",
+    "18200030": "Restores 10% HP on using [Defiance]",
+    "18200040": "+2s Tenacity duration",
+    "18200050": "+50% PvE Damage Tolerance and +25% PvP Damage Tolerance for Tenacity duration"
+   }
+  },
+  "18210000": {
+   "name": "Tremor Crush",
+   "class": "chanter",
+   "category": "active",
+   "specializations": {
+    "18210010": "Restores 300 Stamina on hit",
+    "18210020": "+10m [Tremor Crush] range",
+    "18210030": "+50% Multi-Hit on hit",
+    "18210040": "Adds [Surging Strike] Chain Skill",
+    "18210050": "+25% [Tremor Crush] Stun Chance"
+   }
+  },
+  "18220000": {
+   "name": "Obliterate",
+   "class": "chanter",
+   "category": "stigma",
+   "specializations": {
+    "18220010": "Up to +20% damage when more targets hit",
+    "18220020": "+20% Skill Speed",
+    "18220030": "Critical Hit on hit",
+    "18220040": "+25% Knockdown Chance"
+   }
+  },
+  "18230000": {
+   "name": "Ensnaring Mark",
+   "class": "chanter",
+   "category": "stigma",
+   "specializations": {
+    "18230010": "50% chance to inflict Root",
+    "18230020": "50% chance to inflict -1000 enemy Max Stamina",
+    "18230030": "+3s Seal, Root, Max Stamina reduction effect",
+    "18230040": "+25% Seal, Root, Max Stamina reduction chance"
+   }
+  },
+  "18240000": {
+   "name": "Impeding Authority",
+   "class": "chanter",
+   "category": "stigma",
+   "specializations": {
+    "18240010": "+15% Defense",
+    "18240020": "+10% Incoming Heal",
+    "18240030": "+10% PvE Damage Tolerance, +5% PvP Damage Tolerance",
+    "18240040": "Restores 7% of Max HP when Protective Shield ends or is broken"
+   }
+  },
+  "18250000": {
+   "name": "Power of the Storm",
+   "class": "chanter",
+   "category": "stigma",
+   "specializations": {
+    "18250010": "-30s cooldown",
+    "18250020": "+200 Accuracy",
+    "18250030": "+200 Critical Hit",
+    "18250040": "+20% Caster Attack and +10% party member Attack"
+   }
+  },
+  "18290000": {
+   "name": "Spinning Strike",
+   "class": "chanter",
+   "category": "active",
+   "specializations": {
+    "18290010": "-5s cooldown",
+    "18290020": "+10% Heal Boost (up to 20%)",
+    "18290030": "Up to +20% damage when less targets hit",
+    "18290040": "40% chance to inflict Seal for 3s",
+    "18290050": "Ignores Block and Evasion and lands as a Critical Hit"
+   }
+  },
+  "18300000": {
+   "name": "Gust Rampage",
+   "class": "chanter",
+   "category": "active",
+   "specializations": {
+    "18300010": "Absorbs 5% HP",
+    "18300020": "Restores 120 MP",
+    "18300030": "Changes to mobile skill",
+    "18300040": "Multi-Hit on hit",
+    "18300050": "-1s all skill cooldowns on hit"
+   }
+  },
+  "18330000": {
+   "name": "Marchutan's Wrath",
+   "class": "chanter",
+   "category": "stigma",
+   "specializations": {
+    "18330010": "Up to +20% damage when less targets hit",
+    "18330020": "50% chance to inflict Stun for 3s",
+    "18330030": "-70% Incoming Heal and Potion Recovery",
+    "18330040": "+25% additional Stun Chance"
+   }
+  },
+  "18420000": {
+   "name": "Guardian Blessing",
+   "class": "chanter",
+   "category": "stigma",
+   "specializations": {
+    "18420010": "+10% Status Effect Resist",
+    "18420020": "x1.5 [Crossguard] effect for the duration",
+    "18420030": "x1.5 [Wind's Promise] effect for the duration",
+    "18420040": "+10% Incoming Heal"
+   }
+  },
+  "18440000": {
+   "name": "Barrier Spell",
+   "class": "chanter",
+   "category": "stigma",
+   "specializations": {
+    "18440010": "Restores 10% HP when effect expires naturally",
+    "18440020": "+10% PvE Damage Tolerance and +5% PvP Damage Tolerance for 10s when effect expires naturally",
+    "18440030": "+10% HP limit",
+    "18440040": "+1s effect duration"
+   }
+  },
+  "18700000": {
+   "name": "Assault Shock",
+   "class": "chanter",
+   "category": "stigma",
+   "specializations": {
+    "18700010": "+20% Attack for 5s on hit",
+    "18700020": "500 MP damage on hit",
+    "18700030": "+10m range",
+    "18700040": "+20% Stun Chance"
+   }
+  },
+  "18710000": {
+   "name": "Blessing of Life",
+   "class": "chanter",
+   "category": "passive",
+   "specializations": {}
+  },
+  "18720000": {
+   "name": "Crossguard",
+   "class": "chanter",
+   "category": "passive",
+   "specializations": {}
+  },
+  "18730000": {
+   "name": "Protection Circle",
+   "class": "chanter",
+   "category": "passive",
+   "specializations": {}
+  },
+  "18740000": {
+   "name": "Inspiring Spell",
+   "class": "chanter",
+   "category": "passive",
+   "specializations": {}
+  },
+  "18750000": {
+   "name": "Attack Preparation",
+   "class": "chanter",
+   "category": "passive",
+   "specializations": {}
+  },
+  "18760000": {
+   "name": "Impact Hit",
+   "class": "chanter",
+   "category": "passive",
+   "specializations": {}
+  },
+  "18770000": {
+   "name": "Raging Spell",
+   "class": "chanter",
+   "category": "passive",
+   "specializations": {}
+  },
+  "18780000": {
+   "name": "Earth's Promise",
+   "class": "chanter",
+   "category": "passive",
+   "specializations": {}
+  },
+  "18790000": {
+   "name": "Survival Willpower",
+   "class": "chanter",
+   "category": "passive",
+   "specializations": {}
+  },
+  "18800000": {
+   "name": "Wind's Promise",
+   "class": "chanter",
+   "category": "passive",
+   "specializations": {}
+  }
+ }
+}
