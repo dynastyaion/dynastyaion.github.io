@@ -134,8 +134,8 @@
   text-transform: uppercase;
   opacity: 0.8;
 }
-.build-prio ol,
-.build-macro ol {
+.build-prio > ol,
+.build-macro > ol {
   display: flex;
   flex-wrap: wrap;
   gap: 12px 22px;
@@ -143,10 +143,10 @@
   padding: 6px 0 0 6px;
   list-style: none;
 }
-.build-prio li,
-.build-macro li { position: relative; width: 44px; }
-.build-prio li + li::before,
-.build-macro li + li::before {
+.build-prio > ol > li,
+.build-macro > ol > li { position: relative; width: 44px; }
+.build-prio > ol > li + li::before,
+.build-macro > ol > li + li::before {
   content: "›";
   position: absolute;
   left: -16px;
