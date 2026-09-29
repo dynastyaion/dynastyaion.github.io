@@ -67,5 +67,8 @@ Notes:
 ## Macros
 
 - Mouse macro software to spam LMB alongside the in-game macro to weave; can put marking shot as part of the macro but honestly wouldn't recommend it given how disruptive it is since it doesn't need to be used on CD but rather when the buff is about to fall off. Deadshot on cooldown; be wary of resets on it to spam if needed (it loves to reset twice in a row).
-- Only use Explosion Trap on trash packs to gather them up\
-  ![Ranger macro screenshot 1](../images/classes/ranger/macro-1.png) ![Ranger macro screenshot 2](../images/classes/ranger/macro-2.png)
+- Only use Explosion Trap on trash packs to gather them up
+
+![Ranger macro screenshot 1](../images/classes/ranger/macro-1.png)
+
+![Ranger macro screenshot 2](../images/classes/ranger/macro-2.png)

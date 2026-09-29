@@ -68,5 +68,8 @@ Notes:
 ## Macros
 
 - Hellfire on engage; drop ground debuffs on CD as they come back, pump as much Hellfire as possible with CDR procs.
-- Mouse macro software for LMB alongside in-game macro.\
-  ![Sorcerer macro screenshot 1](../images/classes/sorcerer/macro-1.png) ![Sorcerer macro screenshot 2](../images/classes/sorcerer/macro-2.png)
+- Mouse macro software for LMB alongside in-game macro.
+
+![Sorcerer macro screenshot 1](../images/classes/sorcerer/macro-1.png)
+
+![Sorcerer macro screenshot 2](../images/classes/sorcerer/macro-2.png)

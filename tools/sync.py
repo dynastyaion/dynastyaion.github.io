@@ -476,9 +476,11 @@ class Page:
                 self.add(self.block_start(block))
         elif numpr is not None:
             text = "\\\n".join(ln for ln in self.lines(segs, videos) if ln)
-            images = self.image_md(segs)  # kept inside the list item
-            segs = [s for s in segs if s.kind != "img"]
-            text = "\\\n".join(x for x in [text, " ".join(images)] if x)
+            if not text and any(s.kind == "img" for s in segs):
+                # a bullet that is just an image stays in the list; images after
+                # a bullet's text are placed after the list, full width
+                text = " ".join(self.image_md(segs))
+                segs = [s for s in segs if s.kind != "img"]
             if text:
                 level = int(wval(numpr, "ilvl") or 0)
                 fmt = self.ctx.list_format(wval(numpr, "numId"), level)
