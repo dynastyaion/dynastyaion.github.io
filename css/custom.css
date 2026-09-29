@@ -16,3 +16,155 @@
 .content .center {
   text-align: center;
 }
+
+/* Skill build widget (tools/build_widget.py) */
+.build {
+  --build-active: #4f8fdc;
+  --build-stigma: #a070d0;
+  --build-passive: #d04a64;
+  --build-lvl: #9b6bd6;
+  --build-specs: #4a9be8;
+  --build-slot: color-mix(in srgb, var(--fg) 18%, transparent);
+  margin: 1em 0 1.5em;
+  display: grid;
+  gap: 12px;
+}
+.build-panel {
+  border: 1px solid var(--table-border-color);
+  border-radius: 8px;
+  background: var(--quote-bg);
+  padding: 12px 14px 14px;
+}
+.build-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* hotbar: 12 columns x 4 rows (row 0 at the bottom) + key labels */
+.build-hotbar {
+  container-type: inline-size;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 6px;
+  max-width: 660px;
+  margin: 0 auto;
+}
+.build-slot { aspect-ratio: 1; min-width: 0; }
+.build-empty { border: 1px dashed var(--build-slot); border-radius: 5px; }
+.build-key {
+  text-align: center;
+  font-size: clamp(9px, 1.9cqi, 12px);
+  line-height: 1.8;
+  border: 1px solid var(--build-slot);
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+/* a skill icon with badges and a hover/tap card */
+.build-skill {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 5px;
+  outline: 2px solid var(--build-cat, transparent);
+  outline-offset: -1px;
+  cursor: help;
+}
+.build-skill > img { display: block; width: 100%; height: 100%; border-radius: 5px; }
+.build-active { --build-cat: var(--build-active); }
+.build-stigma { --build-cat: var(--build-stigma); }
+.build-passive { --build-cat: var(--build-passive); }
+.build-noicon { display: grid; place-items: center; height: 100%; font-size: 9px; text-align: center; }
+.build-badge {
+  position: absolute;
+  min-width: 1.6em;
+  height: 1.6em;
+  padding: 0 0.3em;
+  box-sizing: border-box;
+  border-radius: 1em;
+  font-size: clamp(8px, 1.8cqi, 11px);
+  line-height: 1.6em;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  pointer-events: none;
+}
+.build-lvl { right: -5px; bottom: -5px; background: var(--build-lvl); }
+.build-specs { left: -5px; top: -5px; background: var(--build-specs); }
+.build-idx { left: -5px; top: -5px; background: #222; border: 1px solid #555; }
+.build-tip {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 240px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--build-cat);
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: left;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.35);
+  cursor: auto;
+}
+.build-skill:hover .build-tip,
+.build-skill:focus .build-tip { display: block; }
+.build-tip-name { display: block; }
+.build-tip-meta { display: block; opacity: 0.75; font-size: 12px; }
+.build-tip ul { margin: 6px 0 0; padding-left: 16px; }
+
+/* priority rows and macros: icons joined by arrows */
+.build-prio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-top: 1px solid var(--table-border-color);
+}
+.build-prio-label {
+  flex: 0 0 64px;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.build-prio ol,
+.build-macro ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 22px;
+  margin: 0;
+  padding: 6px 0 0 6px;
+  list-style: none;
+}
+.build-prio li,
+.build-macro li { position: relative; width: 44px; }
+.build-prio li + li::before,
+.build-macro li + li::before {
+  content: "›";
+  position: absolute;
+  left: -16px;
+  top: 50%;
+  transform: translateY(-55%);
+  opacity: 0.6;
+  font-size: 18px;
+}
+.build-prio .build-badge,
+.build-macro .build-badge { font-size: 10px; }
+.build-macro {
+  border: 1px solid var(--table-border-color);
+  border-radius: 6px;
+  padding: 10px 12px;
+}
+.build-macro-name { font-weight: 600; margin-bottom: 6px; }
+.build-delay { display: block; text-align: center; font-size: 11px; opacity: 0.75; margin-top: 4px; }
+@media (max-width: 520px) {
+  .build-prio { flex-direction: column; align-items: flex-start; }
+  .build-prio-label { flex-basis: auto; }
+}
