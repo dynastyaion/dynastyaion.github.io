@@ -45,7 +45,7 @@ Notes:
 
 Notes:
 
-- **Lv20 Priority** Illusive Clone > Swift Contract > Triniel's Dagger
+- **Lv20 Priority:** Illusive Clone > Swift Contract > Triniel's Dagger
 
 🟥- Mandatory 🟦- Situational 🟫- Don’t Use
 
