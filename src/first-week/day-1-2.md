@@ -19,6 +19,11 @@ To get this fast, get yourself 2x runes. Each increases gear score by 40.
 
 Also, getting your pilgrim accessories will help you get an easy gear score at this point.
 
+Some quests that give you a run chest box:
+
+- Cursed Blue Mineral - lvl 30 in Aullaeu Village
+- Zumion’s Call: Part Two - lvl 37 in Western Altamia Highland
+
 ---
 
 ### 3) Do all sealed dungeons on Asmodian side + all sealed dungeons on Elyos side (2-3 rifts in total) = around 1650 gear score then all Abyss Feathers
