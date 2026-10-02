@@ -88,6 +88,14 @@ In KR, a full clear gives roughly **550 Daevanion points**, which is 550 free GS
 
 Global totals may differ a little, but it's the single biggest GS jump available right after 45.
 
+In Global, a full clear will give you roughly **428 Daevanion points,** which is 428 free GS.
+
+Where it comes from:
+
+- 61 seal dungeons x 2 points each = 244
+- About 100 side quests x 1 point = \~100
+- The rest from Shugo and Nightmare shop purchases
+
 ### GS milestones
 
 | Target | Unlocks | Rough gear at this point |
