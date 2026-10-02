@@ -19,10 +19,10 @@ To get this fast, get yourself 2x runes. Each increases gear score by 40.
 
 Also, getting your pilgrim accessories will help you get an easy gear score at this point.
 
-Some quests that give you a run chest box:
+Some quests that give you a rune chest box:
 
-- Cursed Blue Mineral - lvl 30 in Aullaeu Village
-- Zumion’s Call: Part Two - lvl 37 in Western Altamia Highland
+- [The Future Within The Past](https://wikily.gg/aion-2/quests/the-future-within-the-past) - lvl 30 - Talk to Harald at the Abandoned Site
+- [Fallout](https://wikily.gg/aion-2/quests/fallout) - lvl 45 - Talk to Karumba at Zemurru's Tomb - **Note:** You need to clear the MSQ Draupnir dungeon for this to open up
 
 ---
 

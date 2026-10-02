@@ -53,7 +53,7 @@ Notes:
 |---|---|---|---|---|
 | **Shield of Protection** | <img src="../images/classes/templar/stigma-shield-of-protection.png" alt="Shield of Protection" width="40"> |  | 3rd Prio | 🟥 Mandatory |
 | **Taunt** | <img src="../images/classes/templar/stigma-taunt.png" alt="Taunt" width="40"> |  | 1st Prio | 🟥 Mandatory |
-| **Doom Shield** | <img src="../images/classes/templar/stigma-doom-shield.png" alt="Doom Shield" width="40"> |  | 5th Prio (Can be used for raids for better movement) | 🟥 Mandatory |
+| **Doom Shield** | <img src="../images/classes/templar/stigma-doom-shield.png" alt="Doom Shield" width="40"> |  | 5th Prio (Can be used for better movement in raids) | 🟥 Mandatory |
 | **Noble Armor** | <img src="../images/classes/templar/stigma-noble-armor.png" alt="Noble Armor" width="40"> |  | 4th Prio | 🟥 Mandatory |
 | **Battlefield Banner** | <img src="../images/classes/templar/stigma-battlefield-banner.png" alt="Battlefield Banner" width="40"> |  | 2nd Prio | 🟥 Mandatory |
 | **Executing Blade** | <img src="../images/classes/templar/stigma-executing-blade.png" alt="Executing Blade" width="40"> |  | Best option after mandatory skills | 🟦 Situational |
